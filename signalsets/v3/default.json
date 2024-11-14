@@ -1,2 +1,15 @@
-{ "commands": []
+{ "commands": [
+{ "hdr": "714", "rax": "77E", "cmd": {"22": "1014"}, "freq": 5,
+  "signals": [
+    {"id": "IBIZA_AAT", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Ambient air temperature", "description": "More testing of this parameter is needed"}
+  ]},
+{ "hdr": "714", "rax": "77E", "cmd": {"22": "202F"}, "freq": 1,
+  "signals": [
+    {"id": "IBIZA_EOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "fahrenheit" }, "name": "Engine oil temperature"}
+  ]},
+{ "hdr": "714", "rax": "77E", "cmd": {"22": "2203"}, "freq": 10,
+  "signals": [
+    {"id": "IBIZA_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]}
+]
 }

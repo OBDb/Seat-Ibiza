@@ -1,0 +1,8 @@
+model_year: 2009
+supported_commands_by_ecu:
+  "714":
+  - 714.77E.221014:IBIZA_AAT
+  - 714.77E.22202F:IBIZA_EOT
+unsupported_commands_by_ecu:
+  "714":
+  - 714.77E.222203:IBIZA_ODO

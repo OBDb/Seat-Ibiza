@@ -1,0 +1,8 @@
+command_id: 714.77E.22202F
+test_cases:
+- expected_values:
+    IBIZA_EOT: 108
+  response: 77E0462202F6C
+- expected_values:
+    IBIZA_EOT: 142
+  response: 77E0462202F8E

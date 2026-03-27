@@ -7,5 +7,8 @@ test_cases:
     IBIZA_AAT: 120
   response: '77E0462101478'
 - expected_values:
+    IBIZA_AAT: 121
+  response: '77E0462101479'
+- expected_values:
     IBIZA_AAT: 125
   response: 77E046210147D

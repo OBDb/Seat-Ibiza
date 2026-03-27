@@ -4,5 +4,5 @@ test_cases:
     IBIZA_EOT: 68
   response: 77E0462202F44
 - expected_values:
-    IBIZA_EOT: 142
-  response: 77E0462202F8E
+    IBIZA_EOT: 157
+  response: 77E0462202F9D

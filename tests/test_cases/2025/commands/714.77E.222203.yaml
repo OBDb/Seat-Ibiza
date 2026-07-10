@@ -1,0 +1,17 @@
+command_id: 714.77E.222203
+test_cases:
+- expected_values:
+    IBIZA_ODO: 6236
+  response: 77E0662220300185C
+- expected_values:
+    IBIZA_ODO: 6237
+  response: 77E0662220300185D
+- expected_values:
+    IBIZA_ODO: 6238
+  response: 77E0662220300185E
+- expected_values:
+    IBIZA_ODO: 6239
+  response: 77E0662220300185F
+- expected_values:
+    IBIZA_ODO: 6240
+  response: '77E06622203001860'

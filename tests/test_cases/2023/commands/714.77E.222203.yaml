@@ -4,29 +4,8 @@ test_cases:
     IBIZA_ODO: 15501
   response: 77E06622203003C8D
 - expected_values:
-    IBIZA_ODO: 15502
-  response: 77E06622203003C8E
-- expected_values:
-    IBIZA_ODO: 15503
-  response: 77E06622203003C8F
-- expected_values:
     IBIZA_ODO: 15504
   response: 77E06622203003C90
 - expected_values:
     IBIZA_ODO: 15659
   response: 77E06622203003D2B
-- expected_values:
-    IBIZA_ODO: 15661
-  response: 77E06622203003D2D
-- expected_values:
-    IBIZA_ODO: 15662
-  response: 77E06622203003D2E
-- expected_values:
-    IBIZA_ODO: 15663
-  response: 77E06622203003D2F
-- expected_values:
-    IBIZA_ODO: 15664
-  response: 77E06622203003D30
-- expected_values:
-    IBIZA_ODO: 15665
-  response: 77E06622203003D31

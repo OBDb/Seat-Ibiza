@@ -24,3 +24,9 @@ test_cases:
 - expected_values:
     IBIZA_ODO: 15663
   response: 77E06622203003D2F
+- expected_values:
+    IBIZA_ODO: 15664
+  response: 77E06622203003D30
+- expected_values:
+    IBIZA_ODO: 15665
+  response: 77E06622203003D31

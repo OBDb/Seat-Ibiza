@@ -7,6 +7,9 @@ test_cases:
     MAP: 111
   response: 7E803410B6F
 - expected_values:
+    MAP: 112
+  response: 7E803410B70
+- expected_values:
     MAP: 113
   response: 7E803410B71
 - expected_values:

@@ -4,6 +4,7 @@ supported_commands_by_ecu:
   - 714.77E.221014:IBIZA_AAT
   - 714.77E.22202F:IBIZA_EOT
   - 714.77E.222206
+  - 714.77E.222294
   "7DF":
   - 7DF.0104
   - 7DF.0105
@@ -83,7 +84,6 @@ unsupported_commands_by_ecu:
   - 713.77D.221803
   "714":
   - 714.77E.222203:IBIZA_ODO
-  - 714.77E.222294
   "746":
   - '746.222613'
   - 746.2227C4

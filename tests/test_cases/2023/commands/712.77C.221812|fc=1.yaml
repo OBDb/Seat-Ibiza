@@ -1,0 +1,14 @@
+command_id: 712.77C.221812|fc=1
+test_cases:
+- expected_values:
+    IBIZA_STEER_WHEEL_ANGLE: 133.75
+  response: 77C05621812042E
+- expected_values:
+    IBIZA_STEER_WHEEL_ANGLE: 671.75
+  response: 77C0562181214FE
+- expected_values:
+    IBIZA_STEER_WHEEL_ANGLE: 704.25
+  response: 77C056218121602
+- expected_values:
+    IBIZA_STEER_WHEEL_ANGLE: 1355
+  response: 77C056218122A58

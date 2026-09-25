@@ -1,0 +1,11 @@
+command_id: 714.77E.222294
+test_cases:
+- expected_values:
+    IBIZA_RANGE: 255
+  response: 77E0562229402D6
+- expected_values:
+    IBIZA_RANGE: 255
+  response: 77E0562229402FF
+- expected_values:
+    IBIZA_RANGE: 255
+  response: '77E056222940300'

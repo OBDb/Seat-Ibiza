@@ -1,29 +1,29 @@
 command_id: 714.77E.221014
 test_cases:
 - expected_values:
-    IBIZA_AAT: 104
+    IBIZA_AAT: 2
   response: '77E0462101468'
 - expected_values:
-    IBIZA_AAT: 105
+    IBIZA_AAT: 2.5
   response: '77E0462101469'
 - expected_values:
-    IBIZA_AAT: 109
+    IBIZA_AAT: 4.5
   response: 77E046210146D
 - expected_values:
-    IBIZA_AAT: 110
+    IBIZA_AAT: 5
   response: 77E046210146E
 - expected_values:
-    IBIZA_AAT: 114
+    IBIZA_AAT: 7
   response: '77E0462101472'
 - expected_values:
-    IBIZA_AAT: 117
+    IBIZA_AAT: 8.5
   response: '77E0462101475'
 - expected_values:
-    IBIZA_AAT: 126
+    IBIZA_AAT: 13
   response: 77E046210147E
 - expected_values:
-    IBIZA_AAT: 149
+    IBIZA_AAT: 24.5
   response: '77E0462101495'
 - expected_values:
-    IBIZA_AAT: 151
+    IBIZA_AAT: 25.5
   response: '77E0462101497'

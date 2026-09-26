@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22102D
+test_cases:
+- expected_values:
+    IBIZA_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE: 2841
+  response: 7E90562102D190B
+- expected_values:
+    IBIZA_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE: 3106
+  response: 7E90562102D220C
+- expected_values:
+    IBIZA_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE: 2409
+  response: 7E90562102D6909
+- expected_values:
+    IBIZA_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE: 2765
+  response: 7E90562102DCD0A

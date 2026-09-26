@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221160
+test_cases:
+- expected_values:
+    IBIZA_ODO_HD: 15650.654
+  response: 7E80762116000EECF5E
+- expected_values:
+    IBIZA_ODO_HD: 15650.812
+  response: 7E80762116000EECFFC
+- expected_values:
+    IBIZA_ODO_HD: 15651.272
+  response: 7E80762116000EED1C8
+- expected_values:
+    IBIZA_ODO_HD: 15653.124
+  response: 7E80762116000EED904
+- expected_values:
+    IBIZA_ODO_HD: 15653.41
+  response: 7E80762116000EEDA22

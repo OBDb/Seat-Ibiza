@@ -1,0 +1,11 @@
+command_id: 746.7B0.222613|fc=1
+test_cases:
+- expected_values:
+    IBIZA_CABIN_T: 31.6
+  response: 7B005622613013C
+- expected_values:
+    IBIZA_CABIN_T: 32
+  response: 7B0056226130140
+- expected_values:
+    IBIZA_CABIN_T: 32.1
+  response: 7B0056226130141

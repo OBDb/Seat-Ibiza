@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.223841
+test_cases:
+- expected_values:
+    IBIZA_ODO_V1: 366379059.2
+  response: 7E907623841DA610200
+- expected_values:
+    IBIZA_ODO_V1: 411677542.4
+  response: 7E907623841F5610200

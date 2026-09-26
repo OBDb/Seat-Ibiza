@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22380B
+test_cases:
+- expected_values:
+    IBIZA_MQB_TCM_TRANSMISSION_OUTPUT_SPD_7E1_380B: 0
+  response: 7E90562380B0000
+- expected_values:
+    IBIZA_MQB_TCM_TRANSMISSION_OUTPUT_SPD_7E1_380B: 257
+  response: 7E90562380B0101
+- expected_values:
+    IBIZA_MQB_TCM_TRANSMISSION_OUTPUT_SPD_7E1_380B: 189
+  response: 7E90562380BBD00

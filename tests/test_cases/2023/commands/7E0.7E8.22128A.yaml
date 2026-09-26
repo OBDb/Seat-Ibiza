@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22128A
+test_cases:
+- expected_values:
+    IBIZA_FUEL_T: 16.5
+  response: 7E80462128A56
+- expected_values:
+    IBIZA_FUEL_T: 17.25
+  response: 7E80462128A57
+- expected_values:
+    IBIZA_FUEL_T: 77.25
+  response: 7E80462128AA7

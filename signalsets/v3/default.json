@@ -114,7 +114,7 @@
   ]},
 { "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1812"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "IBIZA_STEER_WHEEL_ANGLE", "path": "Tires", "fmt": { "len": 16, "max": 4095.875, "min": -4096, "div": 8, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
+    {"id": "IBIZA_STEER_WHEEL_ANGLE", "path": "Tires", "fmt": { "len": 16, "max": 780, "min": -780, "div": 8, "add": -750, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
 { "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1800"}, "freq": 0.25,
   "signals": [
@@ -408,9 +408,9 @@
   "signals": [
     {"id": "IBIZA_PQ35_CHG_P", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Boost pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "105C"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "105C"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "IBIZA_PQ35_GEN_LOAD", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Generator load"}
+    {"id": "IBIZA_BRAKE_P", "path": "Control", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "bars" }, "name": "Brake pressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "105E"}, "freq": 5,
   "signals": [
@@ -572,9 +572,9 @@
   "signals": [
     {"id": "IBIZA_PQ35_O2_SEN_1_LAMBDA", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "scalar" }, "name": "Oxygen sensor 1 bank 1 lambda value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "113F"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "113F"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "IBIZA_FUEL_CONS", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel consumption"}
+    {"id": "IBIZA_FUEL_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "litersPerHour" }, "name": "Fuel rate"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1146"}, "freq": 1,
   "signals": [
@@ -708,9 +708,9 @@
   "signals": [
     {"id": "IBIZA_PQ35_OIL_LVL", "path": "Engine", "fmt": { "len": 16, "max": 131.068, "min": -131.072, "div": 250, "sign": true, "unit": "millimeters" }, "name": "Engine oil level"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BD"}, "freq": 3600, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BD"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "IBIZA_OIL_LEVEL_WARN", "path": "Fluids", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level warning threshold"}
+    {"id": "IBIZA_EOT_ECM", "path": "Engine", "fmt": { "len": 16, "max": 200, "min": -40, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Engine oil temperature, engine control module"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BE"}, "freq": 5,
   "signals": [
@@ -787,6 +787,10 @@
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1282"}, "freq": 5,
   "signals": [
     {"id": "IBIZA_EXHAUST_GAS_T_BEFORE_CATALYST", "path": "Engine", "fmt": { "len": 16, "max": 1116.77, "min": -193.93, "div": 50, "add": -193.93, "unit": "celsius" }, "name": "Exhaust gas temperature before catalyst"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "128A"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
+  "signals": [
+    {"id": "IBIZA_FUEL_T", "path": "Fuel", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 0.75, "add": -48, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "12CB"}, "freq": 30,
   "signals": [
@@ -1152,10 +1156,6 @@
   "signals": [
     {"id": "IBIZA_MQB_DPF_DIFF_P_RAW_VALUE_2", "path": "Engine.DPF", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Diesel particulate filter diff pressure: raw value 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "295A"}, "freq": 30,
-  "signals": [
-    {"id": "IBIZA_ODO_2", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer, alternative", "suggestedMetric": "odometer"}
-  ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2AE1"}, "freq": 1,
   "signals": [
     {"id": "IBIZA_MQB_EXHAUST_GAS_RECIRCULATION_2_FILTER_P_LOSS_MODELED", "path": "Engine.EGR", "fmt": { "len": 16, "max": 2776.7, "min": -3776.8, "div": 10, "add": -500, "sign": true, "unit": "unknown" }, "name": "Exhaust gas recirculation 2: filter press loss, modeled"}
@@ -1199,22 +1199,6 @@
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "028D"}, "freq": 5, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_ECU_T", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Engine control unit temperature"}
-  ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "0302"}, "freq": 900,
-  "signals": [
-    {"id": "IBIZA_DRIVE_TIME", "path": "Stats", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "hours" }, "name": "Total drive time"}
-  ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "0303"}, "freq": 900,
-  "signals": [
-    {"id": "IBIZA_DRIVE_TIME_ECO", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time in economy mode", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in eco mode"}
-  ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "0304"}, "freq": 900,
-  "signals": [
-    {"id": "IBIZA_DRIVE_TIME_SPORT", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time in sport mode", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in sport mode"}
-  ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "0305"}, "freq": 900,
-  "signals": [
-    {"id": "IBIZA_DRIVE_TIME_MANUAL", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time in manual mode", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in manual mode"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1009"}, "freq": 0.25,
   "signals": [
@@ -1729,10 +1713,6 @@
   "signals": [
     {"id": "IBIZA_AT_OUTPUT_SPEED", "path": "Transmission", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Automatic transmission output speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2104"}, "freq": 5,
-  "signals": [
-    {"id": "IBIZA_ATF_T", "path": "Transmission", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Automatic transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
-  ]},
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "210F"}, "freq": 1,
   "signals": [
     {"id": "IBIZA_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
@@ -1762,22 +1742,6 @@
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "214D"}, "freq": 1,
   "signals": [
     {"id": "IBIZA_MQB_DL382_CLUTCH_2_P", "path": "Transmission", "fmt": { "len": 8, "max": 24.5, "min": -1, "div": 10, "add": -1, "unit": "bars" }, "name": "Clutch 2 pressure"}
-  ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2B1B"}, "freq": 0.25,
-  "signals": [
-    {"id": "IBIZA_TIRE_FL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
-  ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2B1C"}, "freq": 0.25,
-  "signals": [
-    {"id": "IBIZA_TIRE_FR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
-  ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2B1D"}, "freq": 0.25,
-  "signals": [
-    {"id": "IBIZA_TIRE_RL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
-  ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2B1E"}, "freq": 0.25,
-  "signals": [
-    {"id": "IBIZA_TIRE_RR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3800"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
@@ -1811,9 +1775,9 @@
   "signals": [
     {"id": "IBIZA_MQB_OUTPUT_SHAFT_2", "path": "Transmission", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Output shaft 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3816"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3816"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "IBIZA_MQB_TCM_I_GEAR_DQ200", "path": "Transmission", "fmt": { "len": 8, "max": 253, "min": -2, "add": -2, "unit": "scalar" }, "name": "Current gear"}
+    {"id": "IBIZA_MQB_TCM_I_GEAR_DQ200", "path": "Transmission", "fmt": { "len": 8, "max": 254, "min": -1, "add": -1, "unit": "scalar" }, "name": "Current gear"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "381A"}, "freq": 1,
   "signals": [

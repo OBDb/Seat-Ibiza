@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.2211BD
 test_cases:
 - expected_values:
-    IBIZA_OIL_LEVEL_WARN: 1.1644
+    IBIZA_EOT_ECM: 18
   response: 7E8056211BD0B5F
 - expected_values:
-    IBIZA_OIL_LEVEL_WARN: 1.4332
+    IBIZA_EOT_ECM: 85.2
   response: 7E8056211BD0DFF
 - expected_values:
-    IBIZA_OIL_LEVEL_WARN: 1.4336
+    IBIZA_EOT_ECM: 85.3
   response: 7E8056211BD0E00
 - expected_values:
-    IBIZA_OIL_LEVEL_WARN: 1.4344
+    IBIZA_EOT_ECM: 85.5
   response: 7E8056211BD0E02

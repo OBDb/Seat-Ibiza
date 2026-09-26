@@ -1,0 +1,20 @@
+command_id: 7E1.7E9.2238B2
+test_cases:
+- expected_values:
+    IBIZA_PQ35_CENTRIFUGAL_OIL_T: 21
+  response: 7E9056238B21500
+- expected_values:
+    IBIZA_PQ35_CENTRIFUGAL_OIL_T: 22
+  response: 7E9056238B21600
+- expected_values:
+    IBIZA_PQ35_CENTRIFUGAL_OIL_T: 23
+  response: 7E9056238B21700
+- expected_values:
+    IBIZA_PQ35_CENTRIFUGAL_OIL_T: 24
+  response: 7E9056238B21800
+- expected_values:
+    IBIZA_PQ35_CENTRIFUGAL_OIL_T: 25
+  response: 7E9056238B21900
+- expected_values:
+    IBIZA_PQ35_CENTRIFUGAL_OIL_T: 26
+  response: 7E9056238B21A00

@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.223834
+test_cases:
+- expected_values:
+    IBIZA_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 307.7
+  response: 7E905623834050C
+- expected_values:
+    IBIZA_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 559.2
+  response: 7E905623834D815
+- expected_values:
+    IBIZA_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 483.4
+  response: 7E905623834E212

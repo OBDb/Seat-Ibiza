@@ -19,7 +19,7 @@
   "signals": [
     {"id": "IBIZA_TP_RR", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "unit": "bars" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "70E", "rax": "778", "fcm1": true, "dbg": true, "cmd": {"22": "1945"}, "freq": 2,
+{ "hdr": "70E", "rax": "778", "fcm1": true, "cmd": {"22": "1945"}, "freq": 2, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_HEATER_FOR_NOZZLES_ACTIVE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Heater for nozzles active"}
   ]},
@@ -75,15 +75,15 @@
   "signals": [
     {"id": "IBIZA_PQ35_HAL_DUTY", "path": "Drivetrain", "fmt": { "len": 8, "max": 100, "mul": 100.39, "div": 255, "unit": "percent" }, "name": "All-wheel drive duty cycle"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A00"}, "freq": 5,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A00"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_SSB_VT", "path": "Battery", "fmt": { "len": 8, "max": 36.1, "div": 10, "add": 10.6, "unit": "volts" }, "name": "Start/stop battery target voltage"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A07"}, "freq": 5,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A07"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_BAT_V_2A07", "path": "Battery", "fmt": { "len": 16, "max": 69.535, "min": 4, "div": 1000, "add": 4, "unit": "volts" }, "name": "Battery voltage"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A09"}, "freq": 1,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A09"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_BAT_I", "path": "Battery", "fmt": { "len": 24, "max": 13777.215, "min": -3000, "mul": 10, "div": 10000, "add": -3000, "unit": "amps" }, "name": "Battery current"}
   ]},
@@ -91,27 +91,27 @@
   "signals": [
     {"id": "IBIZA_ODO_710", "path": "Trips", "fmt": { "len": 32, "max": 255, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A0B"}, "freq": 5,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0B"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_BAT_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery temperature"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A0C"}, "freq": 10,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0C"}, "freq": 10, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_BAT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Battery charge level"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A0E"}, "freq": 5,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0E"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_BAT_INT_R", "path": "Battery", "fmt": { "len": 8, "max": 51, "mul": 20, "div": 100, "unit": "unknown" }, "name": "Battery internal resistance"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A0F"}, "freq": 5,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0F"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_USE_BAT_CHG", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "ampereHours" }, "name": "Usable battery charge"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A10"}, "freq": 5,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A10"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_BAT_V_AT_REST", "path": "Battery", "fmt": { "len": 8, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Battery voltage at rest"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A61"}, "freq": 1,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A61"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_SSB_TOTAL_CHARGE",    "path": "Battery", "fmt": {           "len": 32, "max": 100, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total charge"},
     {"id": "IBIZA_SSB_TOTAL_DISCHARGE", "path": "Battery", "fmt": {"bix": 32, "len": 32, "max": 100, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total discharge"}
@@ -120,23 +120,23 @@
   "signals": [
     {"id": "IBIZA_STEER_WHEEL_ANGLE", "path": "Tires", "fmt": { "len": 16, "max": 780, "min": -780, "div": 8, "add": -750, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1800"}, "freq": 0.25,
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1800"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_FL_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1801"}, "freq": 0.25,
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1801"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_FR_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1802"}, "freq": 0.25,
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1802"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_RL_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1803"}, "freq": 0.25,
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1803"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_RR_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1804"}, "freq": 0.25,
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1804"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_STEER_WHEEL_ANGLE_ABS", "path": "Tires", "fmt": {"bix": 80, "len": 16, "max": 14335.5625, "min": -14336, "mul": 0.4375, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
@@ -150,7 +150,7 @@
     {"id": "IBIZA_MQB_HAL_CLUTCH_OPEN",  "path": "Transmission", "fmt": {"bix": 2,  "len": 1, "max": 1,           "unit": "offon" }, "name": "All-wheel drive clutch fully open"},
     {"id": "IBIZA_MQB_HAL_CLUTCH_BLOCK", "path": "Transmission", "fmt": {"bix": 15, "len": 1, "max": 1, "mul": 8, "unit": "offon" }, "name": "All-wheel drive clutch blockage degree"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "180C"}, "freq": 1,
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180C"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_EDL_ACTIVE",       "path": "Control", "fmt": {"bix": 1,  "len": 1,  "max": 1,                                       "unit": "offon"   }, "name": "Electronic differential lock: active"},
     {"id": "IBIZA_EDL_FR_L_BRAKE_T", "path": "Control", "fmt": {"bix": 8,  "len": 16, "max": 300, "min": -20, "div": 2, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: front left brake temperature"},
@@ -158,21 +158,21 @@
     {"id": "IBIZA_EDL_RR_L_BRAKE_T", "path": "Control", "fmt": {"bix": 40, "len": 16, "max": 300, "min": -20, "div": 2, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: rear left brake temperature"},
     {"id": "IBIZA_EDL_RR_R_BRAKE_T", "path": "Control", "fmt": {"bix": 56, "len": 16, "max": 300, "min": -20, "div": 2, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: rear right brake temperature"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "180E"}, "freq": 2,
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180E"}, "freq": 2, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_BDD_ACTIVE", "path": "Control", "fmt": {"bix": 1, "len": 1,  "max": 1,      "unit": "offon"      }, "name": "Brake disk drying"},
     {"id": "IBIZA_BDD_ODO",    "path": "Control", "fmt": {"bix": 8, "len": 24, "max": 200000, "unit": "kilometers" }, "name": "Brake disk drying, odometer at last activation"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1810"}, "freq": 2,
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1810"}, "freq": 2, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_HYD_BRAKE_BOOST_ACTIVE", "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Hydraulic brake booster: active"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1816"}, "freq": 0.25,
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1816"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_BRAKE_P_SNS",        "path": "Control", "fmt": {"bix": 8,  "len": 16, "max": 327.67, "div": 100, "sign": true, "unit": "bars"    }, "name": "Brake pressure sensor"},
     {"id": "IBIZA_AIR_GAB_VACUUM_SNS", "path": "Control", "fmt": {"bix": 56, "len": 16, "max": 32767,              "sign": true, "unit": "unknown" }, "name": "Air gab vacuum sensor"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1821"}, "freq": 5,
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1821"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_TPMS_AVAIL",                          "path": "Tires", "fmt": {"bix": 7,   "len": 1,  "max": 1,      "unit": "noyes"      }, "name": "Tire pressure monitoring available?"},
     {"id": "IBIZA_TPMS_ODO_RDG_AT_LAST_ADAPT",          "path": "Trips", "fmt": {"bix": 8,   "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Odometer reading at last adaptation"},
@@ -192,7 +192,7 @@
     {"id": "IBIZA_TPMS_RR_L_FLAT_TIRE_IND",             "path": "Tires", "fmt": {"bix": 312, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Rear left flat tire indicator"},
     {"id": "IBIZA_TPMS_RR_R_FLAT_TIRE_IND",             "path": "Tires", "fmt": {"bix": 320, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Rear right flat tire indicator"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "18B6"}, "freq": 3600,
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "18B6"}, "freq": 3600, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CNT_STEER_SUPPORT_ACTIVE",              "path": "Engine", "fmt": {"bix": 6,  "len": 1,  "max": 1,              "unit": "offon"        }, "name": "Counter steer support"},
     {"id": "IBIZA_CNT_STEER_SUPPORT_ODO_RDG_OF_LAST_ACT", "path": "Trips",  "fmt": {"bix": 8,  "len": 24, "max": 1,              "unit": "kilometers"   }, "name": "Counter steer support, odometer, last activated"},
@@ -214,11 +214,11 @@
   "signals": [
     {"id": "IBIZA_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "714", "rax": "77E", "dbg": true, "cmd": {"22": "2211"}, "freq": 1,
+{ "hdr": "714", "rax": "77E", "cmd": {"22": "2211"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CHARGE_AIR_P", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Charge air pressure"}
   ]},
-{ "hdr": "714", "rax": "77E", "dbg": true, "cmd": {"22": "224B"}, "freq": 3600,
+{ "hdr": "714", "rax": "77E", "cmd": {"22": "224B"}, "freq": 3600, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_OIL_WEAR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Oil thermal wear"}
   ]},
@@ -242,91 +242,91 @@
   "signals": [
     {"id": "IBIZA_IAT", "path": "Climate", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "celsius" }, "name": "Interior air temperature"}
   ]},
-{ "hdr": "715", "rax": "77F", "dbg": true, "cmd": {"22": "2353"}, "freq": 3600,
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2353"}, "freq": 3600, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CRSH_FRONT", "path": "Trips", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, front"}
   ]},
-{ "hdr": "715", "rax": "77F", "dbg": true, "cmd": {"22": "2354"}, "freq": 3600,
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2354"}, "freq": 3600, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CRASH_CNT_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, driver side"}
   ]},
-{ "hdr": "715", "rax": "77F", "dbg": true, "cmd": {"22": "2355"}, "freq": 3600,
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2355"}, "freq": 3600, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CRASH_CNT_PSNGR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, passenger side"}
   ]},
-{ "hdr": "715", "rax": "77F", "dbg": true, "cmd": {"22": "2356"}, "freq": 3600,
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2356"}, "freq": 3600, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CRASH_CNT_REAR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rear"}
   ]},
-{ "hdr": "715", "rax": "77F", "dbg": true, "cmd": {"22": "2357"}, "freq": 3600,
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2357"}, "freq": 3600, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CRASH_CNT_ROLL", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rollover"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2603"}, "freq": 0.25,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2603"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CLIMATE_A_C_COMP_SPD", "path": "Movement", "fmt": { "len": 8, "max": 25500, "mul": 100, "unit": "rpm" }, "name": "A/C compressor speed"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2604"}, "freq": 5,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2604"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CLIMATE_A_C_COMP_LOAD", "path": "Engine", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "newtonMeters" }, "name": "A/C compressor load"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2605"}, "freq": 5,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2605"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CLIMATE_REFRIG_P", "path": "Engine", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "bars" }, "name": "Refrigerant pressure"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2606"}, "freq": 2,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2606"}, "freq": 2, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CLIMATE_RAD_FAN_ACT_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 0.4, "unit": "percent" }, "name": "Radiator fan actual duty"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2607"}, "freq": 2,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2607"}, "freq": 2, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CLIMATE_RAD_FAN_CMD_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 0.4, "unit": "percent" }, "name": "Radiator fan commanded duty"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2609"}, "freq": 5,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2609"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_AAT_746", "path": "Climate", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "sign": true, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "260C"}, "freq": 5,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260C"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CLIMATE_FR_L_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "mul": 0.333, "unit": "celsius" }, "name": "Front left deflector temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "260D"}, "freq": 5,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260D"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CLIMATE_FR_R_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "mul": 0.333, "unit": "celsius" }, "name": "Front right deflector temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2611"}, "freq": 5,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2611"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CLIMATE_LEG_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "mul": 0.333, "unit": "celsius" }, "name": "Leg deflector temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2612"}, "freq": 5,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2612"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CLIMATE_T_AFTER_EVAP", "path": "Engine", "fmt": { "len": 8, "max": 42.291, "min": -42.624, "mul": 0.333, "sign": true, "unit": "celsius" }, "name": "Temperature after evaporator"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2613"}, "freq": 5,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2613"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CABIN_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "261E"}, "freq": 1,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "261E"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_RECIRC_FLAP_ACT", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Recirculation flap actual position"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "261F"}, "freq": 1,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "261F"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_RECIRC_FLAP_TRG", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Recirculation flap target position"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2620"}, "freq": 1,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2620"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_RECIRC_FLAP_FRESH_THR", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Recirculation flap fresh air threshold"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2621"}, "freq": 1,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2621"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_RECIRC_FLAP_THR", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Recirculation flap threshold"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2622"}, "freq": 5,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2622"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CLIMATE_FR_L_T_FLP_ACT_VALUE", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Front left temperature flap actual value"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2626"}, "freq": 5,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2626"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CLIMATE_FR_R_T_FLP_ACT_VALUE", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Front right temperature flap actual value"}
   ]},
@@ -338,7 +338,7 @@
   "signals": [
     {"id": "IBIZA_CLIMATE_AIR_POLUTION_LVL", "path": "Engine", "fmt": { "len": 8, "max": 12.7, "min": -12.8, "div": 10, "sign": true, "unit": "scalar" }, "name": "Air pollution level"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "27C4"}, "freq": 30,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "27C4"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_WNDSHLD_TEMP", "path": "Climate", "fmt": { "len": 8, "max": 108.08, "min": -38.8, "mul": 0.576, "add": -38.8, "unit": "celsius" }, "name": "Windshield temperature"}
   ]},
@@ -384,7 +384,7 @@
   "signals": [
     {"id": "IBIZA_MQB_AIR_MASS_1", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 1000, "div": 10000, "sign": true, "unit": "unknown" }, "name": "Air mass meter 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1026"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1026"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_MAF_1_B1_RAW", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 1000, "div": 10000, "sign": true, "unit": "unknown" }, "name": "Mass airflow sensor 1 bank 1 raw value"}
   ]},
@@ -444,11 +444,11 @@
   "signals": [
     {"id": "IBIZA_PQ35_INJ_3_RAIL_P_2", "path": "Engine", "fmt": { "len": 16, "max": 1.63835, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 3 rail pressure calibration point 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D3"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10D3"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_INJ_2_RAIL_P_1", "path": "Engine", "fmt": { "len": 16, "max": 1.63835, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 2 rail pressure calibration point 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D6"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10D6"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_INJ_1_RAIL_P_2", "path": "Engine", "fmt": { "len": 16, "max": 1.63835, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 1 rail pressure calibration point 2"}
   ]},
@@ -468,7 +468,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_INJ_3_RAIL_P_3", "path": "Engine", "fmt": { "len": 16, "max": 1.63835, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 3 rail pressure calibration point 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10DE"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10DE"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_INJ_4_RAIL_P_3", "path": "Engine", "fmt": { "len": 16, "max": 1.63835, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 4 rail pressure calibration point 3"}
   ]},
@@ -476,7 +476,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_INJ_2_RAIL_P_3", "path": "Engine", "fmt": { "len": 16, "max": 1.63835, "min": -1.6384, "div": 20000, "sign": true, "unit": "milliseconds" }, "name": "Injector 2 rail pressure calibration point 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10E0"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10E0"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_ODO_7E0", "path": "Trips", "fmt": { "len": 32, "max": 4000000000, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -564,11 +564,11 @@
   "signals": [
     {"id": "IBIZA_PQ35_POST_INJ_3_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "div": 50, "sign": true, "unit": "degrees" }, "name": "Post-injection 3 start position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1135"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1135"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_COOLANT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Coolant temperature at radiator outlet"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1139"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1139"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MEAN_INJ_QUANTITY", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Mean injection quantity"}
   ]},
@@ -580,19 +580,19 @@
   "signals": [
     {"id": "IBIZA_FUEL_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "litersPerHour" }, "name": "Fuel rate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1146"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1146"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MISFIRES_TOTAL", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires total"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1147"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1147"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MISFIRES_1000REV_C1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires / 1000 revolutions, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1148"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1148"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MISFIRES_1000REV_C3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires / 1000 revolutions, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1149"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1149"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MISFIRES_1000REV_C4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires / 1000 revolutions, cylinder 4"}
   ]},
@@ -604,15 +604,15 @@
   "signals": [
     {"id": "IBIZA_PQ35_SOOT_MASS_MEAS", "path": "Engine.DPF", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Soot mass measured"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "114F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "114F"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MISFIRES_C1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1150"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1150"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MISFIRES_C3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1151"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1151"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MISFIRES__CYL__4", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 4"}
   ]},
@@ -632,7 +632,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_DPF_FUEL_CON_REGEN", "path": "Engine.DPF", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "liters" }, "name": "Diesel particulate filter fuel consumption since last regeneration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "115C"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "115C"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_SRV_REGEN_STAT", "path": "Engine.DPF", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Service regeneration status"}
   ]},
@@ -640,7 +640,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_TIME_LAST_REGEN", "fmt": { "len": 32, "max": 0.426652, "div": 10066666667, "unit": "minutes" }, "name": "Time since last regeneration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1160"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1160"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_ODO_HD", "path": "Trips", "fmt": { "len": 32, "max": 4294967.2949999999, "div": 1000, "unit": "kilometers" }, "name": "Odometer, high resolution", "suggestedMetric": "odometer"}
   ]},
@@ -700,11 +700,11 @@
   "signals": [
     {"id": "IBIZA_PQ35_DPF_IN_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Diesel particulate filter inlet temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BA"}, "freq": 15,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BA"}, "freq": 15, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_OIL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BB"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BB"}, "freq": 3600, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_OIL_CRIT", "path": "Fluids", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level, critical"}
   ]},
@@ -716,7 +716,7 @@
   "signals": [
     {"id": "IBIZA_EOT_ECM", "path": "Engine", "fmt": { "len": 16, "max": 200, "min": -40, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Engine oil temperature, engine control module"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BE"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_OIL_T_2", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Oil temperature variant"}
   ]},
@@ -744,7 +744,7 @@
   "signals": [
     {"id": "IBIZA_MQB_DPF_EXH_VOL", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 1000, "div": 10000, "sign": true, "unit": "scalar" }, "name": "Diesel particulate filter exhaust gas flow volume"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11F1"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F1"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_TRANS_IN_SPD", "path": "Movement", "fmt": { "len": 16, "max": 16383.5, "min": -16384, "div": 2, "sign": true, "unit": "rpm" }, "name": "Transmission input shaft speed"}
   ]},
@@ -776,7 +776,7 @@
   "signals": [
     {"id": "IBIZA_HIGH_FUEL_P_CONTROL_DEVIATION", "path": "Fuel", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "unknown" }, "name": "High fuel pressure control deviation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1221"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1221"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_ACCEL_PED_1", "path": "Movement", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Accelerator pedal sensor 1"}
   ]},
@@ -788,7 +788,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_OIL_DYN_AVG", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "millimeters" }, "name": "Oil dynamic average measurement"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1282"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1282"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_EXHAUST_GAS_T_BEFORE_CATALYST", "path": "Engine", "fmt": { "len": 16, "max": 1116.77, "min": -193.93, "div": 50, "add": -193.93, "unit": "celsius" }, "name": "Exhaust gas temperature before catalyst"}
   ]},
@@ -824,7 +824,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_CAMS_SPD", "path": "Movement", "fmt": { "len": 16, "max": 9830.1, "min": -9830.4, "mul": 0.3, "sign": true, "unit": "rpm" }, "name": "Camshaft speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1341"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1341"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CAMS_END", "path": "Engine", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Camshaft end position"}
   ]},
@@ -880,7 +880,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_PRE_INJ_2_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "div": 50, "sign": true, "unit": "degrees" }, "name": "Pilot injection 2 start"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14CB"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CB"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]},
@@ -892,7 +892,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_POST_INJ_2_DURATION", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Post-injection 2 duration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14CE"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CE"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_POST_INJ_3_ACTIVATION_DURATION", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Post-injection 3 activation duration"}
   ]},
@@ -904,7 +904,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_PRE_INJ_1_DURATION", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Pilot injection 1 duration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14D1"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14D1"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_PRE_INJ_2_DURATION", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Pilot injection 2 duration"}
   ]},
@@ -932,7 +932,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_SELECTED_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Selected gear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "15B8"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "15B8"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DPF_DIFF_P_DYNAMIC_OFFSET", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Diesel particulate filter diff pressure: dynamic offset"}
   ]},
@@ -944,7 +944,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_INTERCOOLER_AIR_OUTPUT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Intercooler air output temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "162D"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "162D"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_FUEL_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
@@ -1168,15 +1168,15 @@
   "signals": [
     {"id": "IBIZA_MQB_EXHAUST_GAS_RECIRCULATION_2_FILTER_P_LOSS_SIMULATED", "path": "Engine.EGR", "fmt": { "len": 16, "max": 2776.7, "min": -3776.8, "div": 10, "add": -500, "sign": true, "unit": "unknown" }, "name": "Exhaust gas recirculation 2: filter press loss, simulated"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F40D"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F41F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F421"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MIL_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled while mil was activated"}
   ]},
@@ -1184,15 +1184,15 @@
   "signals": [
     {"id": "IBIZA_PQ35_HIGH_P_EGR_CLOSING_VAR_2", "path": "Engine.EGR", "fmt": { "len": 8, "max": 100, "sign": true, "unit": "percent" }, "name": "High pressure exhaust gas recirculation closing, variant 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F430"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_WARM_UPS", "path": "DTCs", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of warm-ups since diagnostic trouble codes cleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F431"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_CLR_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled since diagnostic trouble codes cleared", "suggestedMetric": "distanceSinceDTCsCleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F442"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_VPWR", "path": "Battery", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Control module voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
@@ -1204,15 +1204,15 @@
   "signals": [
     {"id": "IBIZA_MQB_TCM_ECU_T", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Engine control unit temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1009"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1009"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ250_SPD_OUTPUT", "path": "Movement", "fmt": { "len": 16, "blsb": true, "max": 7000, "sign": true, "unit": "rpm" }, "name": "Speed ​​output"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "100A"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "100A"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ250_VEHICLE_SPD_FROM_TRANSMISSION", "path": "Movement", "fmt": { "len": 16, "blsb": true, "max": 3276.7, "div": 10, "sign": true, "unit": "kilometersPerHour" }, "name": "Vehicle speed from transmission"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "100B"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "100B"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_DRIVER_DEMAND_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Driver demand torque"}
   ]},
@@ -1220,43 +1220,43 @@
   "signals": [
     {"id": "IBIZA_MQB_TCM_ENGINE_TORQUE", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "100E"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "100E"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_ENGINE_TORQUE_LIMITATION", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque limitation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "100F"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "100F"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_ENGINE_TORQUE_LOSS", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque loss"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1010"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1010"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_CONVERTER_LOSS_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Converter loss torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1017"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1017"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_ROAD_RESISTANCE", "path": "Transmission", "fmt": { "len": 8, "max": 31.894, "min": -31, "mul": 24.9, "div": 100, "add": -31.6, "unit": "percent" }, "name": "Road resistance"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1018"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1018"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_DRIVING_STRATEGY_MOUNTAIN_FACTOR", "path": "Transmission", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Driving strategy mountain factor"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1019"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1019"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_DRIVING_STRATEGY_SPORT_FACTOR", "path": "Transmission", "fmt": { "len": 8, "max": 100, "mul": 1700, "div": 255, "unit": "percent" }, "name": "Driving strategy sport factor"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "101A"}, "freq": 30,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "101A"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_ODO_3", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer #3", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "102B"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102B"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_1_T", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Clutch 1 temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "102C"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102C"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_2_T", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Clutch 2 temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "102D"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102D"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Pressure supply actual pressure analog digital value"}
   ]},
@@ -1264,7 +1264,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_0_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 adaptation basic characteristic point 0 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1058"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1058"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_1_ADAPT_BASIC_CHARAC_POINT_0_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 1 adaptation basic characteristic point 0 moment"}
   ]},
@@ -1272,7 +1272,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_1_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 adaptation basic characteristic point 1 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "105A"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105A"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_1_ADAPT_BASIC_CHARAC_POINT_1_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 1 adaptation basic characteristic point 1 moment"}
   ]},
@@ -1280,7 +1280,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_2_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 adaptation basic characteristic point 2 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "105C"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105C"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_1_ADAPT_BASIC_CHARAC_POINT_2_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 1 adaptation basic characteristic point 2 moment"}
   ]},
@@ -1288,19 +1288,19 @@
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_3_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 adaptation basic characteristic point 3 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "105E"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105E"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_1_ADAPT_BASIC_CHARAC_POINT_3_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 1 adaptation basic characteristic point 3 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1062"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1062"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_1_FRICTION_VALUE_CORRECTION_FACTOR", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 100, "mul": 0.09766, "sign": true, "unit": "percent" }, "name": "Clutch 1 friction value correction factor"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1063"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1063"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_1_CHAR_CURVE_SHIFT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 32.11166, "min": -32.11264, "mul": 9.8, "div": 10000, "sign": true, "unit": "millimeters" }, "name": "Clutch 1 characteristic curve shift"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1069"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1069"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_1_PROT_ENGAGED_QTY", "path": "Transmission", "fmt": { "len": 32, "blsb": true, "max": 4294967295, "unit": "scalar" }, "name": "Clutch 1 protection function engaged quantity"}
   ]},
@@ -1308,7 +1308,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_0_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation basic characteristic point 0 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "106D"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106D"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_2_ADAPT_BASIC_CHARAC_POINT_0_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 2 adaptation basic characteristic point 0 moment"}
   ]},
@@ -1316,7 +1316,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_1_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation basic characteristic point 1 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "106F"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106F"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_2_ADAPT_BASIC_CHARAC_POINT_1_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 2 adaptation basic characteristic point 1 moment"}
   ]},
@@ -1324,7 +1324,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_2_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation basic characteristic point 2 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1071"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1071"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_2_ADAPT_BASIC_CHARAC_POINT_2_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 2 adaptation basic characteristic point 2 moment"}
   ]},
@@ -1332,7 +1332,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_3_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation basic characteristic point 3 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1073"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1073"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_2_ADAPT_BASIC_CHARAC_POINT_3_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 2 adaptation basic characteristic point 3 moment"}
   ]},
@@ -1344,119 +1344,119 @@
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_2_ADAPT_END_POS_CLOSED", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation end position closed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1077"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1077"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ200_CLUTCH_2_FRICTION_VALUE_CORRECTION_FACTOR", "path": "Transmission", "fmt": { "len": 16, "max": 100, "mul": 0.09766, "sign": true, "unit": "percent" }, "name": "Clutch 2 friction value correction factor"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1078"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1078"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_2_CHAR_CURVE_SHIFT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 32.11166, "min": -32.11264, "mul": 9.8, "div": 10000, "sign": true, "unit": "millimeters" }, "name": "Clutch 2 characteristic curve shift"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "107E"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "107E"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_2_PROT_ENGAGED_QTY", "path": "Transmission", "fmt": { "len": 32, "blsb": true, "max": 4294967295, "unit": "scalar" }, "name": "Clutch 2 protection function engaged quantity"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1082"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1082"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1083"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1083"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position G1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1084"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1084"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GANGSTELLER_A_ADAPT_NEUTRALPOS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear selector a adaptation neutral position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1085"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1085"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G3", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position G3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1086"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1086"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G3", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1090"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1090"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G2", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1091"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1091"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G2", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position G2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1092"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1092"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GANGSTELLER_B_ADAPT_NEUTRALPOS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear selector b adaptation neutral position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1093"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1093"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G4", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position G4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1094"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1094"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G4", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "109E"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "109E"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G5", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G5"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "109F"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "109F"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G5", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position G5"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "10A0"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10A0"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GANGSTELLER_C_ADAPT_NEUTRALPOS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear selector c adaptation neutral position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "10A1"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10A1"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G7", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position G7"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "10A2"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10A2"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G7", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G7"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "10AC"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10AC"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G6", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G6"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "10AD"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10AD"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G6", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position G6"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "10AE"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10AE"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GANGSTELLER_D_ADAPT_NEUTRALPOS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear selector d adaptation neutral position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "10AF"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10AF"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_GR", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position reverse"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "10B0"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10B0"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_GR", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position GR"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "10C9"}, "freq": 3600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10C9"}, "freq": 3600, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_1_SUCCESSFUL_ADAPTS_COUNTER", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 1 successful adaptations counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "10CA"}, "freq": 30,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10CA"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_1_ADAPT_KISS_POINT_PART_1_ODO_READING", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 655350, "mul": 10, "unit": "kilometers" }, "name": "Clutch 1 adaptation kiss point part 1 odometer reading"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "10CC"}, "freq": 3600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10CC"}, "freq": 3600, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_1_FAILED_ADAPTS_COUNTER", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Clutch 1 failed adaptations counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "10EA"}, "freq": 3600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10EA"}, "freq": 3600, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_2_SUCCESSFUL_ADAPTS_COUNTER", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 2 successful adaptations counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "10EB"}, "freq": 30,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10EB"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_2_ADAPT_KISS_POINT_PART_1_ODO_READING", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 655350, "mul": 10, "unit": "kilometers" }, "name": "Clutch 2 adaptation kiss point part 1 odometer reading"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "10ED"}, "freq": 3600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10ED"}, "freq": 3600, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_2_FAILED_ADAPTS_COUNTER", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Clutch 2 failed adaptations counter"}
   ]},
@@ -1657,11 +1657,11 @@
   "signals": [
     {"id": "IBIZA_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT_HIGH_P_ON_CLUTCH_2", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Correction values for main pressure adaptation high pressure on clutch 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1191"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1191"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ200_P_SUPPLY_ACTUAL_P", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Pressure supply actual pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1196"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1196"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_HYBRID_T", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "celsius" }, "name": "Hybrid temperature"}
   ]},
@@ -1731,7 +1731,7 @@
         }}
     }
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2114"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2114"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_KICK_DOWN", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Kick down"}
   ]},
@@ -1755,27 +1755,27 @@
   "signals": [
     {"id": "IBIZA_MQB_TCM_BRAKE_P", "path": "Control", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Brake pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "380A"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380A"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_TRANSMISSION_INPUT_SPD_7E1_380A", "path": "Movement", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "rpm" }, "name": "Transmission input speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "380B"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380B"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_TRANSMISSION_OUTPUT_SPD_7E1_380B", "path": "Movement", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "rpm" }, "name": "Transmission output speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "380C"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380C"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_INPUT_SHAFT_1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Input shaft 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "380D"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380D"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_INPUT_SHAFT_2", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Input shaft 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "380E"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380E"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_OUTPUT_SHAFT_1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Output shaft 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "380F"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380F"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_OUTPUT_SHAFT_2", "path": "Transmission", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Output shaft 2"}
   ]},
@@ -1783,7 +1783,7 @@
   "signals": [
     {"id": "IBIZA_MQB_TCM_I_GEAR_DQ200", "path": "Transmission", "fmt": { "len": 8, "max": 254, "min": -1, "add": -1, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "381A"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "381A"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_A_C_COMPRESSOR_SHUTDOWN_REQUIREMENT", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Air conditioning compressor shutdown requirement"}
   ]},
@@ -1795,151 +1795,151 @@
   "signals": [
     {"id": "IBIZA_MQB_TCM_EOP_ACTUAL_I", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 6553.5, "div": 10, "unit": "milliamps" }, "name": "Oil pressure actual current"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3820"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3820"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_TRANSMISSION_PART_1_P_CMD", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "div": 100, "unit": "bars" }, "name": "Transmission part 1 pressure commanded"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3821"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3821"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "div": 100, "unit": "bars" }, "name": "Transmission part 1 pressure actual"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3823"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3823"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_TRANSMISSION_PART_2_P_CMD", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "div": 100, "unit": "bars" }, "name": "Transmission part 2 pressure commanded"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3824"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3824"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_TRANSMISSION_PART_2_P_ACTUAL", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "div": 100, "unit": "bars" }, "name": "Transmission part 2 pressure actual"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3826"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3826"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_CMD", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 6553.5, "div": 10, "unit": "milliamps" }, "name": "Transmission part 1 valve current commanded"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3827"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3827"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_ACTUAL", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 6553.5, "div": 10, "unit": "milliamps" }, "name": "Transmission part 1 valve current actual"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "382A"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "382A"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_TRANSMISSION_PART_2_VALVE_I_CMD", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 6553.5, "div": 10, "unit": "milliamps" }, "name": "Transmission part 2 valve current commanded"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "382B"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "382B"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_TRANSMISSION_PART_2_VALVE_I_ACTUAL", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 6553.5, "div": 10, "unit": "milliamps" }, "name": "Transmission part 2 valve current actual"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "382E"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "382E"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "mul": 5, "div": 100, "sign": true, "unit": "newtonMeters" }, "name": "Specified torque clutch 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3832"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3832"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ200_ACTUAL_POS_CLUTCH_1_DUTY_CYCLE_FACTOR_1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 100, "div": 100, "unit": "percent" }, "name": "Actual position clutch 1 duty cycle factor 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3833"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3833"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ200_ACTUAL_POS_CLUTCH_1_DUTY_CYCLE_FACTOR_2", "path": "Transmission", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Actual position clutch 1 duty cycle factor 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3834"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3834"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 3276.7, "min": -3276, "div": 10, "sign": true, "unit": "milliamps" }, "name": "Clutch 1 valve current: specified"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3835"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3835"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ250_CLUTCH_1_VALVE_I_ACTUAL", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 3276.7, "min": -3276, "div": 10, "sign": true, "unit": "milliamps" }, "name": "Clutch 1 valve current: actual"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3838"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3838"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_2", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638, "mul": 5, "div": 100, "sign": true, "unit": "newtonMeters" }, "name": "Specified torque clutch 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3839"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3839"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 2 actual torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "383B"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "383B"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ200_ACTUAL_POS_CLUTCH_2_DUTY_CYCLE_FACTOR_1", "path": "Transmission", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Actual position clutch 2 duty cycle factor 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "383C"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "383C"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ200_ACTUAL_POS_CLUTCH_2_DUTY_CYCLE_FACTOR_2", "path": "Transmission", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Actual position clutch 2 duty cycle factor 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "383D"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "383D"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ250_CLUTCH_2_VALVE_I_SPECIFIED", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 3276.7, "div": 10, "sign": true, "unit": "milliamps" }, "name": "Clutch 2 valve current: specified"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "383E"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "383E"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ250_CLUTCH_2_VALVE_I_ACTUAL", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 3276.7, "div": 10, "sign": true, "unit": "milliamps" }, "name": "Clutch 2 valve current: actual"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3841"}, "freq": 30,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3841"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_ODO_V1", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3852"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3852"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_A", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "mul": 100, "div": 10000, "sign": true, "unit": "millimeters" }, "name": "Actual position of gear actuator A"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "385A"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "385A"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "mul": 100, "div": 10000, "sign": true, "unit": "millimeters" }, "name": "Actual position of gear actuator B"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3862"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3862"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_C", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "mul": 100, "div": 10000, "sign": true, "unit": "millimeters" }, "name": "Actual position of gear actuator C"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "386A"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "386A"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "mul": 100, "div": 10000, "sign": true, "unit": "millimeters" }, "name": "Actual position of gear actuator D"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3871"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3871"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ250_SPECIFIED_IDLE_RPM", "path": "Movement", "fmt": { "len": 16, "blsb": true, "max": 7000, "unit": "rpm" }, "name": "Specified idle RPM"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "387F"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "387F"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_CLUTCH_1_T_PROTECTION_WARNING_1_QTY", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 1 temperature protection warning 1 quantity"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3880"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3880"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_CLUTCH_1_T_PROTECTION_WARNING_2_QTY", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 1 temperature protection warning 2 quantity"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3881"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3881"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_CLUTCH_1_T_PROTECTION_OVERHEAT_PROTECTION_1_QTY", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 1 temperature protection overheat protection 1 quantity"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3883"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3883"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_CLUTCH_2_T_PROTECTION_WARNING_1_QTY", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 2 temperature protection warning 1 quantity"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3884"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3884"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_CLUTCH_2_T_PROTECTION_WARNING_2_QTY", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 2 temperature protection warning 2 quantity"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3885"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3885"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_CLUTCH_2_T_PROTECTION_OVERHEAT_PROTECTION_1_QTY", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 2 temperature protection overheat protection 1 quantity"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3887"}, "freq": 30,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3887"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_ODO_2", "path": "Trips", "fmt": { "len": 32, "blsb": true, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer #2", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3888"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3888"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_DRIVING_TIME_ECOLOGICAL", "path": "Trips", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Driving time ecological"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3889"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3889"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_DRIVING_TIME_SPORTY", "path": "Trips", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Driving time sporty"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "388A"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "388A"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_DRIVING_TIME_MANUAL", "path": "Trips", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Driving time manual"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "388B"}, "freq": 3600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "388B"}, "freq": 3600, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_DRIVE_CYCLES_COUNTER", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Drive cycles counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "388C"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "388C"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_TCM_IGNITION_CYCLES", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Ignition cycles"}
   ]},
@@ -1959,23 +1959,23 @@
   "signals": [
     {"id": "IBIZA_MQB_DQ250_UPPER_ADAPTED_COUPLING_POINT_CLUTCH_2_FROM_MICROSLIP_ADAPT", "path": "Transmission", "fmt": { "len": 8, "max": 1.275, "div": 200, "unit": "amps" }, "name": "Upper adapted coupling point clutch 2 from micro-slip adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "38AA"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38AA"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ200_CLUTCH_2_ADAPT_CLUTCH_END_POS_OPEN", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Clutch 2 adaptation clutch end position open"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "38AB"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38AB"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ200_CLUTCH_2_ADAPT_CLUTCH_END_POS_CLOSED", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Clutch 2 adaptation clutch end position closed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "38AE"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38AE"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ200_CLUTCH_1_ADAPT_BASIC_CHARS_POINT_0_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Clutch 1 adaptation basic characteristics point 0 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "38AF"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38AF"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ200_CLUTCH_1_ADAPT_BASIC_CHARS_POINT_1_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Clutch 1 adaptation basic characteristics point 1 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "38B2"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38B2"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_PQ35_CENTRIFUGAL_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "scalar" }, "name": "Centrifugal oil temperature"}
   ]},
@@ -1995,35 +1995,35 @@
   "signals": [
     {"id": "IBIZA_PQ35_CLUTCH_2_CMD_P", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 commanded pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "38FA"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38FA"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ200_CLUTCH_2_ADAPT_BASIC_CHARS_POINT_0_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Clutch 2 adaptation basic characteristics point 0 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "38FB"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38FB"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ200_CLUTCH_2_ADAPT_BASIC_CHARS_POINT_1_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Clutch 2 adaptation basic characteristics point 1 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "38FC"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38FC"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ200_CLUTCH_2_ADAPT_BASIC_CHARS_POINT_2_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Clutch 2 adaptation basic characteristics point 2 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "38FD"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38FD"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ200_CLUTCH_2_ADAPT_BASIC_CHARS_POINT_3_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Clutch 2 adaptation basic characteristics point 3 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "38FE"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38FE"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ200_CLUTCH_1_ADAPT_CLUTCH_END_POS_OPEN", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Clutch 1 adaptation clutch end position open"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "38FF"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38FF"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ200_CLUTCH_1_ADAPT_CLUTCH_END_POS_CLOSED", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Clutch 1 adaptation clutch end position closed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "7000"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "7000"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ200_CLUTCH_1_ADAPT_BASIC_CHARS_POINT_2_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Clutch 1 adaptation basic characteristics point 2 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "7001"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "7001"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_MQB_DQ200_CLUTCH_1_ADAPT_BASIC_CHARS_POINT_3_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Clutch 1 adaptation basic characteristics point 3 position"}
   ]},

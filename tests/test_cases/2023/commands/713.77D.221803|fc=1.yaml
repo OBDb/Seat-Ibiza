@@ -1,0 +1,26 @@
+command_id: 713.77D.221803|fc=1
+test_cases:
+- expected_values:
+    IBIZA_RR_VSS_V2: 0
+  response: |-
+    77D100F621803000002
+    77D2100070100000000
+    77D220000AAAAAAAAAA
+- expected_values:
+    IBIZA_RR_VSS_V2: 1.6
+  response: |-
+    77D100F621803001005
+    77D210007010127012B
+    77D220129AAAAAAAAAA
+- expected_values:
+    IBIZA_RR_VSS_V2: 40.2
+  response: |-
+    77D100F621803019204
+    77D210007010127012B
+    77D220129AAAAAAAAAA
+- expected_values:
+    IBIZA_RR_VSS_V2: 53.5
+  response: |-
+    77D100F621803021704
+    77D21000701FFFEFFFE
+    77D22FFFEAAAAAAAAAA

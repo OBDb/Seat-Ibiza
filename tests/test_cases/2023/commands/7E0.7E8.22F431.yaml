@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    IBIZA_CLR_DIST: 199
+  response: 7E80562F43100C7
+- expected_values:
+    IBIZA_CLR_DIST: 200
+  response: 7E80562F43100C8
+- expected_values:
+    IBIZA_CLR_DIST: 201
+  response: 7E80562F43100C9
+- expected_values:
+    IBIZA_CLR_DIST: 202
+  response: 7E80562F43100CA

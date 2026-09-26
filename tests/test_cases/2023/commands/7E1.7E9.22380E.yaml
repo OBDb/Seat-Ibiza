@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.22380E
+test_cases:
+- expected_values:
+    IBIZA_MQB_OUTPUT_SHAFT_1: 0
+  response: 7E90562380E0000
+- expected_values:
+    IBIZA_MQB_OUTPUT_SHAFT_1: 271
+  response: 7E90562380E0F01
+- expected_values:
+    IBIZA_MQB_OUTPUT_SHAFT_1: 328
+  response: 7E90562380E4801
+- expected_values:
+    IBIZA_MQB_OUTPUT_SHAFT_1: 390
+  response: 7E90562380E8601
+- expected_values:
+    IBIZA_MQB_OUTPUT_SHAFT_1: 414
+  response: 7E90562380E9E01

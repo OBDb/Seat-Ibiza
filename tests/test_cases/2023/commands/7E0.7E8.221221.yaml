@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221221
+test_cases:
+- expected_values:
+    IBIZA_PQ35_ACCEL_PED_1: -8.6
+  response: 7E805621221FFD5
+- expected_values:
+    IBIZA_PQ35_ACCEL_PED_1: -6.2
+  response: 7E805621221FFE1
+- expected_values:
+    IBIZA_PQ35_ACCEL_PED_1: -4.6
+  response: 7E805621221FFE9
+- expected_values:
+    IBIZA_PQ35_ACCEL_PED_1: -3.4
+  response: 7E805621221FFEF
+- expected_values:
+    IBIZA_PQ35_ACCEL_PED_1: -3
+  response: 7E805621221FFF1

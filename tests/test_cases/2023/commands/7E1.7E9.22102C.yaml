@@ -1,0 +1,32 @@
+command_id: 7E1.7E9.22102C
+test_cases:
+- expected_values:
+    IBIZA_PQ35_CLUTCH_2_T: 54
+  response: 7E90562102C3600
+- expected_values:
+    IBIZA_PQ35_CLUTCH_2_T: 56
+  response: 7E90562102C3800
+- expected_values:
+    IBIZA_PQ35_CLUTCH_2_T: 58
+  response: 7E90562102C3A00
+- expected_values:
+    IBIZA_PQ35_CLUTCH_2_T: 60
+  response: 7E90562102C3C00
+- expected_values:
+    IBIZA_PQ35_CLUTCH_2_T: 62
+  response: 7E90562102C3E00
+- expected_values:
+    IBIZA_PQ35_CLUTCH_2_T: 65
+  response: 7E90562102C4100
+- expected_values:
+    IBIZA_PQ35_CLUTCH_2_T: 66
+  response: 7E90562102C4200
+- expected_values:
+    IBIZA_PQ35_CLUTCH_2_T: 69
+  response: 7E90562102C4500
+- expected_values:
+    IBIZA_PQ35_CLUTCH_2_T: 82
+  response: 7E90562102C5200
+- expected_values:
+    IBIZA_PQ35_CLUTCH_2_T: 97
+  response: 7E90562102C6100

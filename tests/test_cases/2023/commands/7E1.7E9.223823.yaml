@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.223823
+test_cases:
+- expected_values:
+    IBIZA_MQB_TCM_TRANSMISSION_PART_2_P_CMD: 13
+  response: '7E9056238231405'
+- expected_values:
+    IBIZA_MQB_TCM_TRANSMISSION_PART_2_P_CMD: 11.35
+  response: 7E9056238236F04
+- expected_values:
+    IBIZA_MQB_TCM_TRANSMISSION_PART_2_P_CMD: 35.15
+  response: 7E905623823BB0D
+- expected_values:
+    IBIZA_MQB_TCM_TRANSMISSION_PART_2_P_CMD: 25.47
+  response: 7E905623823F309

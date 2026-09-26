@@ -1,0 +1,20 @@
+command_id: 746.7B0.222612|fc=1
+test_cases:
+- expected_values:
+    IBIZA_CLIMATE_T_AFTER_EVAP: 0.666
+  response: 7B005622612024E
+- expected_values:
+    IBIZA_CLIMATE_T_AFTER_EVAP: 0.666
+  response: 7B0056226120258
+- expected_values:
+    IBIZA_CLIMATE_T_AFTER_EVAP: 0.666
+  response: 7B0056226120262
+- expected_values:
+    IBIZA_CLIMATE_T_AFTER_EVAP: 0.666
+  response: 7B005622612026C
+- expected_values:
+    IBIZA_CLIMATE_T_AFTER_EVAP: 0.666
+  response: 7B0056226120276
+- expected_values:
+    IBIZA_CLIMATE_T_AFTER_EVAP: 0.666
+  response: 7B0056226120280

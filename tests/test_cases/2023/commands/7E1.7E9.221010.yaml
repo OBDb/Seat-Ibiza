@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221010
+test_cases:
+- expected_values:
+    IBIZA_MQB_TCM_CONVERTER_LOSS_TORQUE: 0
+  response: '7E9056210100000'
+- expected_values:
+    IBIZA_MQB_TCM_CONVERTER_LOSS_TORQUE: 1280
+  response: '7E9056210106400'
+- expected_values:
+    IBIZA_MQB_TCM_CONVERTER_LOSS_TORQUE: -268.8
+  response: 7E905621010EB00

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2214CE
+test_cases:
+- expected_values:
+    IBIZA_PQ35_POST_INJ_3_ACTIVATION_DURATION: 2.4936
+  response: 7E8056214CE185A
+- expected_values:
+    IBIZA_PQ35_POST_INJ_3_ACTIVATION_DURATION: 2.5
+  response: 7E8056214CE186A
+- expected_values:
+    IBIZA_PQ35_POST_INJ_3_ACTIVATION_DURATION: 2.506
+  response: 7E8056214CE1879

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221151
+test_cases:
+- expected_values:
+    IBIZA_MISFIRES__CYL__4: 6110
+  response: 7E80562115117DE
+- expected_values:
+    IBIZA_MISFIRES__CYL__4: 6111
+  response: 7E80562115117DF
+- expected_values:
+    IBIZA_MISFIRES__CYL__4: 6112
+  response: 7E80562115117E0
+- expected_values:
+    IBIZA_MISFIRES__CYL__4: 6113
+  response: 7E80562115117E1

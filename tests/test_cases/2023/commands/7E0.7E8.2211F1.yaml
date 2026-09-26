@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211F1
+test_cases:
+- expected_values:
+    IBIZA_PQ35_TRANS_IN_SPD: 1743
+  response: 7E8056211F10D9E
+- expected_values:
+    IBIZA_PQ35_TRANS_IN_SPD: 2176.5
+  response: 7E8056211F11101
+- expected_values:
+    IBIZA_PQ35_TRANS_IN_SPD: 4850.5
+  response: 7E8056211F125E5
+- expected_values:
+    IBIZA_PQ35_TRANS_IN_SPD: 10455
+  response: 7E8056211F151AE

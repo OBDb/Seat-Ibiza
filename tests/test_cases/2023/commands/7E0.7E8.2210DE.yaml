@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2210DE
+test_cases:
+- expected_values:
+    IBIZA_PQ35_INJ_4_RAIL_P_3: 0
+  response: 7E8056210DE0000
+- expected_values:
+    IBIZA_PQ35_INJ_4_RAIL_P_3: 0.02455
+  response: 7E8056210DE01EB
+- expected_values:
+    IBIZA_PQ35_INJ_4_RAIL_P_3: -0.00165
+  response: 7E8056210DEFFDF

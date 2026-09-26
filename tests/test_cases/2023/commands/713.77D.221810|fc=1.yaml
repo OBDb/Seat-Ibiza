@@ -1,0 +1,32 @@
+command_id: 713.77D.221810|fc=1
+test_cases:
+- expected_values:
+    IBIZA_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100862181001109A
+    77D21027FAAAAAAAAAA
+- expected_values:
+    IBIZA_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D10086218100110A0
+    77D2102B5AAAAAAAAAA
+- expected_values:
+    IBIZA_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D1008621810011130
+    77D210247AAAAAAAAAA
+- expected_values:
+    IBIZA_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100862181001172D
+    77D210291AAAAAAAAAA
+- expected_values:
+    IBIZA_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D10086218100118F9
+    77D21029DAAAAAAAAAA
+- expected_values:
+    IBIZA_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D1008621810011D45
+    77D210286AAAAAAAAAA

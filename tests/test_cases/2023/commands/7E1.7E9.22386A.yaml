@@ -1,0 +1,23 @@
+command_id: 7E1.7E9.22386A
+test_cases:
+- expected_values:
+    IBIZA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 0.16
+  response: 7E90562386A1000
+- expected_values:
+    IBIZA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 0.17
+  response: 7E90562386A1100
+- expected_values:
+    IBIZA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 0.18
+  response: 7E90562386A1200
+- expected_values:
+    IBIZA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 0.19
+  response: 7E90562386A1300
+- expected_values:
+    IBIZA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 0
+  response: 7E90562386A19FF
+- expected_values:
+    IBIZA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 8.37
+  response: 7E90562386A4503
+- expected_values:
+    IBIZA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 0
+  response: 7E90562386ACBFC

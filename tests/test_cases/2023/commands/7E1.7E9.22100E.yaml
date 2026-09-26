@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22100E
+test_cases:
+- expected_values:
+    IBIZA_MQB_TCM_ENGINE_TORQUE_LIMITATION: 104
+  response: 7E90562100E2008
+- expected_values:
+    IBIZA_MQB_TCM_ENGINE_TORQUE_LIMITATION: 202
+  response: 7E90562100EC80F
+- expected_values:
+    IBIZA_MQB_TCM_ENGINE_TORQUE_LIMITATION: 76
+  response: 7E90562100EF005

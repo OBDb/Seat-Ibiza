@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221191
+test_cases:
+- expected_values:
+    IBIZA_MQB_DQ200_P_SUPPLY_ACTUAL_P: 46.1
+  response: '7E9056211910212'
+- expected_values:
+    IBIZA_MQB_DQ200_P_SUPPLY_ACTUAL_P: 42.83
+  response: 7E905621191BB10
+- expected_values:
+    IBIZA_MQB_DQ200_P_SUPPLY_ACTUAL_P: 58.71
+  response: 7E905621191EF16

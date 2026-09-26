@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.223871
+test_cases:
+- expected_values:
+    IBIZA_MQB_DQ250_SPECIFIED_IDLE_RPM: 0
+  response: '7E9056238710000'
+- expected_values:
+    IBIZA_MQB_DQ250_SPECIFIED_IDLE_RPM: 910
+  response: 7E9056238718E03
+- expected_values:
+    IBIZA_MQB_DQ250_SPECIFIED_IDLE_RPM: 430
+  response: 7E905623871AE01
+- expected_values:
+    IBIZA_MQB_DQ250_SPECIFIED_IDLE_RPM: 1200
+  response: 7E905623871B004
+- expected_values:
+    IBIZA_MQB_DQ250_SPECIFIED_IDLE_RPM: 740
+  response: 7E905623871E402

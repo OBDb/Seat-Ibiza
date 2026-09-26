@@ -1,0 +1,17 @@
+command_id: 710.77A.222A0C|fc=1
+test_cases:
+- expected_values:
+    IBIZA_BAT_SOC: 63
+  response: 77A04622A0C3F
+- expected_values:
+    IBIZA_BAT_SOC: 64
+  response: 77A04622A0C40
+- expected_values:
+    IBIZA_BAT_SOC: 65
+  response: 77A04622A0C41
+- expected_values:
+    IBIZA_BAT_SOC: 66
+  response: 77A04622A0C42
+- expected_values:
+    IBIZA_BAT_SOC: 67
+  response: 77A04622A0C43

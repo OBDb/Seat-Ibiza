@@ -2072,7 +2072,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F42F"}, "freq": 30,
   "signals": [
-    {"id": "IBIZA_FLI_INPUT", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level input %", "suggestedMetric": "fuelLevelInputPercent"}
+    {"id": "IBIZA_FLI_INPUT", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level input %", "suggestedMetric": "fuelTankLevel"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [

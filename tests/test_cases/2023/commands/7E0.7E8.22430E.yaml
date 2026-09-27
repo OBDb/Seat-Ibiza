@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22430E
+test_cases:
+- expected_values:
+    IBIZA_NUM_INJECTIONS: 0
+  response: 7E80562430E0000
+- expected_values:
+    IBIZA_NUM_INJECTIONS: 23278
+  response: 7E80562430E5AEE
+- expected_values:
+    IBIZA_NUM_INJECTIONS: 39212
+  response: 7E80562430E992C

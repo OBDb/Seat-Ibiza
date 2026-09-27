@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221210
+test_cases:
+- expected_values:
+    IBIZA_KNOCK_SENS_CYL_4: 1.01344
+  response: 7E80562121000D1
+- expected_values:
+    IBIZA_KNOCK_SENS_CYL_4: 1.16376
+  response: 7E80562121000F0
+- expected_values:
+    IBIZA_KNOCK_SENS_CYL_4: 1.29953
+  response: 7E805621210010C
+- expected_values:
+    IBIZA_KNOCK_SENS_CYL_4: 3.53492
+  response: 7E80562121002D9

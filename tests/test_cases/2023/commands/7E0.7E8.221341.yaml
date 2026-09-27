@@ -4,8 +4,8 @@ test_cases:
     IBIZA_PQ35_CAMS_END: 0
   response: '7E8056213410000'
 - expected_values:
-    IBIZA_PQ35_CAMS_END: 93.8
-  response: 7E80562134101D5
+    IBIZA_PQ35_CAMS_END: 96
+  response: 7E80562134101E0
 - expected_values:
     IBIZA_PQ35_CAMS_END: -36.4
   response: 7E805621341FF4A

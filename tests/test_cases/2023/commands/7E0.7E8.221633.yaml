@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221633
+test_cases:
+- expected_values:
+    IBIZA_LONGITUDINAL_ACCEL_7E0: 0
+  response: '7E8056216330000'
+- expected_values:
+    IBIZA_LONGITUDINAL_ACCEL_7E0: -1.796
+  response: 7E805621633F8FC
+- expected_values:
+    IBIZA_LONGITUDINAL_ACCEL_7E0: -0.106
+  response: 7E805621633FF96

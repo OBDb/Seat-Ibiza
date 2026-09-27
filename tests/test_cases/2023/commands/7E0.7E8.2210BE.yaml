@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2210BE
+test_cases:
+- expected_values:
+    IBIZA_REQ_TQ_AMOUNT: 0
+  response: 7E8056210BE0000
+- expected_values:
+    IBIZA_REQ_TQ_AMOUNT: 2.2
+  response: 7E8056210BE0016

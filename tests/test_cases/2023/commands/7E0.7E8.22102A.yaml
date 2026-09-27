@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22102A
+test_cases:
+- expected_values:
+    IBIZA_ACCEL_PEDAL_SENS_1_V: 705.6
+  response: 7E80562102A0DC8
+- expected_values:
+    IBIZA_ACCEL_PEDAL_SENS_1_V: 714.2
+  response: 7E80562102A0DF3
+- expected_values:
+    IBIZA_ACCEL_PEDAL_SENS_1_V: 1445.6
+  response: 7E80562102A1C3C
+- expected_values:
+    IBIZA_ACCEL_PEDAL_SENS_1_V: 3809.4
+  response: 7E80562102A4A67

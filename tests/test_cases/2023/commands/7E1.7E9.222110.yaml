@@ -1,0 +1,23 @@
+command_id: 7E1.7E9.222110
+test_cases:
+- expected_values:
+    IBIZA_ENG_SPEC_TQ_DURING: 12370
+  response: '7E9056221103052'
+- expected_values:
+    IBIZA_ENG_SPEC_TQ_DURING: 30800
+  response: '7E9056221107850'
+- expected_values:
+    IBIZA_ENG_SPEC_TQ_DURING: 35920
+  response: 7E9056221108C50
+- expected_values:
+    IBIZA_ENG_SPEC_TQ_DURING: 41040
+  response: 7E905622110A050
+- expected_values:
+    IBIZA_ENG_SPEC_TQ_DURING: 46160
+  response: 7E905622110B450
+- expected_values:
+    IBIZA_ENG_SPEC_TQ_DURING: 51280
+  response: 7E905622110C850
+- expected_values:
+    IBIZA_ENG_SPEC_TQ_DURING: 56400
+  response: 7E905622110DC50

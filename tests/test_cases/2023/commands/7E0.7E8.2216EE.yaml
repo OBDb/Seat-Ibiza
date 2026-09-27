@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2216EE
+test_cases:
+- expected_values:
+    IBIZA_BOOST_P_ACTUATOR_CMD: 15.2219
+  response: 7E8056216EE04DF
+- expected_values:
+    IBIZA_BOOST_P_ACTUATOR_CMD: 15.62473
+  response: 7E8056216EE0500
+- expected_values:
+    IBIZA_BOOST_P_ACTUATOR_CMD: 15.63693
+  response: 7E8056216EE0501
+- expected_values:
+    IBIZA_BOOST_P_ACTUATOR_CMD: 16.07638
+  response: 7E8056216EE0525
+- expected_values:
+    IBIZA_BOOST_P_ACTUATOR_CMD: 16.36934
+  response: 7E8056216EE053D
+- expected_values:
+    IBIZA_BOOST_P_ACTUATOR_CMD: 16.40596
+  response: 7E8056216EE0540
+- expected_values:
+    IBIZA_BOOST_P_ACTUATOR_CMD: 87.53509
+  response: 7E8056216EE1C03
+- expected_values:
+    IBIZA_BOOST_P_ACTUATOR_CMD: 100
+  response: 7E8056216EE3333

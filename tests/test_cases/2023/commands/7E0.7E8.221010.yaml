@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.221010
 test_cases:
 - expected_values:
-    IBIZA_ENG_TQ_7E0: 0
+    IBIZA_ENG_TQ: 0
   response: '7E8056210100000'
 - expected_values:
-    IBIZA_ENG_TQ_7E0: 24.3
+    IBIZA_ENG_TQ: 24.3
   response: 7E80562101000F3
 - expected_values:
-    IBIZA_ENG_TQ_7E0: 143.9
+    IBIZA_ENG_TQ: 143.9
   response: 7E805621010059F

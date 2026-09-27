@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2210EB
+test_cases:
+- expected_values:
+    IBIZA_CRANK_ROT_ANG: 24.9
+  response: 7E8056210EB00F9
+- expected_values:
+    IBIZA_CRANK_ROT_ANG: 40.1
+  response: 7E8056210EB0191
+- expected_values:
+    IBIZA_CRANK_ROT_ANG: 77
+  response: 7E8056210EB0302

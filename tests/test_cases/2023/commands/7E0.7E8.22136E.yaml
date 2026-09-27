@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22136E
+test_cases:
+- expected_values:
+    IBIZA_CAM_ADJ_INT_BANK_1_ACT: 17.85156
+  response: 7E80562136E08ED
+- expected_values:
+    IBIZA_CAM_ADJ_INT_BANK_1_ACT: 19.13281
+  response: 7E80562136E0991
+- expected_values:
+    IBIZA_CAM_ADJ_INT_BANK_1_ACT: 19.85156
+  response: 7E80562136E09ED
+- expected_values:
+    IBIZA_CAM_ADJ_INT_BANK_1_ACT: 22.33594
+  response: 7E80562136E0B2B
+- expected_values:
+    IBIZA_CAM_ADJ_INT_BANK_1_ACT: -4.97656
+  response: 7E80562136EFD83

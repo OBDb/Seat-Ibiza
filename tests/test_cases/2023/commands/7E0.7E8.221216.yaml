@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221216
+test_cases:
+- expected_values:
+    IBIZA_REL_LOAD: 12.65777
+  response: 7E805621216021C
+- expected_values:
+    IBIZA_REL_LOAD: 18.18968
+  response: '7E8056212160308'
+- expected_values:
+    IBIZA_REL_LOAD: 40.45797
+  response: 7E80562121606BE
+- expected_values:
+    IBIZA_REL_LOAD: 159.83946
+  response: 7E8056212161AA3

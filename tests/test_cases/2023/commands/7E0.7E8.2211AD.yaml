@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211AD
+test_cases:
+- expected_values:
+    IBIZA_MAF_CMD: 5.2
+  response: 7E8056211AD0034
+- expected_values:
+    IBIZA_MAF_CMD: 10.5
+  response: 7E8056211AD0069
+- expected_values:
+    IBIZA_MAF_CMD: 155.7
+  response: 7E8056211AD0615

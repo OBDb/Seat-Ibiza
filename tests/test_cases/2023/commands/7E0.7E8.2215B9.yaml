@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2215B9
+test_cases:
+- expected_values:
+    IBIZA_OIL_LEVEL_AVG: 20.856
+  response: 7E8056215B9145E
+- expected_values:
+    IBIZA_OIL_LEVEL_AVG: 21.048
+  response: 7E8056215B9148E

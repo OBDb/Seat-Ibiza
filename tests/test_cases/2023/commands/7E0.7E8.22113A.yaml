@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22113A
+test_cases:
+- expected_values:
+    IBIZA_LONG_TERM_THROTTLE: 1.0329
+  response: 7E80562113A421B
+- expected_values:
+    IBIZA_LONG_TERM_THROTTLE: 1.03345
+  response: 7E80562113A4224
+- expected_values:
+    IBIZA_LONG_TERM_THROTTLE: 1.03412
+  response: 7E80562113A422F

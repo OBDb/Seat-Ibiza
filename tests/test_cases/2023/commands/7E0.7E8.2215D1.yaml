@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2215D1
+test_cases:
+- expected_values:
+    IBIZA_LATERAL_ACCEL_RAW: 0
+  response: 7E8056215D10000
+- expected_values:
+    IBIZA_LATERAL_ACCEL_RAW: 0.01
+  response: 7E8056215D10001
+- expected_values:
+    IBIZA_LATERAL_ACCEL_RAW: 0.02
+  response: 7E8056215D10002
+- expected_values:
+    IBIZA_LATERAL_ACCEL_RAW: 0.03
+  response: 7E8056215D10003
+- expected_values:
+    IBIZA_LATERAL_ACCEL_RAW: -0.22
+  response: 7E8056215D1FFEA
+- expected_values:
+    IBIZA_LATERAL_ACCEL_RAW: -0.11
+  response: 7E8056215D1FFF5
+- expected_values:
+    IBIZA_LATERAL_ACCEL_RAW: -0.02
+  response: 7E8056215D1FFFE
+- expected_values:
+    IBIZA_LATERAL_ACCEL_RAW: -0.01
+  response: 7E8056215D1FFFF

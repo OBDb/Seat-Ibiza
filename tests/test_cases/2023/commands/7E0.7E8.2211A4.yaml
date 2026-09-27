@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211A4
+test_cases:
+- expected_values:
+    IBIZA_FUEL_PMP_CMD_DUTY: 44.50212
+  response: 7E8056211A471ED
+- expected_values:
+    IBIZA_FUEL_PMP_CMD_DUTY: 44.51281
+  response: 7E8056211A471F4
+- expected_values:
+    IBIZA_FUEL_PMP_CMD_DUTY: 44.92174
+  response: 7E8056211A47300
+- expected_values:
+    IBIZA_FUEL_PMP_CMD_DUTY: 46.33012
+  response: 7E8056211A4769B

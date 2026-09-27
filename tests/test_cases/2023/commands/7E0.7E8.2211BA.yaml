@@ -4,11 +4,11 @@ test_cases:
     IBIZA_OIL_LEVEL: 5.3904
   response: 7E8056211BA34A4
 - expected_values:
-    IBIZA_OIL_LEVEL: 5.924
-  response: 7E8056211BA39DA
-- expected_values:
     IBIZA_OIL_LEVEL: 5.9812
   response: 7E8056211BA3A69
+- expected_values:
+    IBIZA_OIL_LEVEL: 6.14
+  response: 7E8056211BA3BF6
 - expected_values:
     IBIZA_OIL_LEVEL: 6.5544
   response: 7E8056211BA4002

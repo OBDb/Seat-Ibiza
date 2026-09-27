@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221230
+test_cases:
+- expected_values:
+    IBIZA_MAX_OIL_LEVEL: 30.184
+  response: 7E8056212301D7A

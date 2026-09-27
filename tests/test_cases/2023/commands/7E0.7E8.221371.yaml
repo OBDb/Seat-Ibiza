@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221371
+test_cases:
+- expected_values:
+    IBIZA_CAM_ADJ_EXH_BANK_1_SPEC: -25.6
+  response: 7E805621371F380
+- expected_values:
+    IBIZA_CAM_ADJ_EXH_BANK_1_SPEC: -21.904
+  response: 7E805621371F54E
+- expected_values:
+    IBIZA_CAM_ADJ_EXH_BANK_1_SPEC: -18.936
+  response: 7E805621371F6C1
+- expected_values:
+    IBIZA_CAM_ADJ_EXH_BANK_1_SPEC: -15.184
+  response: 7E805621371F896
+- expected_values:
+    IBIZA_CAM_ADJ_EXH_BANK_1_SPEC: -13.968
+  response: 7E805621371F92E
+- expected_values:
+    IBIZA_CAM_ADJ_EXH_BANK_1_SPEC: -6.432
+  response: 7E805621371FCDC
+- expected_values:
+    IBIZA_CAM_ADJ_EXH_BANK_1_SPEC: -5.376
+  response: 7E805621371FD60

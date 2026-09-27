@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.221314
+test_cases:
+- expected_values:
+    IBIZA_PQ35_MEAN_AIR_MASS: 0
+  response: '7E8056213140000'
+- expected_values:
+    IBIZA_PQ35_MEAN_AIR_MASS: 8.65625
+  response: '7E8056213140115'
+- expected_values:
+    IBIZA_PQ35_MEAN_AIR_MASS: 9.28125
+  response: '7E8056213140129'
+- expected_values:
+    IBIZA_PQ35_MEAN_AIR_MASS: 9.4375
+  response: 7E805621314012E
+- expected_values:
+    IBIZA_PQ35_MEAN_AIR_MASS: 9.625
+  response: '7E8056213140134'
+- expected_values:
+    IBIZA_PQ35_MEAN_AIR_MASS: 11.84375
+  response: 7E805621314017B
+- expected_values:
+    IBIZA_PQ35_MEAN_AIR_MASS: 13.71875
+  response: 7E80562131401B7
+- expected_values:
+    IBIZA_PQ35_MEAN_AIR_MASS: 22.09375
+  response: 7E80562131402C3
+- expected_values:
+    IBIZA_PQ35_MEAN_AIR_MASS: 23.125
+  response: 7E80562131402E4

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222006
+test_cases:
+- expected_values:
+    IBIZA_PQ35_OIL_FILL_LEVEL: 66.36
+  response: '7E8056220060452'
+- expected_values:
+    IBIZA_PQ35_OIL_FILL_LEVEL: 73.74
+  response: 7E80562200604CD
+- expected_values:
+    IBIZA_PQ35_OIL_FILL_LEVEL: 115.2
+  response: '7E8056220060780'

@@ -113,8 +113,8 @@
   ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A61"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "IBIZA_SSB_TOTAL_CHARGE",    "path": "Battery", "fmt": {           "len": 32, "max": 100, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total charge"},
-    {"id": "IBIZA_SSB_TOTAL_DISCHARGE", "path": "Battery", "fmt": {"bix": 32, "len": 32, "max": 100, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total discharge"}
+    {"id": "IBIZA_SSB_TOTAL_CHARGE",    "path": "Battery", "fmt": {           "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total charge"},
+    {"id": "IBIZA_SSB_TOTAL_DISCHARGE", "path": "Battery", "fmt": {"bix": 32, "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total discharge"}
   ]},
 { "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1812"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
@@ -284,7 +284,7 @@
   ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2609"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "IBIZA_AAT_746", "path": "Climate", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "sign": true, "unit": "celsius" }, "name": "Outside temperature"}
+    {"id": "IBIZA_AAT_746", "path": "Climate", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260C"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [

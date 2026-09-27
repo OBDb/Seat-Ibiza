@@ -10,8 +10,8 @@ test_cases:
     IBIZA_MEAN_INJ_QUANTITY: 163.84
   response: '7E8056211394000'
 - expected_values:
-    IBIZA_MEAN_INJ_QUANTITY: 176.24
-  response: 7E80562113944D8
+    IBIZA_MEAN_INJ_QUANTITY: 171.16
+  response: 7E80562113942DC
 - expected_values:
     IBIZA_MEAN_INJ_QUANTITY: 181.09
   response: 7E80562113946BD

@@ -1,14 +1,14 @@
 command_id: 710.77A.222A09|fc=1
 test_cases:
 - expected_values:
-    IBIZA_BAT_I: -2999.997
+    IBIZA_BAT_I: 0.882
   response: 77A07622A0900000372
 - expected_values:
-    IBIZA_BAT_I: -2999.997
+    IBIZA_BAT_I: 1.019
   response: 77A07622A09000003FB
 - expected_values:
-    IBIZA_BAT_I: -2999.996
+    IBIZA_BAT_I: 1.03
   response: 77A07622A0900000406
 - expected_values:
-    IBIZA_BAT_I: -2999.97
+    IBIZA_BAT_I: 7.862
   response: 77A07622A0900001EB6

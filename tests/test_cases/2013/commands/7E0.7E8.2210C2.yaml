@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     IBIZA_PQ35_EGR_DUTY: 0
   response: 7E8056210C20000
+- expected_values:
+    IBIZA_PQ35_EGR_DUTY: 100
+  response: 7E8056210C27F53
+- expected_values:
+    IBIZA_PQ35_EGR_DUTY: 100
+  response: 7E8056210C27F69
+- expected_values:
+    IBIZA_PQ35_EGR_DUTY: 100
+  response: 7E8056210C27F70
+- expected_values:
+    IBIZA_PQ35_EGR_DUTY: 100
+  response: 7E8056210C27F79

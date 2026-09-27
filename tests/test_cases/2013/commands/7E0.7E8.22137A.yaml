@@ -1,11 +1,8 @@
 command_id: 7E0.7E8.22137A
 test_cases:
 - expected_values:
-    IBIZA_PQ35_IGN_ANG_CYL: 6.375
-  response: 7E80462137A70
+    IBIZA_PQ35_IGN_ANG_CYL: -11.625
+  response: 7E80462137A40
 - expected_values:
-    IBIZA_PQ35_IGN_ANG_CYL: 6.75
-  response: 7E80462137A71
-- expected_values:
-    IBIZA_PQ35_IGN_ANG_CYL: 8.625
-  response: 7E80462137A76
+    IBIZA_PQ35_IGN_ANG_CYL: 27.375
+  response: 7E80462137AA8

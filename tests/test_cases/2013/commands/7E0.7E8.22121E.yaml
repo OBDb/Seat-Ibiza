@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     IBIZA_SPEC_VALUE_RAIL_P: 229700
   response: 7E80562121E08F9
+- expected_values:
+    IBIZA_SPEC_VALUE_RAIL_P: 229800
+  response: 7E80562121E08FA

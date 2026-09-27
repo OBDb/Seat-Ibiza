@@ -4,11 +4,5 @@ test_cases:
     IBIZA_PQ35_CALCULATED_OIL_T: 15
   response: 7E8046220A137
 - expected_values:
-    IBIZA_PQ35_CALCULATED_OIL_T: 21
-  response: 7E8046220A13D
-- expected_values:
-    IBIZA_PQ35_CALCULATED_OIL_T: 23
-  response: 7E8046220A13F
-- expected_values:
-    IBIZA_PQ35_CALCULATED_OIL_T: 25
-  response: 7E8046220A141
+    IBIZA_PQ35_CALCULATED_OIL_T: 92
+  response: 7E8046220A184

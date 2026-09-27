@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     IBIZA_EOT: 10
   response: 77E0462202F44
+- expected_values:
+    IBIZA_EOT: 14
+  response: 77E0462202F48
+- expected_values:
+    IBIZA_EOT: 23
+  response: 77E0462202F51
+- expected_values:
+    IBIZA_EOT: 54
+  response: 77E0462202F70
+- expected_values:
+    IBIZA_EOT: 74
+  response: 77E0462202F84
+- expected_values:
+    IBIZA_EOT: 81
+  response: 77E0462202F8B
+- expected_values:
+    IBIZA_EOT: 82
+  response: 77E0462202F8C
+- expected_values:
+    IBIZA_EOT: 83
+  response: 77E0462202F8D

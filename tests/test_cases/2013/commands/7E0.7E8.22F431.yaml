@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     IBIZA_CLR_DIST: 25913
   response: 7E80562F4316539
+- expected_values:
+    IBIZA_CLR_DIST: 25929
+  response: 7E80562F4316549

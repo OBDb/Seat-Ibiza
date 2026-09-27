@@ -1,8 +1,17 @@
 command_id: 714.77E.222206
 test_cases:
 - expected_values:
+    IBIZA_FLI: 30
+  response: 77E046222061E
+- expected_values:
+    IBIZA_FLI: 33
+  response: '77E0462220621'
+- expected_values:
     IBIZA_FLI: 35
   response: '77E0462220623'
+- expected_values:
+    IBIZA_FLI: 36
+  response: '77E0462220624'
 - expected_values:
     IBIZA_FLI: 37
   response: '77E0462220625'

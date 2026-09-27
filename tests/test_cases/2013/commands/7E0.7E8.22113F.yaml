@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22113F
+test_cases:
+- expected_values:
+    IBIZA_FUEL_RATE: 621.57
+  response: 7E80562113FF2CD
+- expected_values:
+    IBIZA_FUEL_RATE: 621.82
+  response: 7E80562113FF2E6
+- expected_values:
+    IBIZA_FUEL_RATE: 622.85
+  response: 7E80562113FF34D
+- expected_values:
+    IBIZA_FUEL_RATE: 622.92
+  response: 7E80562113FF354
+- expected_values:
+    IBIZA_FUEL_RATE: 623.05
+  response: 7E80562113FF361
+- expected_values:
+    IBIZA_FUEL_RATE: 625.65
+  response: 7E80562113FF465
+- expected_values:
+    IBIZA_FUEL_RATE: 626.81
+  response: 7E80562113FF4D9
+- expected_values:
+    IBIZA_FUEL_RATE: 627.82
+  response: 7E80562113FF53E
+- expected_values:
+    IBIZA_FUEL_RATE: 628.47
+  response: 7E80562113FF57F

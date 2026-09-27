@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22106B
+test_cases:
+- expected_values:
+    IBIZA_PQ35_LIM_TRQ: 4
+  response: 7E80562106B0028
+- expected_values:
+    IBIZA_PQ35_LIM_TRQ: -332.6
+  response: 7E80562106BF302
+- expected_values:
+    IBIZA_PQ35_LIM_TRQ: -77.4
+  response: 7E80562106BFCFA
+- expected_values:
+    IBIZA_PQ35_LIM_TRQ: -24.8
+  response: 7E80562106BFF08

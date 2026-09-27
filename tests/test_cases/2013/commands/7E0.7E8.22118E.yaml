@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22118E
+test_cases:
+- expected_values:
+    IBIZA_PQ35_CAMS_EDGE_POS_7: 2.5
+  response: 7E80562118E0228
+- expected_values:
+    IBIZA_PQ35_CAMS_EDGE_POS_7: 2.5625
+  response: 7E80562118E0229
+- expected_values:
+    IBIZA_PQ35_CAMS_EDGE_POS_7: 2.625
+  response: 7E80562118E022A
+- expected_values:
+    IBIZA_PQ35_CAMS_EDGE_POS_7: 2.6875
+  response: 7E80562118E022B
+- expected_values:
+    IBIZA_PQ35_CAMS_EDGE_POS_7: 2.8125
+  response: 7E80562118E022D
+- expected_values:
+    IBIZA_PQ35_CAMS_EDGE_POS_7: 2.875
+  response: 7E80562118E022E
+- expected_values:
+    IBIZA_PQ35_CAMS_EDGE_POS_7: 2.9375
+  response: 7E80562118E022F

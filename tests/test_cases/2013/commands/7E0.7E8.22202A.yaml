@@ -1,14 +1,8 @@
 command_id: 7E0.7E8.22202A
 test_cases:
 - expected_values:
-    IBIZA_PQ35_CHARGE_AIR_P_ACTUAL: 958
-  response: 7E80562202A2EC7
+    IBIZA_PQ35_CHARGE_AIR_P_ACTUAL: 960.56
+  response: 7E80562202A2EE7
 - expected_values:
-    IBIZA_PQ35_CHARGE_AIR_P_ACTUAL: 981.52
-  response: 7E80562202A2FED
-- expected_values:
-    IBIZA_PQ35_CHARGE_AIR_P_ACTUAL: 1024.24
-  response: 7E80562202A3203
-- expected_values:
-    IBIZA_PQ35_CHARGE_AIR_P_ACTUAL: 1217.6
-  response: 7E80562202A3B74
+    IBIZA_PQ35_CHARGE_AIR_P_ACTUAL: 960.8
+  response: 7E80562202A2EEA

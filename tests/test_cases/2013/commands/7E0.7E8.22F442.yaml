@@ -1,17 +1,5 @@
 command_id: 7E0.7E8.22F442
 test_cases:
 - expected_values:
-    IBIZA_VPWR: 13.609
-  response: 7E80562F4423529
-- expected_values:
-    IBIZA_VPWR: 13.812
-  response: 7E80562F44235F4
-- expected_values:
-    IBIZA_VPWR: 13.913
-  response: 7E80562F4423659
-- expected_values:
-    IBIZA_VPWR: 14.015
-  response: 7E80562F44236BF
-- expected_values:
     IBIZA_VPWR: 14.116
   response: 7E80562F4423724

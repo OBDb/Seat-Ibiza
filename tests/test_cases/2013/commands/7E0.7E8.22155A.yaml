@@ -1,11 +1,14 @@
 command_id: 7E0.7E8.22155A
 test_cases:
 - expected_values:
-    IBIZA_PQ35_ENG_TORQUE: 0
-  response: 7E80562155A0000
+    IBIZA_PQ35_ENG_TORQUE: 27.9375
+  response: 7E80562155A037E
 - expected_values:
-    IBIZA_PQ35_ENG_TORQUE: 71.6875
-  response: 7E80562155A08F6
+    IBIZA_PQ35_ENG_TORQUE: 28.59375
+  response: 7E80562155A0393
 - expected_values:
-    IBIZA_PQ35_ENG_TORQUE: 182.8125
-  response: 7E80562155A16DA
+    IBIZA_PQ35_ENG_TORQUE: 28.9375
+  response: 7E80562155A039E
+- expected_values:
+    IBIZA_PQ35_ENG_TORQUE: 31.53125
+  response: 7E80562155A03F1

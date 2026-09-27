@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22F44A
+test_cases:
+- expected_values:
+    IBIZA_ACCEL_POS_2: 13.72549
+  response: 7E80462F44A23
+- expected_values:
+    IBIZA_ACCEL_POS_2: 14.11765
+  response: 7E80462F44A24
+- expected_values:
+    IBIZA_ACCEL_POS_2: 21.56863
+  response: 7E80462F44A37
+- expected_values:
+    IBIZA_ACCEL_POS_2: 23.92157
+  response: 7E80462F44A3D
+- expected_values:
+    IBIZA_ACCEL_POS_2: 28.23529
+  response: 7E80462F44A48
+- expected_values:
+    IBIZA_ACCEL_POS_2: 31.37255
+  response: 7E80462F44A50
+- expected_values:
+    IBIZA_ACCEL_POS_2: 76.07843
+  response: 7E80462F44AC2

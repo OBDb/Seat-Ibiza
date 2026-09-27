@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22159F
+test_cases:
+- expected_values:
+    IBIZA_HIGH_FUEL_P_ACT: 2.7725
+  response: 7E80562159F15A9
+- expected_values:
+    IBIZA_HIGH_FUEL_P_ACT: 2.937
+  response: 7E80562159F16F2
+- expected_values:
+    IBIZA_HIGH_FUEL_P_ACT: 4.6095
+  response: 7E80562159F2403
+- expected_values:
+    IBIZA_HIGH_FUEL_P_ACT: 8.7495
+  response: 7E80562159F445B

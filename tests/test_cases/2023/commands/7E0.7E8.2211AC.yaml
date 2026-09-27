@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211AC
+test_cases:
+- expected_values:
+    IBIZA_MAF_THROUGH_THROTTLE: 5.2
+  response: 7E8056211AC0034
+- expected_values:
+    IBIZA_MAF_THROUGH_THROTTLE: 24.9
+  response: 7E8056211AC00F9
+- expected_values:
+    IBIZA_MAF_THROUGH_THROTTLE: 29.3
+  response: 7E8056211AC0125

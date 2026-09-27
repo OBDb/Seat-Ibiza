@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221097
+test_cases:
+- expected_values:
+    IBIZA_GEN_POWER: 395.8374
+  response: 7E805621097002A
+- expected_values:
+    IBIZA_GEN_POWER: 442.9609
+  response: 7E805621097002F
+- expected_values:
+    IBIZA_GEN_POWER: 744.5513
+  response: 7E805621097004F

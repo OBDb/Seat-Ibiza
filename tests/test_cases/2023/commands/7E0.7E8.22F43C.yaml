@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F43C
+test_cases:
+- expected_values:
+    IBIZA_EXH_GAS_T: 411.8
+  response: 7E80562F43C11A6
+- expected_values:
+    IBIZA_EXH_GAS_T: 471.1
+  response: 7E80562F43C13F7
+- expected_values:
+    IBIZA_EXH_GAS_T: 473.7
+  response: 7E80562F43C1411
+- expected_values:
+    IBIZA_EXH_GAS_T: 570.4
+  response: 7E80562F43C17D8

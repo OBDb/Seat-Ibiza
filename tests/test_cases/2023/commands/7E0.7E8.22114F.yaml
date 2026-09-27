@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     IBIZA_MISFIRES_C1: 8500
   response: 7E80562114F2134
+- expected_values:
+    IBIZA_MISFIRES_C1: 8503
+  response: 7E80562114F2137

@@ -3,77 +3,9 @@
     { "hdr": "7E1", "type": "transmission" }
   ],
   "commands": [
-{ "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A0"}, "freq": 30,
-  "signals": [
-    {"id": "IBIZA_TP_FR", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
-  ]},
-{ "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A1"}, "freq": 30,
-  "signals": [
-    {"id": "IBIZA_TP_FL", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "unit": "bars" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
-  ]},
-{ "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A2"}, "freq": 30,
-  "signals": [
-    {"id": "IBIZA_TP_RL", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "unit": "bars" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
-  ]},
-{ "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A3"}, "freq": 30,
-  "signals": [
-    {"id": "IBIZA_TP_RR", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "unit": "bars" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
-  ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "cmd": {"22": "1945"}, "freq": 2, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IBIZA_HEATER_FOR_NOZZLES_ACTIVE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Heater for nozzles active"}
-  ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "08A7"}, "freq": 1,
-  "signals": [
-    {"id": "IBIZA_PQ35_HAL_DIFF_LK", "path": "Drivetrain", "fmt": {"bix": 16, "len": 8, "max": 1, "unit": "scalar" }, "name": "All-wheel drive differential lock engagement"}
-  ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "0C0A"}, "freq": 1,
-  "signals": [
-    {"id": "IBIZA_PQ35_HAL_MODE", "path": "Drivetrain", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "All-wheel drive mode"}
-  ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2B1B"}, "freq": 0.25,
-  "signals": [
-    {"id": "IBIZA_PQ35_FL_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
-  ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2B1C"}, "freq": 0.25,
-  "signals": [
-    {"id": "IBIZA_PQ35_FR_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
-  ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2B1D"}, "freq": 0.25,
-  "signals": [
-    {"id": "IBIZA_PQ35_RL_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
-  ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2B1E"}, "freq": 0.25,
-  "signals": [
-    {"id": "IBIZA_PQ35_RR_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
-  ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2BE4"}, "freq": 5,
-  "signals": [
-    {"id": "IBIZA_PQ35_HAL_FRICT_T", "path": "Tires", "fmt": {"bix": 8, "len": 16, "max": 427.68, "min": -227.67, "div": 100, "add": -227.67, "unit": "celsius" }, "name": "All-wheel drive friction disc temperature"}
-  ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2BE6"}, "freq": 1,
-  "signals": [
-    {"id": "IBIZA_PQ35_HAL_I", "path": "Drivetrain", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "amps" }, "name": "All-wheel drive current"}
-  ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2BE7"}, "freq": 1,
-  "signals": [
-    {"id": "IBIZA_PQ35_HAL_PWM", "path": "Drivetrain", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "All-wheel drive pulse width modulation"}
-  ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2BE9"}, "freq": 5,
-  "signals": [
-    {"id": "IBIZA_PQ35_HAL_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "All-wheel drive voltage"}
-  ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2BF0"}, "freq": 0.25,
-  "signals": [
-    {"id": "IBIZA_PQ35_HAL_F_R_VSS_DIFF", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "All-wheel drive front-rear speed differential"}
-  ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2BF1"}, "freq": 5,
-  "signals": [
-    {"id": "IBIZA_PQ35_HAL_T", "path": "Engine", "fmt": {"bix": 8, "len": 16, "max": 200, "min": -40, "div": 100, "add": -227.67, "unit": "celsius" }, "name": "All-wheel drive temperature"}
-  ]},
-{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2BF3"}, "freq": 1,
-  "signals": [
-    {"id": "IBIZA_PQ35_HAL_DUTY", "path": "Drivetrain", "fmt": { "len": 8, "max": 100, "mul": 100.39, "div": 255, "unit": "percent" }, "name": "All-wheel drive duty cycle"}
   ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A00"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
@@ -85,7 +17,7 @@
   ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A09"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "IBIZA_BAT_I", "path": "Battery", "fmt": { "len": 24, "max": 13777.215, "min": -3000, "mul": 10, "div": 10000, "add": -3000, "unit": "amps" }, "name": "Battery current"}
+    {"id": "IBIZA_BAT_I", "path": "Battery", "fmt": { "len": 32, "max": 1000, "min": -1000, "div": 1000, "sign": true, "unit": "amps" }, "name": "Battery current"}
   ]},
 { "hdr": "710", "rax": "77A", "dbg": true, "cmd": {"22": "2A0A"}, "freq": 30,
   "signals": [
@@ -109,12 +41,12 @@
   ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A10"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "IBIZA_BAT_V_AT_REST", "path": "Battery", "fmt": { "len": 8, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Battery voltage at rest"}
+    {"id": "IBIZA_BAT_V_AT_REST", "path": "Battery", "fmt": { "len": 8, "max": 34.5, "min": 9, "div": 10, "add": 9, "unit": "volts" }, "name": "Battery voltage at rest"}
   ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A61"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "IBIZA_SSB_TOTAL_CHARGE",    "path": "Battery", "fmt": {           "len": 32, "max": 100, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total charge"},
-    {"id": "IBIZA_SSB_TOTAL_DISCHARGE", "path": "Battery", "fmt": {"bix": 32, "len": 32, "max": 100, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total discharge"}
+    {"id": "IBIZA_SSB_TOTAL_CHARGE",    "path": "Battery", "fmt": {           "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total charge"},
+    {"id": "IBIZA_SSB_TOTAL_DISCHARGE", "path": "Battery", "fmt": {"bix": 32, "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total discharge"}
   ]},
 { "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1812"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
@@ -284,7 +216,7 @@
   ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2609"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "IBIZA_AAT_746", "path": "Climate", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "sign": true, "unit": "celsius" }, "name": "Outside temperature"}
+    {"id": "IBIZA_AAT_746", "path": "Climate", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260C"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
@@ -349,20 +281,6 @@
 { "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "482B"}, "freq": 2,
   "signals": [
     {"id": "IBIZA_CLIMATE_A_C_CLCH", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "A/C clutch"}
-  ]},
-{ "hdr": "767", "rax": "7D1", "fcm1": true, "dbg": true, "cmd": {"22": "0838"}, "freq": 5,
-  "signals": [
-    {"id": "IBIZA_ECALL_SOC", "path": "Battery", "fmt": {"bix": 8, "len": 8, "max": 100, "unit": "percent" }, "name": "eCall battery charge level"},
-    {"id": "IBIZA_ECALL_STATUS", "path": "Battery", "name": "eCall battery status", "fmt": {"len": 8, "map": {
-          "1": { "description": "CRITICAL", "value": "CRITICAL" },
-          "2": { "description": "NORMAL",   "value": "NORMAL" }
-        }}
-    }
-  ]},
-{ "hdr": "767", "rax": "7D1", "fcm1": true, "dbg": true, "cmd": {"22": "2431"}, "freq": 1,
-  "signals": [
-    {"id": "IBIZA_GPS_SATS_VISIBLE", "path": "GPS", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, visible"},
-    {"id": "IBIZA_GPS_SATS_TRACKED", "path": "GPS", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, tracked"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1002"}, "freq": 1,
   "signals": [

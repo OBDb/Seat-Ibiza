@@ -1,8 +1,8 @@
 command_id: 746.7B0.222609|fc=1
 test_cases:
 - expected_values:
-    IBIZA_AAT_746: -60
+    IBIZA_AAT_746: 18
   response: 7B00462260988
 - expected_values:
-    IBIZA_AAT_746: -59
+    IBIZA_AAT_746: 19
   response: 7B0046226098A

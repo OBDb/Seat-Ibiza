@@ -1,6 +1,12 @@
 command_id: 714.77E.22229A
 test_cases:
 - expected_values:
+    IBIZA_FLV: 33.625
+  response: 77E0562229A010D
+- expected_values:
+    IBIZA_FLV: 33.75
+  response: 77E0562229A010E
+- expected_values:
     IBIZA_FLV: 34.5
   response: 77E0562229A0114
 - expected_values:

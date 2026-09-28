@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     IBIZA_FUEL_AVG: 5.8
   response: 77E05622299003A
+- expected_values:
+    IBIZA_FUEL_AVG: 5.9
+  response: 77E05622299003B
+- expected_values:
+    IBIZA_FUEL_AVG: 6
+  response: 77E05622299003C

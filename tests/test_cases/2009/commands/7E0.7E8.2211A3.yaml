@@ -8,4 +8,7 @@ test_cases:
   response: 7E8056211A3FFDB
 - expected_values:
     IBIZA_EA888B_BOOST_P_CMD: 100
+  response: 7E8056211A3FFE3
+- expected_values:
+    IBIZA_EA888B_BOOST_P_CMD: 100
   response: 7E8056211A3FFEB

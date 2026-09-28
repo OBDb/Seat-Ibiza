@@ -1,29 +1,8 @@
 command_id: 714.77E.22229A
 test_cases:
 - expected_values:
-    IBIZA_FLV: 33.625
-  response: 77E0562229A010D
-- expected_values:
-    IBIZA_FLV: 33.75
-  response: 77E0562229A010E
-- expected_values:
-    IBIZA_FLV: 34.5
-  response: 77E0562229A0114
-- expected_values:
-    IBIZA_FLV: 34.625
-  response: 77E0562229A0115
-- expected_values:
-    IBIZA_FLV: 34.75
-  response: 77E0562229A0116
-- expected_values:
-    IBIZA_FLV: 34.875
-  response: 77E0562229A0117
-- expected_values:
-    IBIZA_FLV: 35
-  response: 77E0562229A0118
-- expected_values:
-    IBIZA_FLV: 35.125
-  response: 77E0562229A0119
+    IBIZA_FLV: 32.625
+  response: 77E0562229A0105
 - expected_values:
     IBIZA_FLV: 35.25
   response: 77E0562229A011A

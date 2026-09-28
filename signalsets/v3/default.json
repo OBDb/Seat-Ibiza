@@ -1620,7 +1620,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "201A"}, "freq": 5,
   "signals": [
-    {"id": "IBIZA_EOT_CALC", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "celsius" }, "name": "Engine oil temperature, calculated"}
+    {"id": "IBIZA_EOT_CALC", "path": "Engine", "fmt": { "len": 16, "max": 3276.6999, "min": -3276.7999, "div": 10, "sign": true, "unit": "celsius" }, "name": "Engine oil temperature, calculated"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "201D"}, "freq": 1,
   "signals": [
@@ -1716,7 +1716,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "208A"}, "freq": 1,
   "signals": [
-    {"id": "IBIZA_OIL_ASH_RESIDUE", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "unknown" }, "name": "Oil ash residue"}
+    {"id": "IBIZA_OIL_ASH_RESIDUE", "path": "Engine", "fmt": { "len": 32, "max": 1310.824, "mul": 0.0000003052, "unit": "unknown" }, "name": "Oil ash residue"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "208B"}, "freq": 1,
   "signals": [
@@ -1724,7 +1724,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "208C"}, "freq": 1,
   "signals": [
-    {"id": "IBIZA_SOOT_MASS_MEAS", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Soot mass measured"}
+    {"id": "IBIZA_SOOT_MASS_MEAS", "path": "Engine", "fmt": { "len": 16, "max": 127.996, "min": -127.9999, "div": 256, "add": -128, "unit": "unknown" }, "name": "Soot mass measured"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "208D"}, "freq": 30,
   "signals": [
@@ -1912,7 +1912,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "39A3"}, "freq": 1,
   "signals": [
-    {"id": "IBIZA_CHG_P_ACTUATOR_SPEC", "path": "Battery", "fmt": { "len": 16, "max": 100, "mul": 0.012207, "unit": "percent" }, "name": "Charge pressure actuator, specified position"}
+    {"id": "IBIZA_CHG_P_ACTUATOR_SPEC", "path": "Battery", "fmt": { "len": 16, "max": 655.3499, "div": 100, "unit": "percent" }, "name": "Charge pressure actuator, specified position"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "39A4"}, "freq": 1,
   "signals": [
@@ -2860,7 +2860,7 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3841"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "IBIZA_ODO_V1", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "IBIZA_ODO_V1", "path": "Trips", "fmt": { "len": 32, "blsb": true, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3852"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [

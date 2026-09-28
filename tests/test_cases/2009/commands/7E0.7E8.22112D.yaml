@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22112D
+test_cases:
+- expected_values:
+    IBIZA_SPARK_EFFICIENCY_DEV: 0
+  response: 7E80562112D0000

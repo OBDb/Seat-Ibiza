@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2210C2
+test_cases:
+- expected_values:
+    IBIZA_PQ35_EGR_DUTY: 0
+  response: 7E8056210C20000
+- expected_values:
+    IBIZA_PQ35_EGR_DUTY: 2.26
+  response: 7E8056210C200E2
+- expected_values:
+    IBIZA_PQ35_EGR_DUTY: 2.54
+  response: 7E8056210C200FE

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221136
+test_cases:
+- expected_values:
+    IBIZA_HEIGHT_CORR: 0
+  response: '7E8056211360000'
+- expected_values:
+    IBIZA_HEIGHT_CORR: 0.35303
+  response: '7E8056211361698'
+- expected_values:
+    IBIZA_HEIGHT_CORR: 0.36877
+  response: 7E805621136179A

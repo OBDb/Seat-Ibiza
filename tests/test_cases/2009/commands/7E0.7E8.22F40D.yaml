@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22F40D
+test_cases:
+- expected_values:
+    IBIZA_VSS: 0
+  response: 7E80462F40D00
+- expected_values:
+    IBIZA_VSS: 1
+  response: 7E80462F40D01
+- expected_values:
+    IBIZA_VSS: 14
+  response: 7E80462F40D0E
+- expected_values:
+    IBIZA_VSS: 23
+  response: 7E80462F40D17
+- expected_values:
+    IBIZA_VSS: 29
+  response: 7E80462F40D1D
+- expected_values:
+    IBIZA_VSS: 43
+  response: 7E80462F40D2B
+- expected_values:
+    IBIZA_VSS: 88
+  response: 7E80462F40D58
+- expected_values:
+    IBIZA_VSS: 99
+  response: 7E80462F40D63

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211DC
+test_cases:
+- expected_values:
+    IBIZA_INT_MANIFOLD_P_RAW: 4.6875
+  response: 7E8046211DC3C
+- expected_values:
+    IBIZA_INT_MANIFOLD_P_RAW: 4.92188
+  response: 7E8046211DC3F

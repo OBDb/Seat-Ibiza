@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22208D|din=03
+test_cases:
+- expected_values:
+    IBIZA_DIST_SINCE_REGEN: 0
+  response: 7E80762208D0000108D
+- expected_values:
+    IBIZA_DIST_SINCE_REGEN: 0
+  response: 7E80762208D00001093
+- expected_values:
+    IBIZA_DIST_SINCE_REGEN: 0
+  response: 7E80762208D000010B3
+- expected_values:
+    IBIZA_DIST_SINCE_REGEN: 0
+  response: 7E80762208D000010E3
+- expected_values:
+    IBIZA_DIST_SINCE_REGEN: 0
+  response: 7E80762208D000010F7
+- expected_values:
+    IBIZA_DIST_SINCE_REGEN: 0
+  response: 7E80762208D0000110D
+- expected_values:
+    IBIZA_DIST_SINCE_REGEN: 0
+  response: 7E80762208D0000111A

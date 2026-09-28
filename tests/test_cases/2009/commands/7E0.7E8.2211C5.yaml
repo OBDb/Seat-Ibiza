@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211C5
+test_cases:
+- expected_values:
+    IBIZA_OIL_MIN: 3.328
+  response: 7E8056211C50340
+- expected_values:
+    IBIZA_OIL_MIN: 3.376
+  response: 7E8056211C5034C
+- expected_values:
+    IBIZA_OIL_MIN: 3.392
+  response: 7E8056211C50350
+- expected_values:
+    IBIZA_OIL_MIN: 3.428
+  response: 7E8056211C50359

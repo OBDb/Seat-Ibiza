@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22297B|din=03
+test_cases:
+- expected_values:
+    IBIZA_DPF_INPUT_GAS_T: 64
+  response: 7E80562297B159C
+- expected_values:
+    IBIZA_DPF_INPUT_GAS_T: 88
+  response: 7E80562297B1BA1
+- expected_values:
+    IBIZA_DPF_INPUT_GAS_T: 96
+  response: 7E80562297B1D7B
+- expected_values:
+    IBIZA_DPF_INPUT_GAS_T: 104
+  response: 7E80562297B1F23
+- expected_values:
+    IBIZA_DPF_INPUT_GAS_T: 108
+  response: 7E80562297B201A
+- expected_values:
+    IBIZA_DPF_INPUT_GAS_T: 120
+  response: 7E80562297B23B1
+- expected_values:
+    IBIZA_DPF_INPUT_GAS_T: 124
+  response: 7E80562297B24BF

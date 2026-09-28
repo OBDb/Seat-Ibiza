@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22205D|din=03
+test_cases:
+- expected_values:
+    IBIZA_POST_INJ_1_7E0: 0
+  response: 7E80562205D0000
+- expected_values:
+    IBIZA_POST_INJ_1_7E0: 0.24
+  response: 7E80562205D00F0
+- expected_values:
+    IBIZA_POST_INJ_1_7E0: 0.242
+  response: 7E80562205D00F2
+- expected_values:
+    IBIZA_POST_INJ_1_7E0: 0.244
+  response: 7E80562205D00F4
+- expected_values:
+    IBIZA_POST_INJ_1_7E0: 0.258
+  response: 7E80562205D0102

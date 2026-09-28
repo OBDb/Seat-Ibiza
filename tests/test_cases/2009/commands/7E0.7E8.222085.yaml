@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222085
+test_cases:
+- expected_values:
+    IBIZA_DPF_OFFSET_DIFF_P: -4995
+  response: '7E8056220850020'

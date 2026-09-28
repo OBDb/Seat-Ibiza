@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2220C0|din=03
+test_cases:
+- expected_values:
+    IBIZA_POST_INJ_3_7E0: 0
+  response: 7E8056220C00000

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222087
+test_cases:
+- expected_values:
+    IBIZA_FIELD_REGEN_REQ_STAT: 0
+  response: '7E80462208700'

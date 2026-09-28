@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F40C
+test_cases:
+- expected_values:
+    IBIZA_RPM_7E0: 1040
+  response: 7E80562F40C1040
+- expected_values:
+    IBIZA_RPM_7E0: 1769.75
+  response: 7E80562F40C1BA7
+- expected_values:
+    IBIZA_RPM_7E0: 1857
+  response: 7E80562F40C1D04

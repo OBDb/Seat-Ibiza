@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22406C|din=03
+test_cases:
+- expected_values:
+    IBIZA_OIL_ASH_RESIDUE_7E0: 33.62
+  response: 7E80762406C0D228E39
+- expected_values:
+    IBIZA_OIL_ASH_RESIDUE_7E0: 33.62
+  response: 7E80762406C0D22978B
+- expected_values:
+    IBIZA_OIL_ASH_RESIDUE_7E0: 33.62
+  response: 7E80762406C0D22A331
+- expected_values:
+    IBIZA_OIL_ASH_RESIDUE_7E0: 33.62
+  response: 7E80762406C0D22AF6C
+- expected_values:
+    IBIZA_OIL_ASH_RESIDUE_7E0: 33.62
+  response: 7E80762406C0D22B669
+- expected_values:
+    IBIZA_OIL_ASH_RESIDUE_7E0: 33.62
+  response: 7E80762406C0D22BD66
+- expected_values:
+    IBIZA_OIL_ASH_RESIDUE_7E0: 33.62
+  response: 7E80762406C0D22BFBB

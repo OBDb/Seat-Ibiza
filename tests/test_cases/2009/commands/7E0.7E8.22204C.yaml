@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22204C
+test_cases:
+- expected_values:
+    IBIZA_FUEL_RATE_VAR_2: 5.01
+  response: 7E80562204C01F5
+- expected_values:
+    IBIZA_FUEL_RATE_VAR_2: 35.81
+  response: 7E80562204C0DFD
+- expected_values:
+    IBIZA_FUEL_RATE_VAR_2: 41.05
+  response: 7E80562204C1009

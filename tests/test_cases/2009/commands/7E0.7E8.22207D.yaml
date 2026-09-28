@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22207D
+test_cases:
+- expected_values:
+    IBIZA_DPF_SERVICE_REGEN: 0
+  response: 7E80762207D00000000

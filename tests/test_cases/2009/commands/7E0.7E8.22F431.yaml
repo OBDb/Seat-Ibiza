@@ -4,20 +4,5 @@ test_cases:
     IBIZA_CLR_DIST: 877
   response: 7E80562F431036D
 - expected_values:
-    IBIZA_CLR_DIST: 881
-  response: 7E80562F4310371
-- expected_values:
-    IBIZA_CLR_DIST: 883
-  response: 7E80562F4310373
-- expected_values:
-    IBIZA_CLR_DIST: 888
-  response: 7E80562F4310378
-- expected_values:
-    IBIZA_CLR_DIST: 889
-  response: 7E80562F4310379
-- expected_values:
-    IBIZA_CLR_DIST: 890
-  response: 7E80562F431037A
-- expected_values:
-    IBIZA_CLR_DIST: 891
-  response: 7E80562F431037B
+    IBIZA_CLR_DIST: 925
+  response: 7E80562F431039D

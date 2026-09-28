@@ -4,20 +4,5 @@ test_cases:
     IBIZA_SOOT_MASS_MEAS: -127.87891
   response: 7E80562208C001F
 - expected_values:
-    IBIZA_SOOT_MASS_MEAS: -127.87109
-  response: 7E80562208C0021
-- expected_values:
-    IBIZA_SOOT_MASS_MEAS: -127.84375
-  response: 7E80562208C0028
-- expected_values:
-    IBIZA_SOOT_MASS_MEAS: -127.82812
-  response: 7E80562208C002C
-- expected_values:
-    IBIZA_SOOT_MASS_MEAS: -127.8125
-  response: 7E80562208C0030
-- expected_values:
-    IBIZA_SOOT_MASS_MEAS: -127.79688
-  response: 7E80562208C0034
-- expected_values:
-    IBIZA_SOOT_MASS_MEAS: -127.77344
-  response: 7E80562208C003A
+    IBIZA_SOOT_MASS_MEAS: -127.69922
+  response: 7E80562208C004D

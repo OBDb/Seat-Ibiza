@@ -4,11 +4,11 @@ test_cases:
     IBIZA_RUNTM: 151
   response: 7E80562F41F0097
 - expected_values:
-    IBIZA_RUNTM: 746
-  response: 7E80562F41F02EA
+    IBIZA_RUNTM: 512
+  response: 7E80562F41F0200
 - expected_values:
-    IBIZA_RUNTM: 1026
-  response: 7E80562F41F0402
+    IBIZA_RUNTM: 1519
+  response: 7E80562F41F05EF
 - expected_values:
-    IBIZA_RUNTM: 1544
-  response: 7E80562F41F0608
+    IBIZA_RUNTM: 2308
+  response: 7E80562F41F0904

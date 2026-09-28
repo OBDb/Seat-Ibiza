@@ -4,8 +4,26 @@ test_cases:
     IBIZA_PQ35_EGR_DUTY: 0
   response: 7E8056210C20000
 - expected_values:
+    IBIZA_PQ35_EGR_DUTY: 2.25
+  response: 7E8056210C200E1
+- expected_values:
     IBIZA_PQ35_EGR_DUTY: 2.26
   response: 7E8056210C200E2
 - expected_values:
+    IBIZA_PQ35_EGR_DUTY: 2.45
+  response: 7E8056210C200F5
+- expected_values:
+    IBIZA_PQ35_EGR_DUTY: 2.5
+  response: 7E8056210C200FA
+- expected_values:
     IBIZA_PQ35_EGR_DUTY: 2.54
   response: 7E8056210C200FE
+- expected_values:
+    IBIZA_PQ35_EGR_DUTY: 3.05
+  response: 7E8056210C20131
+- expected_values:
+    IBIZA_PQ35_EGR_DUTY: 3.13
+  response: 7E8056210C20139
+- expected_values:
+    IBIZA_PQ35_EGR_DUTY: 3.19
+  response: 7E8056210C2013F

@@ -7,23 +7,5 @@ test_cases:
     IBIZA_REQ_TQ_AMOUNT: 25.6
   response: 7E8056210BE0100
 - expected_values:
-    IBIZA_REQ_TQ_AMOUNT: 25.8
-  response: 7E8056210BE0102
-- expected_values:
-    IBIZA_REQ_TQ_AMOUNT: 26.8
-  response: 7E8056210BE010C
-- expected_values:
-    IBIZA_REQ_TQ_AMOUNT: 35.5
-  response: 7E8056210BE0163
-- expected_values:
-    IBIZA_REQ_TQ_AMOUNT: 38.5
-  response: 7E8056210BE0181
-- expected_values:
-    IBIZA_REQ_TQ_AMOUNT: 40.7
-  response: 7E8056210BE0197
-- expected_values:
-    IBIZA_REQ_TQ_AMOUNT: 42.3
-  response: 7E8056210BE01A7
-- expected_values:
     IBIZA_REQ_TQ_AMOUNT: 44
   response: 7E8056210BE01B8

@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     IBIZA_TIME_SINCE_REGEN: 46
   response: 7E807622089002E83A8
+- expected_values:
+    IBIZA_TIME_SINCE_REGEN: 47
+  response: 7E807622089002F5AC6

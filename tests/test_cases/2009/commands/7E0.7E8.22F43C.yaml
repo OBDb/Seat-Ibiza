@@ -7,8 +7,8 @@ test_cases:
     IBIZA_EXH_GAS_T: 139.9
   response: 7E80562F43C0707
 - expected_values:
-    IBIZA_EXH_GAS_T: 187.1
-  response: 7E80562F43C08DF
+    IBIZA_EXH_GAS_T: 394.8
+  response: 7E80562F43C10FC
 - expected_values:
-    IBIZA_EXH_GAS_T: 346.5
-  response: 7E80562F43C0F19
+    IBIZA_EXH_GAS_T: 552.6
+  response: 7E80562F43C1726

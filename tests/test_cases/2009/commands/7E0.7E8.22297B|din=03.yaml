@@ -4,23 +4,11 @@ test_cases:
     IBIZA_DPF_INPUT_GAS_T: 64
   response: 7E80562297B159C
 - expected_values:
-    IBIZA_DPF_INPUT_GAS_T: 72
-  response: 7E80562297B1784
-- expected_values:
-    IBIZA_DPF_INPUT_GAS_T: 88
-  response: 7E80562297B1BA1
-- expected_values:
-    IBIZA_DPF_INPUT_GAS_T: 96
-  response: 7E80562297B1D7B
-- expected_values:
     IBIZA_DPF_INPUT_GAS_T: 104
-  response: 7E80562297B1F23
+  response: 7E80562297B1FF1
 - expected_values:
-    IBIZA_DPF_INPUT_GAS_T: 108
-  response: 7E80562297B201A
+    IBIZA_DPF_INPUT_GAS_T: 132
+  response: 7E80562297B2606
 - expected_values:
-    IBIZA_DPF_INPUT_GAS_T: 120
-  response: 7E80562297B23B1
-- expected_values:
-    IBIZA_DPF_INPUT_GAS_T: 124
-  response: 7E80562297B24BF
+    IBIZA_DPF_INPUT_GAS_T: 140
+  response: 7E80562297B287F

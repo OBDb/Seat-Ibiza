@@ -5,22 +5,13 @@ test_cases:
   response: 7E807622089002C912E
 - expected_values:
     IBIZA_TIME_SINCE_REGEN: 45
-  response: 7E807622089002D41C8
-- expected_values:
-    IBIZA_TIME_SINCE_REGEN: 45
   response: 7E807622089002D79F4
-- expected_values:
-    IBIZA_TIME_SINCE_REGEN: 45
-  response: 7E807622089002DBC2A
-- expected_values:
-    IBIZA_TIME_SINCE_REGEN: 45
-  response: 7E807622089002DFE4C
 - expected_values:
     IBIZA_TIME_SINCE_REGEN: 46
   response: 7E807622089002E4104
 - expected_values:
-    IBIZA_TIME_SINCE_REGEN: 46
-  response: 7E807622089002E83A8
-- expected_values:
     IBIZA_TIME_SINCE_REGEN: 47
-  response: 7E807622089002F5AC6
+  response: 7E807622089002FFFDA
+- expected_values:
+    IBIZA_TIME_SINCE_REGEN: 50
+  response: '7E80762208900320492'

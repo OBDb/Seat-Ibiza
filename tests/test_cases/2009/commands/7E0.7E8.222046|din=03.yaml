@@ -10,5 +10,11 @@ test_cases:
     IBIZA_INJ_AMOUNT_DEV_CYL_1: 0.20399
   response: 7E805622046022D
 - expected_values:
+    IBIZA_INJ_AMOUNT_DEV_CYL_1: 0.26222
+  response: 7E80562204602CC
+- expected_values:
     IBIZA_INJ_AMOUNT_DEV_CYL_1: 0.49807
   response: '7E8056220460550'
+- expected_values:
+    IBIZA_INJ_AMOUNT_DEV_CYL_1: 0.86174
+  response: '7E8056220460931'

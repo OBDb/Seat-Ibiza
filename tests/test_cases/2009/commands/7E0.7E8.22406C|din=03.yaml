@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     IBIZA_OIL_ASH_RESIDUE_7E0: 33.62
   response: 7E80762406C0D22BFBB
+- expected_values:
+    IBIZA_OIL_ASH_RESIDUE_7E0: 33.62
+  response: 7E80762406C0D22C4F8

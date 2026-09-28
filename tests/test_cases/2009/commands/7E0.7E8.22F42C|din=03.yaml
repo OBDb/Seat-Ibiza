@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     IBIZA_PQ35_HIGH_P_EGR_CLOSING_VAR_2: 0
   response: 7E80462F42CD7
+- expected_values:
+    IBIZA_PQ35_HIGH_P_EGR_CLOSING_VAR_2: 0
+  response: 7E80462F42CD8

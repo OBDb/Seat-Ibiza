@@ -2,25 +2,7 @@ command_id: 7E0.7E8.222084
 test_cases:
 - expected_values:
     IBIZA_DPF_DIFF_P: 0
-  response: '7E8056220840027'
-- expected_values:
-    IBIZA_DPF_DIFF_P: 0
-  response: '7E8056220840033'
-- expected_values:
-    IBIZA_DPF_DIFF_P: 0
-  response: '7E8056220840055'
-- expected_values:
-    IBIZA_DPF_DIFF_P: 0
-  response: '7E8056220840097'
-- expected_values:
-    IBIZA_DPF_DIFF_P: 0
-  response: 7E80562208400AD
-- expected_values:
-    IBIZA_DPF_DIFF_P: 0
-  response: 7E80562208400C3
-- expected_values:
-    IBIZA_DPF_DIFF_P: 0
-  response: 7E80562208400DC
+  response: '7E8056220840023'
 - expected_values:
     IBIZA_DPF_DIFF_P: 0
   response: 7E80562208400EF

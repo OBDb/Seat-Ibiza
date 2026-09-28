@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211A3
+test_cases:
+- expected_values:
+    IBIZA_EA888B_BOOST_P_CMD: 0
+  response: 7E8056211A30000
+- expected_values:
+    IBIZA_EA888B_BOOST_P_CMD: 100
+  response: 7E8056211A3FFDB
+- expected_values:
+    IBIZA_EA888B_BOOST_P_CMD: 100
+  response: 7E8056211A3FFEB

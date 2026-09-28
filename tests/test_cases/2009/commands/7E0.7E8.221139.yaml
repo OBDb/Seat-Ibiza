@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221139
+test_cases:
+- expected_values:
+    IBIZA_MEAN_INJ_QUANTITY: 0
+  response: '7E8056211390000'
+- expected_values:
+    IBIZA_MEAN_INJ_QUANTITY: 53.17
+  response: 7E80562113914C5
+- expected_values:
+    IBIZA_MEAN_INJ_QUANTITY: 56.26
+  response: 7E80562113915FA
+- expected_values:
+    IBIZA_MEAN_INJ_QUANTITY: 75.99
+  response: 7E8056211391DAF

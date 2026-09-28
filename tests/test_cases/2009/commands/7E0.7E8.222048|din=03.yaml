@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222048|din=03
+test_cases:
+- expected_values:
+    IBIZA_INJ_AMOUNT_DEV_CYL_3: 0
+  response: '7E8056220480000'
+- expected_values:
+    IBIZA_INJ_AMOUNT_DEV_CYL_3: 0.11317
+  response: '7E8056220480135'
+- expected_values:
+    IBIZA_INJ_AMOUNT_DEV_CYL_3: -0.23988
+  response: 7E805622048FD71

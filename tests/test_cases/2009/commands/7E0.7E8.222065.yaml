@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.222065
+test_cases:
+- expected_values:
+    IBIZA_CHG_P_ACTUATOR: 24.448
+  response: 7E8056220655F80
+- expected_values:
+    IBIZA_CHG_P_ACTUATOR: 25.612
+  response: 7E805622065640C
+- expected_values:
+    IBIZA_CHG_P_ACTUATOR: 25.702
+  response: '7E8056220656466'
+- expected_values:
+    IBIZA_CHG_P_ACTUATOR: 25.926
+  response: '7E8056220656546'
+- expected_values:
+    IBIZA_CHG_P_ACTUATOR: 29.196
+  response: 7E805622065720C
+- expected_values:
+    IBIZA_CHG_P_ACTUATOR: 29.42
+  response: 7E80562206572EC
+- expected_values:
+    IBIZA_CHG_P_ACTUATOR: 29.464
+  response: '7E8056220657318'
+- expected_values:
+    IBIZA_CHG_P_ACTUATOR: 32.767
+  response: 7E8056220657FFF

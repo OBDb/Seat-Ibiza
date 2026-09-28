@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F430
+test_cases:
+- expected_values:
+    IBIZA_WARM_UPS: 34
+  response: 7E80462F43022
+- expected_values:
+    IBIZA_WARM_UPS: 35
+  response: 7E80462F43023

@@ -162,7 +162,7 @@
   "signals": [
     {"id": "IBIZA_CHARGE_AIR_P", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Charge air pressure"}
   ]},
-{ "hdr": "714", "rax": "77E", "cmd": {"22": "224B"}, "freq": 3600, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "714", "rax": "77E", "cmd": {"22": "224B"}, "freq": 3600, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_OIL_WEAR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Oil thermal wear"}
   ]},
@@ -170,11 +170,11 @@
   "signals": [
     {"id": "IBIZA_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 255, "unit": "kilometers" }, "name": "Range remaining", "suggestedMetric": "fuelRange"}
   ]},
-{ "hdr": "714", "rax": "77E", "cmd": {"22": "2299"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "714", "rax": "77E", "cmd": {"22": "2299"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012], "from": 2014 },
   "signals": [
     {"id": "IBIZA_FUEL_AVG", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Fuel consumption, average"}
   ]},
-{ "hdr": "714", "rax": "77E", "cmd": {"22": "229A"}, "freq": 30, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "714", "rax": "77E", "cmd": {"22": "229A"}, "freq": 30, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012], "from": 2014 },
   "signals": [
     {"id": "IBIZA_FLV", "path": "Fuel", "fmt": { "len": 16, "max": 255, "div": 8, "unit": "liters" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
   ]},
@@ -186,19 +186,19 @@
   "signals": [
     {"id": "IBIZA_IAT", "path": "Climate", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "celsius" }, "name": "Interior air temperature"}
   ]},
-{ "hdr": "715", "rax": "77F", "cmd": {"22": "2353"}, "freq": 3600, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2353"}, "freq": 3600, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_CRSH_FRONT", "path": "Trips", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, front"}
   ]},
-{ "hdr": "715", "rax": "77F", "cmd": {"22": "2354"}, "freq": 3600, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2354"}, "freq": 3600, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_CRASH_CNT_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, driver side"}
   ]},
-{ "hdr": "715", "rax": "77F", "cmd": {"22": "2355"}, "freq": 3600, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2355"}, "freq": 3600, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_CRASH_CNT_PSNGR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, passenger side"}
   ]},
-{ "hdr": "715", "rax": "77F", "cmd": {"22": "2356"}, "freq": 3600, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "715", "rax": "77F", "cmd": {"22": "2356"}, "freq": 3600, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_CRASH_CNT_REAR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rear"}
   ]},
@@ -354,7 +354,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_FUEL_LVL_2", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel level variant"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "100D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "100D"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_PQ35_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "scalar" }, "name": "Current gear"}
   ]},
@@ -426,7 +426,7 @@
   "signals": [
     {"id": "IBIZA_BRAKE_P", "path": "Control", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "bars" }, "name": "Brake pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "105D"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "105D"}, "freq": 0.25, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_BRAKE_PEDAL_POS", "path": "Control", "fmt": { "len": 16, "max": 100, "mul": 122.07, "div": 10000, "unit": "percent" }, "name": "Brake pedal position"}
   ]},
@@ -442,7 +442,7 @@
   "signals": [
     {"id": "IBIZA_CYL_HEAD_T", "path": "Engine", "fmt": { "len": 16, "max": 11336.3, "min": -460, "mul": 0.18, "add": -460, "unit": "fahrenheit" }, "name": "Cylinder head temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1069"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1069"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_PQ35_ENG_START_QTY", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Engine start quantity"}
   ]},
@@ -458,7 +458,7 @@
   "signals": [
     {"id": "IBIZA_GEN_POWER", "path": "Engine", "fmt": { "len": 16, "max": 617647.7145, "mul": 9.4247, "unit": "watts" }, "name": "Generator power"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10A4"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10A4"}, "freq": 0.25, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_INJ_SPD_INJ_0", "path": "Movement", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Injection speed injector 0"}
   ]},
@@ -474,11 +474,11 @@
   "signals": [
     {"id": "IBIZA_INJ_SPD_INJ_3", "path": "Movement", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Injection speed injector 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10BE"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10BE"}, "freq": 0.25, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_REQ_TQ_AMOUNT", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Requested torque, amount for auxiliary units"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10C2"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10C2"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012], "from": 2014 },
   "signals": [
     {"id": "IBIZA_PQ35_EGR_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Exhaust gas recirculation valve duty"}
   ]},
@@ -614,7 +614,7 @@
   "signals": [
     {"id": "IBIZA_CAM_SPD", "path": "Movement", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Camshaft speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1125"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1125"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_CAM_ADPT_INT_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 719, "min": -720, "mul": 219.73, "div": 10000, "sign": true, "unit": "degrees" }, "name": "Camshaft adaptation, intake bank 1, phase position"}
   ]},
@@ -638,7 +638,7 @@
   "signals": [
     {"id": "IBIZA_ACT", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Turbine actuator 1 bank 1: activation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "112D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112D"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_SPARK_EFFICIENCY_DEV", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 78.1, "div": 100, "unit": "percent" }, "name": "Spark efficiency deviation at part load"}
   ]},
@@ -654,19 +654,19 @@
   "signals": [
     {"id": "IBIZA_COOLANT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Coolant temperature at radiator outlet"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1136"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1136"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_HEIGHT_CORR", "path": "Engine", "fmt": { "len": 16, "max": 3.9999, "mul": 0.0000610348, "unit": "scalar" }, "name": "Height correction"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1139"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1139"}, "freq": 5, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_MEAN_INJ_QUANTITY", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Mean injection quantity"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "113A"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "113A"}, "freq": 0.25, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_LONG_TERM_THROTTLE", "path": "Engine", "fmt": { "len": 16, "max": 3.99, "mul": 0.0000610351, "unit": "percent" }, "name": "Long term throttle adaptation to MAF sensor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "113D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "113D"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_PQ35_O2_SEN_1_LAMBDA", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "scalar" }, "name": "Oxygen sensor 1 bank 1 lambda value"}
   ]},
@@ -758,19 +758,19 @@
   "signals": [
     {"id": "IBIZA_PQ35_TURB_ACT_1_B1", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Turbine actuator 1 bank 1 activation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1187"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1187"}, "freq": 5, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_ACCELERATION", "path": "Movement", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "div": 1000, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Acceleration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1189"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1189"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012], "from": 2014 },
   "signals": [
     {"id": "IBIZA_PQ35_CAMS_EDGE_POS_2", "path": "Engine", "fmt": { "len": 16, "max": 4063.9375, "min": -32, "div": 16, "add": -32, "unit": "degrees" }, "name": "Intake camshaft signal edge position adapted edge 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "118A"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "118A"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012], "from": 2014 },
   "signals": [
     {"id": "IBIZA_PQ35_CAMS_EDGE_POS_3", "path": "Engine", "fmt": { "len": 16, "max": 4063.9375, "min": -32, "div": 16, "add": -32, "unit": "degrees" }, "name": "Intake camshaft signal edge position adapted edge 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "118B"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "118B"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012], "from": 2014 },
   "signals": [
     {"id": "IBIZA_PQ35_CAMS_EDGE_POS_4", "path": "Engine", "fmt": { "len": 16, "max": 4063.9375, "min": -32, "div": 16, "add": -32, "unit": "degrees" }, "name": "Intake camshaft signal edge position adapted edge 4"}
   ]},
@@ -790,7 +790,7 @@
   "signals": [
     {"id": "IBIZA_PQ35_CAMS_EDGE_POS_8", "path": "Engine", "fmt": { "len": 16, "max": 4063.9375, "min": -32, "div": 16, "add": -32, "unit": "degrees" }, "name": "Intake camshaft signal edge position adapted edge 8"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11A3"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11A3"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_EA888B_BOOST_P_CMD", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Ea888b boost pressure regulator, commanded"}
   ]},
@@ -850,11 +850,11 @@
   "signals": [
     {"id": "IBIZA_PQ35_DPF_FIELD_REGEN_LOCK", "path": "Engine.DPF", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Diesel particulate filter field regeneration lock status"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11C4"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11C4"}, "freq": 30, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_OIL_MAX", "path": "Fluids", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "centimeters" }, "name": "Oil level, max"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11C5"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11C5"}, "freq": 30, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_OIL_MIN", "path": "Fluids", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "centimeters" }, "name": "Oil level, min"}
   ]},
@@ -866,11 +866,11 @@
   "signals": [
     {"id": "IBIZA_FUEL_PMP_ADPT", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilopascal" }, "name": "Fuel pump adaptation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11CC"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CC"}, "freq": 5, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_BOOST_REGULATOR_FEEDBACK", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Boost regulator feedback"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CE"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CE"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_LOW_FUEL_P_CMD", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilopascal" }, "name": "Low fuel pressure, commanded"}
   ]},
@@ -894,7 +894,7 @@
   "signals": [
     {"id": "IBIZA_INT_MANIFOLD_P", "path": "Engine", "fmt": { "len": 16, "max": 5119, "mul": 0.078125, "unit": "unknown" }, "name": "Intake manifold pressure, corrected"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11DC"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11DC"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_INT_MANIFOLD_P_RAW", "path": "Engine", "fmt": { "len": 8, "max": 19.92, "mul": 781.25, "div": 10000, "unit": "unknown" }, "name": "Intake manifold pressure raw value"}
   ]},
@@ -1242,7 +1242,7 @@
   "signals": [
     {"id": "IBIZA_MQB_NOX_CONC_BEHIND_TURBO", "path": "Battery", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Calculated nitrogen oxide concentration behind turbocharger"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "155A"}, "freq": 0.25, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "155A"}, "freq": 0.25, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012], "from": 2014 },
   "signals": [
     {"id": "IBIZA_PQ35_ENG_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 1023, "min": -1024, "div": 32, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
@@ -1638,11 +1638,11 @@
   "signals": [
     {"id": "IBIZA_CAM_ADPT_EXH_BANK_1_PHASE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Camshaft adaptation exhaust bank 1, phase position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2029"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2029"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012], "from": 2014 },
   "signals": [
     {"id": "IBIZA_PQ35_CHARGE_AIR_P_SPECIFIED", "path": "Battery", "fmt": { "len": 16, "max": 5242.8, "mul": 0.08, "unit": "unknown" }, "name": "Charge air pressure: specified"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "202A"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "202A"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012], "from": 2014 },
   "signals": [
     {"id": "IBIZA_PQ35_CHARGE_AIR_P_ACTUAL", "path": "Battery", "fmt": { "len": 16, "max": 5242.8, "mul": 0.08, "unit": "unknown" }, "name": "Charge air pressure: actual"}
   ]},
@@ -1654,35 +1654,35 @@
   "signals": [
     {"id": "IBIZA_EOT_VAR_3", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Engine oil temperature, variant 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "2046"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "2046"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_INJ_AMOUNT_DEV_CYL_1", "path": "Engine", "fmt": { "len": 16, "max": 12, "min": -12, "mul": 0.00036623, "sign": true, "unit": "unknown" }, "name": "Injection amount deviation cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "2047"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "2047"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_INJ_AMOUNT_DEV_CYL_2", "path": "Engine", "fmt": { "len": 16, "max": 12, "min": -12, "mul": 0.00036623, "sign": true, "unit": "unknown" }, "name": "Injection amount deviation cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "2048"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "2048"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_INJ_AMOUNT_DEV_CYL_3", "path": "Engine", "fmt": { "len": 16, "max": 12, "min": -12, "mul": 0.00036623, "sign": true, "unit": "unknown" }, "name": "Injection amount deviation cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "2049"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "2049"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_INJ_AMOUNT_DEV_CYL_4", "path": "Engine", "fmt": { "len": 16, "max": 12, "min": -12, "mul": 0.00036623, "sign": true, "unit": "unknown" }, "name": "Injection amount deviation cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "204C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "204C"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_FUEL_RATE_VAR_2", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel rate, variant 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "205D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "205D"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_POST_INJ_1_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "milliseconds" }, "name": "Post injection 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "205F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "205F"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_POST_INJ_2_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "milliseconds" }, "name": "Post injection 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2065"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2065"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_CHG_P_ACTUATOR", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Charge pressure actuator, acknowledgment"}
   ]},
@@ -1690,55 +1690,55 @@
   "signals": [
     {"id": "IBIZA_FUEL_INJ_TIME_DEV_2", "path": "Fuel", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Fuel injector time deviation, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "207D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "207D"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_DPF_SERVICE_REGEN", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Diesel particulate filter, service regeneration, current duration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2084"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2084"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_DPF_DIFF_P", "path": "Engine", "fmt": { "len": 8, "max": 5100, "mul": 20, "unit": "unknown" }, "name": "Diesel particulate filter differential pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2085"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2085"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_DPF_OFFSET_DIFF_P", "path": "Engine", "fmt": { "len": 16, "max": 5239, "min": -5000, "mul": 0.15625, "add": -5000, "unit": "unknown" }, "name": "Diesel particulate filter offset for differential pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2087"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2087"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_FIELD_REGEN_REQ_STAT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Field regeneration request status"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2088"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2088"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_DPF_FUEL_CONS_SINCE", "path": "Fuel", "fmt": { "len": 8, "max": 31.875, "div": 8, "unit": "unknown" }, "name": "Diesel particulate filter, fuel consumption since last regeneration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "2089"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "2089"}, "freq": 30, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_TIME_SINCE_REGEN", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "minutes" }, "name": "Time since last regeneration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "208A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "208A"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_OIL_ASH_RESIDUE", "path": "Engine", "fmt": { "len": 32, "max": 1310, "mul": 0.0000003052, "unit": "unknown" }, "name": "Oil ash residue"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "208B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "208B"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_SOOT_MASS_CALC", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Soot mass calculated"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "208C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "208C"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_SOOT_MASS_MEAS", "path": "Engine", "fmt": { "len": 16, "max": 127, "min": -128, "div": 256, "add": -128, "unit": "unknown" }, "name": "Soot mass measured"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "208D"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "208D"}, "freq": 30, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_DIST_SINCE_REGEN", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Distance since last regeneration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20A1"}, "freq": 5, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20A1"}, "freq": 5, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012], "from": 2014 },
   "signals": [
     {"id": "IBIZA_PQ35_CALCULATED_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Calculated oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "20C0"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "20C0"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_POST_INJ_3_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "milliseconds" }, "name": "Post injection 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "20DA"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "20DA"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_SERVICE_LIM", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Service limit"}
   ]},
@@ -1838,35 +1838,35 @@
   "signals": [
     {"id": "IBIZA_MIS_VAR_2_4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 4,, variant 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "297B"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "297B"}, "freq": 5, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_DPF_INPUT_GAS_T", "path": "Engine", "fmt": { "len": 8, "max": 1000, "min": -20, "mul": 4, "add": -20, "unit": "celsius" }, "name": "Diesel particulate filter input gas temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "297D"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "297D"}, "freq": 5, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_DPF_OUTPUT_GAS_T", "path": "Engine", "fmt": { "len": 8, "max": 1000, "min": -20, "mul": 4, "add": -20, "unit": "celsius" }, "name": "Diesel particulate filter output gas temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2998"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2998"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_NUM_ENG_STARTS", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Number of engine starts, manual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2999"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2999"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_NUM_AUTOMATIC_ENG", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Number of automatic engine starts"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "299B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "299B"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_COMPRESSION_TEST_CYL_1", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Compression test, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "299C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "299C"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_COMPRESSION_TEST_CYL_2", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Compression test, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "299D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "299D"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_COMPRESSION_TEST_CYL_3", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Compression test, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "299E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "299E"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_COMPRESSION_TEST_CYL_4", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Compression test, cylinder 4"}
   ]},
@@ -1926,7 +1926,7 @@
   "signals": [
     {"id": "IBIZA_CHG_P_ACTUATOR_ADPT_HI", "path": "Battery", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Charge pressure actuator, adaptation for upper stop"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "39F9"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "39F9"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_REGEN_DUR", "path": "Engine", "fmt": { "len": 16, "max": 1092.25, "div": 60, "unit": "minutes" }, "name": "Regeneration duration"}
   ]},
@@ -1958,11 +1958,11 @@
   "signals": [
     {"id": "IBIZA_CURRENT_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 256, "add": 1, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "406B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "406B"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_LOW_PRESS_EGR", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Low press. EGR closing"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "406C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "406C"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_OIL_ASH_RESIDUE_7E0", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "unknown" }, "name": "Oil ash residue"}
   ]},
@@ -2050,23 +2050,23 @@
   "signals": [
     {"id": "IBIZA_SERVICE_LIM_7E0", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Service limit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.25, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_RPM_7E0", "path": "Movement", "fmt": { "len": 16, "max": 7000, "div": 4, "unit": "rpm" }, "name": "Engine RPM"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 30, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_MIL_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled while mil was activated"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "F42C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "F42C"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "IBIZA_PQ35_HIGH_P_EGR_CLOSING_VAR_2", "path": "Engine.EGR", "fmt": { "len": 8, "max": 100, "sign": true, "unit": "percent" }, "name": "High pressure exhaust gas recirculation closing, variant 2"}
   ]},
@@ -2074,27 +2074,27 @@
   "signals": [
     {"id": "IBIZA_FLI_INPUT", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level input %", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_WARM_UPS", "path": "DTCs", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of warm-ups since diagnostic trouble codes cleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 30, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_CLR_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled since diagnostic trouble codes cleared", "suggestedMetric": "distanceSinceDTCsCleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_EXH_GAS_T", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Exhaust gas temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 5, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_VPWR", "path": "Battery", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Control module voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_ACCEL_POS_1", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator position 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F44A"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F44A"}, "freq": 0.25, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "IBIZA_ACCEL_POS_2", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator position 2"}
   ]},

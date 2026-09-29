@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221512
+test_cases:
+- expected_values:
+    IBIZA_ECT_MIN: 31.5
+  response: 7E8056215126A60

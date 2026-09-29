@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.222968
+test_cases:
+- expected_values:
+    IBIZA_MIS_VAR_2_3: 0
+  response: 7E807622968000008C1
+- expected_values:
+    IBIZA_MIS_VAR_2_3: 0
+  response: 7E807622968000008C2
+- expected_values:
+    IBIZA_MIS_VAR_2_3: 0
+  response: 7E807622968000008C3
+- expected_values:
+    IBIZA_MIS_VAR_2_3: 0
+  response: 7E807622968000008C4
+- expected_values:
+    IBIZA_MIS_VAR_2_3: 0
+  response: 7E807622968000008C5

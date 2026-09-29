@@ -1,11 +1,14 @@
 command_id: 7E0.7E8.22118B
 test_cases:
 - expected_values:
+    IBIZA_PQ35_CAMS_EDGE_POS_4: 9.4375
+  response: 7E80562118B0297
+- expected_values:
     IBIZA_PQ35_CAMS_EDGE_POS_4: 160
   response: 7E80562118B0C00
 - expected_values:
-    IBIZA_PQ35_CAMS_EDGE_POS_4: 2063.875
-  response: 7E80562118B82FE
+    IBIZA_PQ35_CAMS_EDGE_POS_4: 2079.9375
+  response: 7E80562118B83FF
 - expected_values:
     IBIZA_PQ35_CAMS_EDGE_POS_4: 2080.1875
   response: 7E80562118B8403

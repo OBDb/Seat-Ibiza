@@ -7,5 +7,5 @@ test_cases:
     IBIZA_BRAKE_PEDAL_POS: 3.08837
   response: 7E80562105D00FD
 - expected_values:
-    IBIZA_BRAKE_PEDAL_POS: 3.21044
-  response: 7E80562105D0107
+    IBIZA_BRAKE_PEDAL_POS: 3.1372
+  response: 7E80562105D0101

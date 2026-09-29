@@ -4,5 +4,5 @@ test_cases:
     IBIZA_SOOT_MASS_MEAS: -127.87891
   response: 7E80562208C001F
 - expected_values:
-    IBIZA_SOOT_MASS_MEAS: -127.37109
-  response: 7E80562208C00A1
+    IBIZA_SOOT_MASS_MEAS: -127.33203
+  response: 7E80562208C00AB

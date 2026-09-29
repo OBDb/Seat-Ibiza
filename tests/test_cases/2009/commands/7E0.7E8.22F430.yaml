@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     IBIZA_WARM_UPS: 38
   response: 7E80462F43026
+- expected_values:
+    IBIZA_WARM_UPS: 39
+  response: 7E80462F43027

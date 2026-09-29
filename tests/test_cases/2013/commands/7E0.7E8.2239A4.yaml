@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2239A4
+test_cases:
+- expected_values:
+    IBIZA_CHG_P_ACTUATOR_SPEC_7E0: 2.56
+  response: 7E8056239A40100
+- expected_values:
+    IBIZA_CHG_P_ACTUATOR_SPEC_7E0: 35.32
+  response: 7E8056239A40DCC
+- expected_values:
+    IBIZA_CHG_P_ACTUATOR_SPEC_7E0: 100
+  response: 7E8056239A4F734

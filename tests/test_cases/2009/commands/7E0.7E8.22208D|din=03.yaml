@@ -11,4 +11,4 @@ test_cases:
   response: 7E80762208D000013FE
 - expected_values:
     IBIZA_DIST_SINCE_REGEN: 0
-  response: 7E80762208D0000145A
+  response: 7E80762208D0000151A

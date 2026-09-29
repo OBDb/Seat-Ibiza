@@ -7,5 +7,5 @@ test_cases:
     IBIZA_PQ35_EGR_DUTY: 2.54
   response: 7E8056210C200FE
 - expected_values:
-    IBIZA_PQ35_EGR_DUTY: 2.63
-  response: 7E8056210C20107
+    IBIZA_PQ35_EGR_DUTY: 2.57
+  response: 7E8056210C20101

@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22F41F
 test_cases:
 - expected_values:
-    IBIZA_RUNTM: 69
-  response: 7E80562F41F0045
+    IBIZA_RUNTM: 59
+  response: 7E80562F41F003B
+- expected_values:
+    IBIZA_RUNTM: 253
+  response: 7E80562F41F00FD
 - expected_values:
     IBIZA_RUNTM: 512
   response: 7E80562F41F0200
-- expected_values:
-    IBIZA_RUNTM: 763
-  response: 7E80562F41F02FB
 - expected_values:
     IBIZA_RUNTM: 2308
   response: 7E80562F41F0904

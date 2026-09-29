@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.222065
 test_cases:
 - expected_values:
-    IBIZA_CHG_P_ACTUATOR: 20.864
-  response: '7E8056220655180'
+    IBIZA_CHG_P_ACTUATOR: 15.174
+  response: 7E8056220653B46
 - expected_values:
     IBIZA_CHG_P_ACTUATOR: 27.136
   response: 7E8056220656A00

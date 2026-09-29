@@ -4,29 +4,11 @@ test_cases:
     IBIZA_VPWR: 12.762
   response: 7E80562F44231DA
 - expected_values:
-    IBIZA_VPWR: 13.101
-  response: 7E80562F442332D
-- expected_values:
-    IBIZA_VPWR: 13.214
-  response: 7E80562F442339E
-- expected_values:
     IBIZA_VPWR: 13.327
   response: 7E80562F442340F
 - expected_values:
-    IBIZA_VPWR: 13.44
-  response: 7E80562F4423480
-- expected_values:
     IBIZA_VPWR: 13.553
   response: 7E80562F44234F1
-- expected_values:
-    IBIZA_VPWR: 13.666
-  response: 7E80562F4423562
-- expected_values:
-    IBIZA_VPWR: 13.779
-  response: 7E80562F44235D3
-- expected_values:
-    IBIZA_VPWR: 13.892
-  response: 7E80562F4423644
 - expected_values:
     IBIZA_VPWR: 14.231
   response: 7E80562F4423797

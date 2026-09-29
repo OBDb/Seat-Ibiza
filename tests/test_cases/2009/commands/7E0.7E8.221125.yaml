@@ -1,11 +1,14 @@
 command_id: 7E0.7E8.221125
 test_cases:
 - expected_values:
+    IBIZA_CAM_ADPT_INT_BANK_1: 10.72282
+  response: 7E80562112501E8
+- expected_values:
     IBIZA_CAM_ADPT_INT_BANK_1: 33.66264
   response: 7E80562112505FC
 - expected_values:
-    IBIZA_CAM_ADPT_INT_BANK_1: 118.30263
-  response: '7E8056211251508'
+    IBIZA_CAM_ADPT_INT_BANK_1: -146.25229
+  response: 7E805621125E600
 - expected_values:
     IBIZA_CAM_ADPT_INT_BANK_1: -6.06455
   response: 7E805621125FEEC

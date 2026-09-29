@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2213CD
+test_cases:
+- expected_values:
+    IBIZA_MAF_RATE: 7.53125
+  response: 7E8056213CD00F1
+- expected_values:
+    IBIZA_MAF_RATE: 7.90625
+  response: 7E8056213CD00FD
+- expected_values:
+    IBIZA_MAF_RATE: 8.40625
+  response: 7E8056213CD010D
+- expected_values:
+    IBIZA_MAF_RATE: 128.75
+  response: 7E8056213CD1018

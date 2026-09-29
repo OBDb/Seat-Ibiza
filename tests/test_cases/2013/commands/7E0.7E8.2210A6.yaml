@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2210A6
+test_cases:
+- expected_values:
+    IBIZA_INJ_SPD_INJ_2: 90.75
+  response: 7E8056210A6016B
+- expected_values:
+    IBIZA_INJ_SPD_INJ_2: 103.5
+  response: 7E8056210A6019E
+- expected_values:
+    IBIZA_INJ_SPD_INJ_2: 132
+  response: 7E8056210A60210
+- expected_values:
+    IBIZA_INJ_SPD_INJ_2: 207.25
+  response: 7E8056210A6033D

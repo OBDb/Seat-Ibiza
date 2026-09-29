@@ -4,8 +4,8 @@ test_cases:
     IBIZA_RPM_7E0: 784.25
   response: 7E80562F40C0C41
 - expected_values:
-    IBIZA_RPM_7E0: 1593.25
-  response: 7E80562F40C18E5
+    IBIZA_RPM_7E0: 1663.75
+  response: 7E80562F40C19FF
 - expected_values:
     IBIZA_RPM_7E0: 1857
   response: 7E80562F40C1D04

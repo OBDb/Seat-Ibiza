@@ -5,7 +5,7 @@ test_cases:
   response: '7E8056220840023'
 - expected_values:
     IBIZA_DPF_DIFF_P: 0
-  response: 7E80562208400EF
+  response: 7E80562208400FB
 - expected_values:
     IBIZA_DPF_DIFF_P: 20
   response: '7E8056220840104'

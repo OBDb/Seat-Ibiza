@@ -19,5 +19,8 @@ test_cases:
     IBIZA_INJ_AMOUNT_DEV_CYL_3: -0.18385
   response: 7E805622048FE0A
 - expected_values:
+    IBIZA_INJ_AMOUNT_DEV_CYL_3: -0.01538
+  response: 7E805622048FFD6
+- expected_values:
     IBIZA_INJ_AMOUNT_DEV_CYL_3: -0.00146
   response: 7E805622048FFFC

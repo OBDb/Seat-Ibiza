@@ -1700,7 +1700,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2085"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
-    {"id": "IBIZA_DPF_OFFSET_DIFF_P", "path": "Engine", "fmt": { "len": 16, "max": 5239, "min": -5000, "mul": 0.15625, "add": -5000, "unit": "unknown" }, "name": "Diesel particulate filter offset for differential pressure"}
+    {"id": "IBIZA_DPF_OFFSET_DIFF_P", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Diesel particulate filter differential pressure offset, raw count"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2087"}, "freq": 1, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [

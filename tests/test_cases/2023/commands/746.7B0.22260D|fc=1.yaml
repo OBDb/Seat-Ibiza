@@ -1,6 +1,9 @@
 command_id: 746.7B0.22260D|fc=1
 test_cases:
 - expected_values:
+    IBIZA_CLIMATE_FR_R_DEFL_T: 39.294
+  response: 7B00462260D76
+- expected_values:
     IBIZA_CLIMATE_FR_R_DEFL_T: 39.96
   response: 7B00462260D78
 - expected_values:

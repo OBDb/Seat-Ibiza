@@ -16,8 +16,14 @@ test_cases:
     IBIZA_ACCEL_POS_2: 28.23529
   response: 7E80462F44A48
 - expected_values:
+    IBIZA_ACCEL_POS_2: 29.41176
+  response: 7E80462F44A4B
+- expected_values:
     IBIZA_ACCEL_POS_2: 31.37255
   response: 7E80462F44A50
+- expected_values:
+    IBIZA_ACCEL_POS_2: 32.94118
+  response: 7E80462F44A54
 - expected_values:
     IBIZA_ACCEL_POS_2: 76.07843
   response: 7E80462F44AC2

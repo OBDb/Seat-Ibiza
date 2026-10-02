@@ -4,14 +4,14 @@ test_cases:
     IBIZA_AVG_INJ_TIME: 0.1076
   response: 7E80762128C0000010D
 - expected_values:
-    IBIZA_AVG_INJ_TIME: 0.1832
-  response: 7E80762128C000001CA
-- expected_values:
     IBIZA_AVG_INJ_TIME: 0.2076
   response: 7E80762128C00000207
 - expected_values:
     IBIZA_AVG_INJ_TIME: 0.2112
   response: 7E80762128C00000210
+- expected_values:
+    IBIZA_AVG_INJ_TIME: 0.3916
+  response: 7E80762128C000003D3
 - expected_values:
     IBIZA_AVG_INJ_TIME: 1.262
   response: 7E80762128C00000C53

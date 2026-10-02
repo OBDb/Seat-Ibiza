@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22171A
 test_cases:
 - expected_values:
-    IBIZA_BASIC_CORR_FACTOR_1: 1.00795
-  response: 7E80562171A2042
+    IBIZA_BASIC_CORR_FACTOR_1: 1.00319
+  response: 7E80562171A201B
 - expected_values:
     IBIZA_BASIC_CORR_FACTOR_1: 1.00868
   response: 7E80562171A2048

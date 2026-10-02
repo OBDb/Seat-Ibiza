@@ -4,8 +4,8 @@ test_cases:
     IBIZA_MQB_INPUT_SHAFT_1: 0
   response: 7E90562380C0000
 - expected_values:
-    IBIZA_MQB_INPUT_SHAFT_1: 1550
-  response: 7E90562380C0E06
+    IBIZA_MQB_INPUT_SHAFT_1: 1825
+  response: 7E90562380C2107
 - expected_values:
     IBIZA_MQB_INPUT_SHAFT_1: 510
   response: 7E90562380CFE01

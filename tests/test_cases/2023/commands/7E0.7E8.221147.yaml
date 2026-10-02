@@ -7,5 +7,8 @@ test_cases:
     IBIZA_MISFIRES_1000REV_C1: 1
   response: '7E8056211470001'
 - expected_values:
+    IBIZA_MISFIRES_1000REV_C1: 2
+  response: '7E8056211470002'
+- expected_values:
     IBIZA_MISFIRES_1000REV_C1: 3
   response: '7E8056211470003'

@@ -16,6 +16,9 @@ test_cases:
     IBIZA_CLU_1_T_TIME_RANGE_0: 452.82
   response: 7E9076210657158BE06
 - expected_values:
+    IBIZA_CLU_1_T_TIME_RANGE_0: 683.42
+  response: 7E9076210657B85BF06
+- expected_values:
     IBIZA_CLU_1_T_TIME_RANGE_0: 663.04
   response: 7E9076210658081BE06
 - expected_values:

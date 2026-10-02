@@ -4,11 +4,11 @@ test_cases:
     IBIZA_KNOCK_SENS_CYL_4: 1.01344
   response: 7E80562121000D1
 - expected_values:
-    IBIZA_KNOCK_SENS_CYL_4: 1.16376
-  response: 7E80562121000F0
+    IBIZA_KNOCK_SENS_CYL_4: 1.20255
+  response: 7E80562121000F8
 - expected_values:
-    IBIZA_KNOCK_SENS_CYL_4: 1.29953
-  response: 7E805621210010C
+    IBIZA_KNOCK_SENS_CYL_4: 1.24619
+  response: '7E8056212100101'
 - expected_values:
     IBIZA_KNOCK_SENS_CYL_4: 3.53492
   response: 7E80562121002D9

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     IBIZA_PQ35_CLUTCH_2_SUCCESSFUL_ADAPTS_COUNTER: 7711
   response: 7E9056210EA1F1E
+- expected_values:
+    IBIZA_PQ35_CLUTCH_2_SUCCESSFUL_ADAPTS_COUNTER: 7722
+  response: 7E9056210EA2A1E

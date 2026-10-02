@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     IBIZA_OIL_WEAR: 4
   response: 77E0562224B0004
+- expected_values:
+    IBIZA_OIL_WEAR: 5
+  response: 77E0562224B0005

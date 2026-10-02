@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     IBIZA_BOOST_REGULATION_CMD: 100
   response: 7E8056212191D09
+- expected_values:
+    IBIZA_BOOST_REGULATION_CMD: 100
+  response: 7E8056212191E8E

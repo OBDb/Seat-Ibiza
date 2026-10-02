@@ -4,5 +4,5 @@ test_cases:
     IBIZA_BAT_V_2A07: 14.501
   response: 77A05622A072905
 - expected_values:
-    IBIZA_BAT_V_2A07: 14.672
-  response: 77A05622A0729B0
+    IBIZA_BAT_V_2A07: 14.692
+  response: 77A05622A0729C4

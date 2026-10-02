@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     IBIZA_AIR_LEAKAGE: 1.8
   response: 7E8056211B80012
+- expected_values:
+    IBIZA_AIR_LEAKAGE: 1.9
+  response: 7E8056211B80013

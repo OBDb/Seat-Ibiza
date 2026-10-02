@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2210EA
 test_cases:
 - expected_values:
-    IBIZA_OPEN_CAM_SHFT_ANG: -36.1
-  response: 7E8056210EAFE97
+    IBIZA_OPEN_CAM_SHFT_ANG: 0
+  response: 7E8056210EA0000
 - expected_values:
     IBIZA_OPEN_CAM_SHFT_ANG: -27.9
   response: 7E8056210EAFEE9

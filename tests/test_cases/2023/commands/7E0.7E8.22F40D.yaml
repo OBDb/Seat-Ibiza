@@ -4,5 +4,5 @@ test_cases:
     IBIZA_VSS: 0
   response: 7E80462F40D00
 - expected_values:
-    IBIZA_VSS: 50
-  response: 7E80462F40D32
+    IBIZA_VSS: 52
+  response: 7E80462F40D34

@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.223826
 test_cases:
 - expected_values:
+    IBIZA_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_CMD: 793.8
+  response: 7E905623826021F
+- expected_values:
     IBIZA_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_CMD: 751.7
   response: 7E9056238265D1D
 - expected_values:
@@ -9,6 +12,9 @@ test_cases:
 - expected_values:
     IBIZA_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_CMD: 631.2
   response: 7E905623826A818
+- expected_values:
+    IBIZA_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_CMD: 735
+  response: 7E905623826B61C
 - expected_values:
     IBIZA_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_CMD: 585.4
   response: 7E905623826DE16

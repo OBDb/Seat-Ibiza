@@ -7,6 +7,9 @@ test_cases:
     IBIZA_CABIN_T: 31.7
   response: 7B005622613013D
 - expected_values:
+    IBIZA_CABIN_T: 31.9
+  response: 7B005622613013F
+- expected_values:
     IBIZA_CABIN_T: 32
   response: 7B0056226130140
 - expected_values:

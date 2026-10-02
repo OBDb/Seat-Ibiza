@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2215CD
 test_cases:
 - expected_values:
-    IBIZA_ECT_RADIATOR_OUTLET_V_1: 25.9
-  response: 7E8056215CD0BAE
+    IBIZA_ECT_RADIATOR_OUTLET_V_1: 18.4
+  response: 7E8056215CD0B63
 - expected_values:
     IBIZA_ECT_RADIATOR_OUTLET_V_1: 31
   response: 7E8056215CD0BE1

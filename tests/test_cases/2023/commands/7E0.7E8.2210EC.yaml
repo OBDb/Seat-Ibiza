@@ -4,8 +4,5 @@ test_cases:
     IBIZA_VLV_TIM_DIFF_ACT_SET: 0.04688
   response: 7E8056210EC0003
 - expected_values:
-    IBIZA_VLV_TIM_DIFF_ACT_SET: -1.71875
-  response: 7E8056210ECFF92
-- expected_values:
     IBIZA_VLV_TIM_DIFF_ACT_SET: -0.03125
   response: 7E8056210ECFFFE

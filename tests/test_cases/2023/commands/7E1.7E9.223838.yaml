@@ -19,6 +19,9 @@ test_cases:
     IBIZA_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_2: 20.1
   response: '7E9056238389201'
 - expected_values:
+    IBIZA_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_2: 21.4
+  response: 7E905623838AC01
+- expected_values:
     IBIZA_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_2: 87.9
   response: 7E905623838DE06
 - expected_values:

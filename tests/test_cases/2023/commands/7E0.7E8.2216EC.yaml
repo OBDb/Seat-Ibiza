@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.2216EC
 test_cases:
 - expected_values:
+    IBIZA_CHG_P_REGULATOR_LO: 3276.6
+  response: 7E8056216EC3FFF
+- expected_values:
     IBIZA_CHG_P_REGULATOR_LO: 3291.2
   response: 7E8056216EC4048
 - expected_values:

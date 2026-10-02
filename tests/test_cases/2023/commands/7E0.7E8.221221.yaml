@@ -10,6 +10,12 @@ test_cases:
     IBIZA_PQ35_ACCEL_PED_1: -4.6
   response: 7E805621221FFE9
 - expected_values:
+    IBIZA_PQ35_ACCEL_PED_1: -4.2
+  response: 7E805621221FFEB
+- expected_values:
+    IBIZA_PQ35_ACCEL_PED_1: -4
+  response: 7E805621221FFEC
+- expected_values:
     IBIZA_PQ35_ACCEL_PED_1: -3.4
   response: 7E805621221FFEF
 - expected_values:

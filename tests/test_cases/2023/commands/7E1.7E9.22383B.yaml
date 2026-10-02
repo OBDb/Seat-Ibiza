@@ -8,4 +8,4 @@ test_cases:
   response: 7E90562383BB305
 - expected_values:
     IBIZA_MQB_DQ200_ACTUAL_POS_CLUTCH_2_DUTY_CYCLE_FACTOR_1: 100
-  response: 7E90562383BD514
+  response: 7E90562383BDE10

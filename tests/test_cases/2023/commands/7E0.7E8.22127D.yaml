@@ -1,17 +1,14 @@
 command_id: 7E0.7E8.22127D
 test_cases:
 - expected_values:
-    IBIZA_VARIABLE_VLV_TIM_INT_1: 71.19134
-  response: 7E80562127D5B20
+    IBIZA_VARIABLE_VLV_TIM_INT_1: 66.74188
+  response: 7E80562127D556E
 - expected_values:
-    IBIZA_VARIABLE_VLV_TIM_INT_1: 76.66619
-  response: 7E80562127D6222
+    IBIZA_VARIABLE_VLV_TIM_INT_1: 72.61956
+  response: 7E80562127D5CF4
 - expected_values:
     IBIZA_VARIABLE_VLV_TIM_INT_1: 77.34368
   response: 7E80562127D6300
-- expected_values:
-    IBIZA_VARIABLE_VLV_TIM_INT_1: 78.86955
-  response: 7E80562127D64F4
 - expected_values:
     IBIZA_VARIABLE_VLV_TIM_INT_1: 95.5596
   response: 7E80562127D7A51

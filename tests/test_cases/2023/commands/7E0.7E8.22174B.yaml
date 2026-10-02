@@ -7,5 +7,5 @@ test_cases:
     IBIZA_INT_CAM_ADPT_BIAS: 0.48341
   response: 7E80562174B0016
 - expected_values:
-    IBIZA_INT_CAM_ADPT_BIAS: 0.92287
-  response: 7E80562174B002A
+    IBIZA_INT_CAM_ADPT_BIAS: 1.47219
+  response: 7E80562174B0043

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     IBIZA_MQB_TCM_HYBRID_T: 44554
   response: 7E907621196AE0A910A
+- expected_values:
+    IBIZA_MQB_TCM_HYBRID_T: 45578
+  response: 7E907621196B20A950A

@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221509
 test_cases:
 - expected_values:
+    IBIZA_AMBIENT_AIR_P: 96.076
+  response: 7E8056215095DD3
+- expected_values:
     IBIZA_AMBIENT_AIR_P: 96.232
   response: 7E8056215095DFA
 - expected_values:

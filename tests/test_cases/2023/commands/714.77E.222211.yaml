@@ -10,6 +10,9 @@ test_cases:
     IBIZA_CHARGE_AIR_P: 10.58824
   response: 77E046222111B
 - expected_values:
+    IBIZA_CHARGE_AIR_P: 10.98039
+  response: 77E046222111C
+- expected_values:
     IBIZA_CHARGE_AIR_P: 14.11765
   response: '77E0462221124'
 - expected_values:

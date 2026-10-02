@@ -15,3 +15,9 @@ test_cases:
 - expected_values:
     IBIZA_PQ35_GANGSTELLER_B_ADAPT_NEUTRALPOS: -0.24
   response: 7E905621092E8FF
+- expected_values:
+    IBIZA_PQ35_GANGSTELLER_B_ADAPT_NEUTRALPOS: -0.21
+  response: 7E905621092EBFF
+- expected_values:
+    IBIZA_PQ35_GANGSTELLER_B_ADAPT_NEUTRALPOS: -0.2
+  response: 7E905621092ECFF

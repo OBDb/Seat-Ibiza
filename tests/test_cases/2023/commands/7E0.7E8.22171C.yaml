@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     IBIZA_BASIC_CORR_FACTOR_4: 0.99977
   response: 7E80562171C1FFF
+- expected_values:
+    IBIZA_BASIC_CORR_FACTOR_4: 1.00209
+  response: 7E80562171C2012
+- expected_values:
+    IBIZA_BASIC_CORR_FACTOR_4: 1.00245
+  response: 7E80562171C2015

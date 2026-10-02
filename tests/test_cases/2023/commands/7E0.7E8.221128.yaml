@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.221128
 test_cases:
 - expected_values:
+    IBIZA_CAM_ADPT_EXH_BANK_1: 0.08789
+  response: '7E8056211280004'
+- expected_values:
     IBIZA_CAM_ADPT_EXH_BANK_1: 0.70314
   response: '7E8056211280020'

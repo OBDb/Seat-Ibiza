@@ -7,5 +7,8 @@ test_cases:
     IBIZA_HIGH_FUEL_P: 0.17
   response: 7E8056211D50154
 - expected_values:
+    IBIZA_HIGH_FUEL_P: -0.064
+  response: 7E8056211D5FF80
+- expected_values:
     IBIZA_HIGH_FUEL_P: -0.002
   response: 7E8056211D5FFFC

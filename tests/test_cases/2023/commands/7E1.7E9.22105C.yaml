@@ -1,6 +1,12 @@
 command_id: 7E1.7E9.22105C
 test_cases:
 - expected_values:
+    IBIZA_PQ35_CLUTCH_1_ADAPT_BASIC_CHARAC_POINT_2_MOMENT: 109.6
+  response: 7E90562105C9008
+- expected_values:
+    IBIZA_PQ35_CLUTCH_1_ADAPT_BASIC_CHARAC_POINT_2_MOMENT: 110.45
+  response: 7E90562105CA108
+- expected_values:
     IBIZA_PQ35_CLUTCH_1_ADAPT_BASIC_CHARAC_POINT_2_MOMENT: 113.9
   response: 7E90562105CE608
 - expected_values:

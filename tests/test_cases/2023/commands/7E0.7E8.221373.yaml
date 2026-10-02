@@ -10,11 +10,20 @@ test_cases:
     IBIZA_CAM_ADJ_INT_BANK_1_SPEC: 16.304
   response: 7E80562137307F6
 - expected_values:
+    IBIZA_CAM_ADJ_INT_BANK_1_SPEC: 22.64
+  response: 7E8056213730B0E
+- expected_values:
     IBIZA_CAM_ADJ_INT_BANK_1_SPEC: 25.6
   response: 7E8056213730C80
+- expected_values:
+    IBIZA_CAM_ADJ_INT_BANK_1_SPEC: -10.424
+  response: 7E805621373FAE9
 - expected_values:
     IBIZA_CAM_ADJ_INT_BANK_1_SPEC: -4.96
   response: 7E805621373FD94
 - expected_values:
     IBIZA_CAM_ADJ_INT_BANK_1_SPEC: -4.072
   response: 7E805621373FE03
+- expected_values:
+    IBIZA_CAM_ADJ_INT_BANK_1_SPEC: -2.688
+  response: 7E805621373FEB0

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     IBIZA_NUM_ENG_STARTS: 2873
   response: 7E8056229980B39
+- expected_values:
+    IBIZA_NUM_ENG_STARTS: 2874
+  response: 7E8056229980B3A

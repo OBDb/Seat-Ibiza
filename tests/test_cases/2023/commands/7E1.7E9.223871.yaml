@@ -7,6 +7,9 @@ test_cases:
     IBIZA_MQB_DQ250_SPECIFIED_IDLE_RPM: 910
   response: 7E9056238718E03
 - expected_values:
+    IBIZA_MQB_DQ250_SPECIFIED_IDLE_RPM: 1190
+  response: 7E905623871A604
+- expected_values:
     IBIZA_MQB_DQ250_SPECIFIED_IDLE_RPM: 430
   response: 7E905623871AE01
 - expected_values:

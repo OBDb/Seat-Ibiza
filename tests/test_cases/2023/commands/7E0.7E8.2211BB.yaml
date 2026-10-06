@@ -10,5 +10,8 @@ test_cases:
     IBIZA_OIL_CRIT: 4.3276
   response: 7E8056211BB2A43
 - expected_values:
+    IBIZA_OIL_CRIT: 4.3892
+  response: 7E8056211BB2ADD
+- expected_values:
     IBIZA_OIL_CRIT: 4.7344
   response: 7E8056211BB2E3C

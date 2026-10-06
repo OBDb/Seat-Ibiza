@@ -7,6 +7,12 @@ test_cases:
     77D100C62181600109A
     77D21001DFFFF003CAA
 - expected_values:
+    IBIZA_AIR_GAB_VACUUM_SNS: 63
+    IBIZA_BRAKE_P_SNS: 42.5
+  response: |-
+    77D100C62181600109A
+    77D21001EFFFF003FAA
+- expected_values:
     IBIZA_AIR_GAB_VACUUM_SNS: 66
     IBIZA_BRAKE_P_SNS: 42.5
   response: |-

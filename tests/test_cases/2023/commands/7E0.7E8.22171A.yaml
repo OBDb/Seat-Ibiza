@@ -4,8 +4,8 @@ test_cases:
     IBIZA_BASIC_CORR_FACTOR_1: 1.00319
   response: 7E80562171A201B
 - expected_values:
-    IBIZA_BASIC_CORR_FACTOR_1: 1.00868
-  response: 7E80562171A2048
+    IBIZA_BASIC_CORR_FACTOR_1: 1.00831
+  response: 7E80562171A2045
 - expected_values:
     IBIZA_BASIC_CORR_FACTOR_1: 1.01405
   response: 7E80562171A2074

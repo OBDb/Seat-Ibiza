@@ -7,5 +7,11 @@ test_cases:
     IBIZA_CAM_ADPT_EXH_BANK_1: 0.70314
   response: '7E8056211280020'
 - expected_values:
+    IBIZA_CAM_ADPT_EXH_BANK_1: 0.76905
+  response: '7E8056211280023'
+- expected_values:
+    IBIZA_CAM_ADPT_EXH_BANK_1: 1.01076
+  response: 7E805621128002E
+- expected_values:
     IBIZA_CAM_ADPT_EXH_BANK_1: 1.12062
   response: '7E8056211280033'

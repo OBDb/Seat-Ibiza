@@ -18,3 +18,9 @@ test_cases:
 - expected_values:
     IBIZA_MISFIRES__CYL__4: 6151
   response: '7E8056211511807'
+- expected_values:
+    IBIZA_MISFIRES__CYL__4: 6153
+  response: '7E8056211511809'
+- expected_values:
+    IBIZA_MISFIRES__CYL__4: 6158
+  response: 7E805621151180E

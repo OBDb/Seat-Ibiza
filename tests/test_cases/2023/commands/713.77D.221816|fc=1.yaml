@@ -1,6 +1,12 @@
 command_id: 713.77D.221816|fc=1
 test_cases:
 - expected_values:
+    IBIZA_AIR_GAB_VACUUM_SNS: 60
+    IBIZA_BRAKE_P_SNS: 42.5
+  response: |-
+    77D100C62181600109A
+    77D21001DFFFF003CAA
+- expected_values:
     IBIZA_AIR_GAB_VACUUM_SNS: 66
     IBIZA_BRAKE_P_SNS: 42.5
   response: |-

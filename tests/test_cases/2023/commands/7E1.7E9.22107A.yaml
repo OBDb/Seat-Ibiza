@@ -4,29 +4,8 @@ test_cases:
     IBIZA_ANALYSIS_CLU_2_T_0: 819.44
   response: 7E90762107A0CA00806
 - expected_values:
-    IBIZA_ANALYSIS_CLU_2_T_0: 610.2
-  response: 7E90762107A2E770806
-- expected_values:
-    IBIZA_ANALYSIS_CLU_2_T_0: 554
-  response: 7E90762107A346C0806
-- expected_values:
-    IBIZA_ANALYSIS_CLU_2_T_0: 708.7
-  response: 7E90762107A6B8A0806
-- expected_values:
-    IBIZA_ANALYSIS_CLU_2_T_0: 790.68
-  response: 7E90762107A6E9A0806
-- expected_values:
-    IBIZA_ANALYSIS_CLU_2_T_0: 407.42
-  response: 7E90762107A934F0806
-- expected_values:
-    IBIZA_ANALYSIS_CLU_2_T_0: 678.84
-  response: 7E90762107A96840906
-- expected_values:
-    IBIZA_ANALYSIS_CLU_2_T_0: 495.08
-  response: 7E90762107AB2600806
-- expected_values:
-    IBIZA_ANALYSIS_CLU_2_T_0: 341.72
-  response: 7E90762107ABE420806
+    IBIZA_ANALYSIS_CLU_2_T_0: 1299.38
+  response: 7E90762107AC9FD0F06
 - expected_values:
     IBIZA_ANALYSIS_CLU_2_T_0: 157.86
   response: 7E90762107AD51E0806

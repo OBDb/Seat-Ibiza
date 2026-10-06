@@ -4,18 +4,6 @@ test_cases:
     IBIZA_ACCEL_PEDAL_SENS_2_V: 350.2
   response: 7E80562102B06D7
 - expected_values:
-    IBIZA_ACCEL_PEDAL_SENS_2_V: 351.4
-  response: 7E80562102B06DD
-- expected_values:
-    IBIZA_ACCEL_PEDAL_SENS_2_V: 352.6
-  response: 7E80562102B06E3
-- expected_values:
-    IBIZA_ACCEL_PEDAL_SENS_2_V: 493
-  response: 7E80562102B09A1
-- expected_values:
-    IBIZA_ACCEL_PEDAL_SENS_2_V: 747.2
-  response: 7E80562102B0E98
-- expected_values:
     IBIZA_ACCEL_PEDAL_SENS_2_V: 787.4
   response: 7E80562102B0F61
 - expected_values:

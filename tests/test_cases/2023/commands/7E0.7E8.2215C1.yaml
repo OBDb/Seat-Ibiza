@@ -4,5 +4,5 @@ test_cases:
     IBIZA_IAT_BEFORE_THROTTLE: 27.75
   response: 7E8046215C165
 - expected_values:
-    IBIZA_IAT_BEFORE_THROTTLE: 49.5
-  response: 7E8046215C182
+    IBIZA_IAT_BEFORE_THROTTLE: 67.5
+  response: 7E8046215C19A

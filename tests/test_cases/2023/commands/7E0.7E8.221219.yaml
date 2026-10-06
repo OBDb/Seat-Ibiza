@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221219
 test_cases:
 - expected_values:
+    IBIZA_BOOST_REGULATION_CMD: 74.53422
+  response: 7E8056212190C6C
+- expected_values:
     IBIZA_BOOST_REGULATION_CMD: 78.61251
   response: 7E8056212190D1A
 - expected_values:

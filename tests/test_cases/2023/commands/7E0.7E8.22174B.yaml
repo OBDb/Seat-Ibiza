@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22174B
 test_cases:
 - expected_values:
-    IBIZA_INT_CAM_ADPT_BIAS: 0.41749
-  response: 7E80562174B0013
+    IBIZA_INT_CAM_ADPT_BIAS: 0.10986
+  response: 7E80562174B0005
 - expected_values:
     IBIZA_INT_CAM_ADPT_BIAS: 0.48341
   response: 7E80562174B0016

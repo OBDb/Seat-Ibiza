@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     IBIZA_MQB_TCM_IGNITION_CYCLES: 53
   response: 7E90562388C3500
+- expected_values:
+    IBIZA_MQB_TCM_IGNITION_CYCLES: 59
+  response: 7E90562388C3B00

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     IBIZA_MQB_TCM_DRIVE_CYCLES_COUNTER: 600
   response: 7E90562388B5802
+- expected_values:
+    IBIZA_MQB_TCM_DRIVE_CYCLES_COUNTER: 602
+  response: 7E90562388B5A02

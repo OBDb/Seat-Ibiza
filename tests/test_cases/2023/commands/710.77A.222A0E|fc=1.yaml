@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     IBIZA_BAT_INT_R: 8.2
   response: 77A04622A0E29
+- expected_values:
+    IBIZA_BAT_INT_R: 8.6
+  response: 77A04622A0E2B

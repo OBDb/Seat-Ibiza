@@ -13,11 +13,6 @@ test_cases:
 - expected_values:
     IBIZA_HYD_BRAKE_BOOST_ACTIVE: 0
   response: |-
-    77D1008621810011130
-    77D210247AAAAAAAAAA
-- expected_values:
-    IBIZA_HYD_BRAKE_BOOST_ACTIVE: 0
-  response: |-
     77D100862181001172D
     77D210291AAAAAAAAAA
 - expected_values:
@@ -25,6 +20,11 @@ test_cases:
   response: |-
     77D10086218100118F9
     77D21029DAAAAAAAAAA
+- expected_values:
+    IBIZA_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D10086218100119B7
+    77D21023BAAAAAAAAAA
 - expected_values:
     IBIZA_HYD_BRAKE_BOOST_ACTIVE: 0
   response: |-

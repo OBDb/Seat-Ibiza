@@ -1,11 +1,8 @@
 command_id: 7E1.7E9.22100B
 test_cases:
 - expected_values:
-    IBIZA_MQB_TCM_DRIVER_DEMAND_TORQUE: 51.25
-  response: 7E90562100B0401
-- expected_values:
-    IBIZA_MQB_TCM_DRIVER_DEMAND_TORQUE: 256
-  response: 7E90562100B1400
+    IBIZA_MQB_TCM_DRIVER_DEMAND_TORQUE: 0
+  response: 7E90562100B0000
 - expected_values:
     IBIZA_MQB_TCM_DRIVER_DEMAND_TORQUE: 729.55
   response: 7E90562100B38FF

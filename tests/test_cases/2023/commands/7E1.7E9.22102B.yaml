@@ -4,5 +4,5 @@ test_cases:
     IBIZA_PQ35_CLUTCH_1_T: 26
   response: 7E90562102B1A00
 - expected_values:
-    IBIZA_PQ35_CLUTCH_1_T: 69
-  response: 7E90562102B4500
+    IBIZA_PQ35_CLUTCH_1_T: 71
+  response: 7E90562102B4700

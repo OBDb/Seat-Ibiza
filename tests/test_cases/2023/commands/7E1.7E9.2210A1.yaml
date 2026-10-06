@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G7: -2.56
   response: 7E9056210A100FF
+- expected_values:
+    IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G7: -2.5
+  response: 7E9056210A106FF

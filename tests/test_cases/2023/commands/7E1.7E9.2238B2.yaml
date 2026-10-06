@@ -18,3 +18,6 @@ test_cases:
 - expected_values:
     IBIZA_PQ35_CENTRIFUGAL_OIL_T: 26
   response: 7E9056238B21A00
+- expected_values:
+    IBIZA_PQ35_CENTRIFUGAL_OIL_T: 44
+  response: 7E9056238B22C00

@@ -7,5 +7,5 @@ test_cases:
     IBIZA_CAM_ADJ_EXH: 44.51667
   response: 7E80562127B71F6
 - expected_values:
-    IBIZA_CAM_ADJ_EXH: 47.12596
-  response: 7E80562127B78A4
+    IBIZA_CAM_ADJ_EXH: 51.23217
+  response: 7E80562127B8327

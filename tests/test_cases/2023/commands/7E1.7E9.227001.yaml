@@ -1,6 +1,12 @@
 command_id: 7E1.7E9.227001
 test_cases:
 - expected_values:
+    IBIZA_MQB_DQ200_CLUTCH_1_ADAPT_BASIC_CHARS_POINT_3_POS: 22.43
+  response: 7E905627001C308
+- expected_values:
+    IBIZA_MQB_DQ200_CLUTCH_1_ADAPT_BASIC_CHARS_POINT_3_POS: 22.55
+  response: 7E905627001CF08
+- expected_values:
     IBIZA_MQB_DQ200_CLUTCH_1_ADAPT_BASIC_CHARS_POINT_3_POS: 22.76
   response: 7E905627001E408
 - expected_values:

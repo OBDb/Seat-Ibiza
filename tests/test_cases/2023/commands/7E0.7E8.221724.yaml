@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     IBIZA_EARLY_IGN_CNT_CYL_4: 25
   response: '7E8056217240019'
+- expected_values:
+    IBIZA_EARLY_IGN_CNT_CYL_4: 26
+  response: 7E805621724001A

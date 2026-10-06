@@ -4,29 +4,11 @@ test_cases:
     IBIZA_CLU_1_T_TIME_RANGE_0: 681.74
   response: 7E9076210652785BE06
 - expected_values:
-    IBIZA_CLU_1_T_TIME_RANGE_0: 298.14
-  response: 7E9076210653B3ABE06
-- expected_values:
-    IBIZA_CLU_1_T_TIME_RANGE_0: 513.28
-  response: 7E9076210654064BE06
-- expected_values:
-    IBIZA_CLU_1_T_TIME_RANGE_0: 365.18
-  response: 7E9076210655347BE06
-- expected_values:
-    IBIZA_CLU_1_T_TIME_RANGE_0: 452.82
-  response: 7E9076210657158BE06
-- expected_values:
-    IBIZA_CLU_1_T_TIME_RANGE_0: 683.42
-  response: 7E9076210657B85BF06
-- expected_values:
-    IBIZA_CLU_1_T_TIME_RANGE_0: 663.04
-  response: 7E9076210658081BE06
-- expected_values:
     IBIZA_CLU_1_T_TIME_RANGE_0: 125.78
   response: 7E9076210659118BE06
 - expected_values:
-    IBIZA_CLU_1_T_TIME_RANGE_0: 742.32
-  response: 7E907621065FC90BE06
+    IBIZA_CLU_1_T_TIME_RANGE_0: 1269.34
+  response: 7E907621065EBF7C606
 - expected_values:
     IBIZA_CLU_1_T_TIME_RANGE_0: 573.38
   response: 7E907621065FD6FBE06

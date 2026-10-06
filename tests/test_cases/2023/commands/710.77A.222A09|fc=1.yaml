@@ -10,5 +10,5 @@ test_cases:
     IBIZA_BAT_I: 1.03
   response: 77A07622A0900000406
 - expected_values:
-    IBIZA_BAT_I: 7.862
-  response: 77A07622A0900001EB6
+    IBIZA_BAT_I: -21.427
+  response: 77A07622A09FFFFAC4D

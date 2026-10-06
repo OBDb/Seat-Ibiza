@@ -4,6 +4,9 @@ test_cases:
     IBIZA_MQB_TCM_ENGINE_TORQUE_LIMITATION: 104
   response: 7E90562100E2008
 - expected_values:
+    IBIZA_MQB_TCM_ENGINE_TORQUE_LIMITATION: 69
+  response: 7E90562100E6405
+- expected_values:
     IBIZA_MQB_TCM_ENGINE_TORQUE_LIMITATION: 202
   response: 7E90562100EC80F
 - expected_values:

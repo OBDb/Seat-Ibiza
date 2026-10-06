@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221224
 test_cases:
 - expected_values:
+    IBIZA_TQ_LOSS_ADPT_GEAR: -3.7
+  response: 7E805621224FFDB
+- expected_values:
     IBIZA_TQ_LOSS_ADPT_GEAR: -2.6
   response: 7E805621224FFE6
 - expected_values:

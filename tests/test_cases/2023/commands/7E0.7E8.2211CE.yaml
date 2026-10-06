@@ -4,5 +4,8 @@ test_cases:
     IBIZA_LOW_FUEL_P_CMD: 200
   response: 7E8056211CE07D0
 - expected_values:
+    IBIZA_LOW_FUEL_P_CMD: 236.1
+  response: 7E8056211CE0939
+- expected_values:
     IBIZA_LOW_FUEL_P_CMD: 306.5
   response: 7E8056211CE0BF9

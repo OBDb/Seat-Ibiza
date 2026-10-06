@@ -10,5 +10,8 @@ test_cases:
     IBIZA_CLIMATE_FR_R_DEFL_T: 40.626
   response: 7B00462260D7A
 - expected_values:
+    IBIZA_CLIMATE_FR_R_DEFL_T: 43.29
+  response: 7B00462260D82
+- expected_values:
     IBIZA_CLIMATE_FR_R_DEFL_T: 43.956
   response: 7B00462260D84

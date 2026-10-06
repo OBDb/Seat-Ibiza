@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     IBIZA_CLT_FAN_1_CMD_DUTY: 10.15
   response: 7E80562113003F7
+- expected_values:
+    IBIZA_CLT_FAN_1_CMD_DUTY: 19.14
+  response: 7E805621130077A

@@ -13,5 +13,5 @@ test_cases:
     IBIZA_ODO_HD: 15653.41
   response: 7E80762116000EEDA22
 - expected_values:
-    IBIZA_ODO_HD: 15673.762
-  response: 7E80762116000EF29A2
+    IBIZA_ODO_HD: 15738.029
+  response: 7E80762116000F024AD

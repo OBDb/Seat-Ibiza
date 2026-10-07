@@ -4,6 +4,9 @@ test_cases:
     IBIZA_MQB_TCM_ODO_2: 15448.3
   response: 7E907623887735B0200
 - expected_values:
+    IBIZA_MQB_TCM_ODO_2: 15474.1
+  response: 7E907623887755C0200
+- expected_values:
     IBIZA_MQB_TCM_ODO_2: 15356.1
   response: 7E907623887D9570200
 - expected_values:

@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.22101A
 test_cases:
 - expected_values:
+    IBIZA_PQ35_ODO_3: 343552
+  response: 7E90762101A053E0000
+- expected_values:
     IBIZA_PQ35_ODO_3: 9125120
   response: 7E90762101A8B3D0000
 - expected_values:

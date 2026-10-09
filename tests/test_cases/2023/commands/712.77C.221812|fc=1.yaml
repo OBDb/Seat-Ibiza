@@ -4,8 +4,8 @@ test_cases:
     IBIZA_STEER_WHEEL_ANGLE: -617.25
   response: 77C056218120426
 - expected_values:
-    IBIZA_STEER_WHEEL_ANGLE: -397.875
-  response: 77C056218120B01
+    IBIZA_STEER_WHEEL_ANGLE: -270
+  response: 77C056218120F00
 - expected_values:
     IBIZA_STEER_WHEEL_ANGLE: 113.875
   response: 77C056218121AFF

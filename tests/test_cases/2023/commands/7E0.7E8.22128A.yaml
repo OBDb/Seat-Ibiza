@@ -7,5 +7,5 @@ test_cases:
     IBIZA_FUEL_T: 17.25
   response: 7E80462128A57
 - expected_values:
-    IBIZA_FUEL_T: 77.25
-  response: 7E80462128AA7
+    IBIZA_FUEL_T: 78
+  response: 7E80462128AA8

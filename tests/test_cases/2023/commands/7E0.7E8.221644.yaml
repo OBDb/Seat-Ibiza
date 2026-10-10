@@ -4,8 +4,8 @@ test_cases:
     IBIZA_LATERAL_ACCEL: 0
   response: '7E8056216440000'
 - expected_values:
-    IBIZA_LATERAL_ACCEL: -0.19
-  response: 7E805621644FFED
+    IBIZA_LATERAL_ACCEL: -0.43
+  response: 7E805621644FFD5
 - expected_values:
     IBIZA_LATERAL_ACCEL: -0.01
   response: 7E805621644FFFF

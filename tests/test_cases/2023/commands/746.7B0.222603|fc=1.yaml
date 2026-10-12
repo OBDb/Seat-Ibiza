@@ -1,6 +1,9 @@
 command_id: 746.7B0.222603|fc=1
 test_cases:
 - expected_values:
+    IBIZA_CLIMATE_A_C_COMP_SPD: 0
+  response: 7B00462260300
+- expected_values:
     IBIZA_CLIMATE_A_C_COMP_SPD: 2000
   response: 7B00462260314
 - expected_values:
@@ -18,6 +21,9 @@ test_cases:
 - expected_values:
     IBIZA_CLIMATE_A_C_COMP_SPD: 3600
   response: 7B00462260324
+- expected_values:
+    IBIZA_CLIMATE_A_C_COMP_SPD: 3800
+  response: 7B00462260326
 - expected_values:
     IBIZA_CLIMATE_A_C_COMP_SPD: 4000
   response: 7B00462260328

@@ -10,5 +10,5 @@ test_cases:
     IBIZA_ODO: 15872
   response: 77E06622203003E00
 - expected_values:
-    IBIZA_ODO: 16128
-  response: 77E06622203003F00
+    IBIZA_ODO: 16388
+  response: '77E06622203004004'

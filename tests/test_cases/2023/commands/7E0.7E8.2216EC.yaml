@@ -4,8 +4,8 @@ test_cases:
     IBIZA_CHG_P_REGULATOR_LO: 3276.6
   response: 7E8056216EC3FFF
 - expected_values:
-    IBIZA_CHG_P_REGULATOR_LO: 3291.2
-  response: 7E8056216EC4048
+    IBIZA_CHG_P_REGULATOR_LO: 3288.8
+  response: 7E8056216EC403C
 - expected_values:
     IBIZA_CHG_P_REGULATOR_LO: 3301.2
   response: 7E8056216EC407A

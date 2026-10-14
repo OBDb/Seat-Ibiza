@@ -4,3 +4,11 @@ test_cases:
     IBIZA_BDD_ACTIVE: 0
     IBIZA_BDD_ODO: 15250
   response: 77D0762180E01003B92
+- expected_values:
+    IBIZA_BDD_ACTIVE: 0
+    IBIZA_BDD_ODO: 16280
+  response: 77D0762180E01003F98
+- expected_values:
+    IBIZA_BDD_ACTIVE: 0
+    IBIZA_BDD_ODO: 16280
+  response: 77D0762180E05003F98

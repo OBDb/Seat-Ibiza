@@ -1,11 +1,20 @@
 command_id: 7E0.7E8.222085
 test_cases:
 - expected_values:
+    IBIZA_DPF_OFFSET_DIFF_P: 16
+  response: '7E8056220850010'
+- expected_values:
     IBIZA_DPF_OFFSET_DIFF_P: 21
   response: '7E8056220850015'
 - expected_values:
+    IBIZA_DPF_OFFSET_DIFF_P: 29
+  response: 7E805622085001D
+- expected_values:
     IBIZA_DPF_OFFSET_DIFF_P: 30
   response: 7E805622085001E
+- expected_values:
+    IBIZA_DPF_OFFSET_DIFF_P: 31
+  response: 7E805622085001F
 - expected_values:
     IBIZA_DPF_OFFSET_DIFF_P: 32
   response: '7E8056220850020'

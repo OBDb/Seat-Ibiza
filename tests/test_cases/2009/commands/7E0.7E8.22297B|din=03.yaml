@@ -10,5 +10,5 @@ test_cases:
     IBIZA_DPF_INPUT_GAS_T: 128
   response: 7E80562297B2501
 - expected_values:
-    IBIZA_DPF_INPUT_GAS_T: 148
-  response: 7E80562297B2A71
+    IBIZA_DPF_INPUT_GAS_T: 192
+  response: 7E80562297B3552

@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     IBIZA_DPF_SERVICE_REGEN: 0
   response: 7E80762207D00000000
+- expected_values:
+    IBIZA_DPF_SERVICE_REGEN: 59
+  response: 7E80762207D003BFE66
+- expected_values:
+    IBIZA_DPF_SERVICE_REGEN: 116
+  response: 7E80762207D0074B5EE
+- expected_values:
+    IBIZA_DPF_SERVICE_REGEN: 158
+  response: 7E80762207D009E9896

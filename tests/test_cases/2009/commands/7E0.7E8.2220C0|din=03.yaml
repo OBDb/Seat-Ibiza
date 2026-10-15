@@ -3,3 +3,27 @@ test_cases:
 - expected_values:
     IBIZA_POST_INJ_3_7E0: 0
   response: 7E8056220C00000
+- expected_values:
+    IBIZA_POST_INJ_3_7E0: 0.251
+  response: 7E8056220C000FB
+- expected_values:
+    IBIZA_POST_INJ_3_7E0: 0.26
+  response: 7E8056220C00104
+- expected_values:
+    IBIZA_POST_INJ_3_7E0: 0.268
+  response: 7E8056220C0010C
+- expected_values:
+    IBIZA_POST_INJ_3_7E0: 0.269
+  response: 7E8056220C0010D
+- expected_values:
+    IBIZA_POST_INJ_3_7E0: 0.299
+  response: 7E8056220C0012B
+- expected_values:
+    IBIZA_POST_INJ_3_7E0: 0.302
+  response: 7E8056220C0012E
+- expected_values:
+    IBIZA_POST_INJ_3_7E0: 0.311
+  response: 7E8056220C00137
+- expected_values:
+    IBIZA_POST_INJ_3_7E0: 0.351
+  response: 7E8056220C0015F

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     IBIZA_REGEN_DUR: 0
   response: 7E8056239F90000
+- expected_values:
+    IBIZA_REGEN_DUR: 0.58333
+  response: 7E8056239F90023

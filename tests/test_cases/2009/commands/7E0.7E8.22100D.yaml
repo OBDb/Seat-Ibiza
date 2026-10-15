@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     IBIZA_PQ35_GEAR: 0
   response: 7E80562100D0000
+- expected_values:
+    IBIZA_PQ35_GEAR: 7
+  response: 7E80562100D07FC
+- expected_values:
+    IBIZA_PQ35_GEAR: 19
+  response: 7E80562100D13CF

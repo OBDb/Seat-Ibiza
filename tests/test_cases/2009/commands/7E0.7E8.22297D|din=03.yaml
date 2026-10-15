@@ -7,8 +7,8 @@ test_cases:
     IBIZA_DPF_OUTPUT_GAS_T: 80
   response: 7E80562297D19FB
 - expected_values:
-    IBIZA_DPF_OUTPUT_GAS_T: 116
-  response: 7E80562297D2208
+    IBIZA_DPF_OUTPUT_GAS_T: 120
+  response: 7E80562297D2304
 - expected_values:
-    IBIZA_DPF_OUTPUT_GAS_T: 144
-  response: 7E80562297D29F3
+    IBIZA_DPF_OUTPUT_GAS_T: 200
+  response: 7E80562297D3713

@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22208B|din=03
 test_cases:
 - expected_values:
-    IBIZA_SOOT_MASS_CALC: 7.94
-  response: 7E80562208B031A
+    IBIZA_SOOT_MASS_CALC: 5.75
+  response: 7E80562208B023F
 - expected_values:
-    IBIZA_SOOT_MASS_CALC: 9.37
-  response: 7E80562208B03A9
+    IBIZA_SOOT_MASS_CALC: 9.78
+  response: 7E80562208B03D2
 - expected_values:
-    IBIZA_SOOT_MASS_CALC: 11.54
-  response: 7E80562208B0482
+    IBIZA_SOOT_MASS_CALC: 10.3
+  response: 7E80562208B0406

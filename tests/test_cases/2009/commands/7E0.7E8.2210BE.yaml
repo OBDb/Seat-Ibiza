@@ -7,5 +7,5 @@ test_cases:
     IBIZA_REQ_TQ_AMOUNT: 25.6
   response: 7E8056210BE0100
 - expected_values:
-    IBIZA_REQ_TQ_AMOUNT: 44
-  response: 7E8056210BE01B8
+    IBIZA_REQ_TQ_AMOUNT: 45.7
+  response: 7E8056210BE01C9

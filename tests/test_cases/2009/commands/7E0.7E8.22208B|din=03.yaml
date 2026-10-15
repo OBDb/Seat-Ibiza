@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     IBIZA_SOOT_MASS_CALC: 9.37
   response: 7E80562208B03A9
+- expected_values:
+    IBIZA_SOOT_MASS_CALC: 11.54
+  response: 7E80562208B0482

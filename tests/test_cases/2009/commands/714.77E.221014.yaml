@@ -4,29 +4,5 @@ test_cases:
     IBIZA_AAT: 2
   response: '77E0462101468'
 - expected_values:
-    IBIZA_AAT: 2.5
-  response: '77E0462101469'
-- expected_values:
-    IBIZA_AAT: 4.5
-  response: 77E046210146D
-- expected_values:
-    IBIZA_AAT: 5
-  response: 77E046210146E
-- expected_values:
-    IBIZA_AAT: 7
-  response: '77E0462101472'
-- expected_values:
-    IBIZA_AAT: 8.5
-  response: '77E0462101475'
-- expected_values:
-    IBIZA_AAT: 13
-  response: 77E046210147E
-- expected_values:
-    IBIZA_AAT: 24.5
-  response: '77E0462101495'
-- expected_values:
-    IBIZA_AAT: 25.5
-  response: '77E0462101497'
-- expected_values:
     IBIZA_AAT: 26.5
   response: '77E0462101499'

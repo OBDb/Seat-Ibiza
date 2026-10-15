@@ -1,8 +1,8 @@
 command_id: 714.77E.222294
 test_cases:
 - expected_values:
-    IBIZA_RANGE: 523
-  response: 77E05622294020B
+    IBIZA_RANGE: 143
+  response: 77E05622294008F
 - expected_values:
     IBIZA_RANGE: 767
   response: 77E0562229402FF

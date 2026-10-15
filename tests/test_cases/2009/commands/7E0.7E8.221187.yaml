@@ -4,8 +4,8 @@ test_cases:
     IBIZA_ACCELERATION: 0
   response: '7E8056211870000'
 - expected_values:
-    IBIZA_ACCELERATION: -0.168
-  response: 7E805621187FF58
+    IBIZA_ACCELERATION: -0.202
+  response: 7E805621187FF36
 - expected_values:
     IBIZA_ACCELERATION: -0.001
   response: 7E805621187FFFF

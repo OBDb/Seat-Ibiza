@@ -4,6 +4,9 @@ test_cases:
     IBIZA_DPF_OFFSET_DIFF_P: 16
   response: '7E8056220850010'
 - expected_values:
+    IBIZA_DPF_OFFSET_DIFF_P: 20
+  response: '7E8056220850014'
+- expected_values:
     IBIZA_DPF_OFFSET_DIFF_P: 21
   response: '7E8056220850015'
 - expected_values:

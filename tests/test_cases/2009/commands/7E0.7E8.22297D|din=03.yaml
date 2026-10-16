@@ -2,7 +2,7 @@ command_id: 7E0.7E8.22297D|din=03
 test_cases:
 - expected_values:
     IBIZA_DPF_OUTPUT_GAS_T: 56
-  response: 7E80562297D1362
+  response: 7E80562297D135A
 - expected_values:
     IBIZA_DPF_OUTPUT_GAS_T: 80
   response: 7E80562297D19FB

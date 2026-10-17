@@ -4,8 +4,8 @@ test_cases:
     IBIZA_CHG_P_ACTUATOR: 15.174
   response: 7E8056220653B46
 - expected_values:
-    IBIZA_CHG_P_ACTUATOR: 27.136
-  response: 7E8056220656A00
+    IBIZA_CHG_P_ACTUATOR: 18.176
+  response: '7E8056220654700'
 - expected_values:
     IBIZA_CHG_P_ACTUATOR: 32.767
   response: 7E8056220657FFF

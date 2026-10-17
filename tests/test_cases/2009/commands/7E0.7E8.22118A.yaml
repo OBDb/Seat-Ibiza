@@ -4,6 +4,9 @@ test_cases:
     IBIZA_PQ35_CAMS_EDGE_POS_3: -31.75
   response: 7E80562118A0004
 - expected_values:
+    IBIZA_PQ35_CAMS_EDGE_POS_3: -16
+  response: 7E80562118A0100
+- expected_values:
     IBIZA_PQ35_CAMS_EDGE_POS_3: 15.9375
   response: 7E80562118A02FF
 - expected_values:

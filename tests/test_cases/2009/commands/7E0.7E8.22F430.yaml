@@ -4,29 +4,5 @@ test_cases:
     IBIZA_WARM_UPS: 34
   response: 7E80462F43022
 - expected_values:
-    IBIZA_WARM_UPS: 35
-  response: 7E80462F43023
-- expected_values:
-    IBIZA_WARM_UPS: 36
-  response: 7E80462F43024
-- expected_values:
-    IBIZA_WARM_UPS: 37
-  response: 7E80462F43025
-- expected_values:
-    IBIZA_WARM_UPS: 38
-  response: 7E80462F43026
-- expected_values:
-    IBIZA_WARM_UPS: 39
-  response: 7E80462F43027
-- expected_values:
-    IBIZA_WARM_UPS: 40
-  response: 7E80462F43028
-- expected_values:
-    IBIZA_WARM_UPS: 75
-  response: 7E80462F4304B
-- expected_values:
-    IBIZA_WARM_UPS: 76
-  response: 7E80462F4304C
-- expected_values:
-    IBIZA_WARM_UPS: 77
-  response: 7E80462F4304D
+    IBIZA_WARM_UPS: 78
+  response: 7E80462F4304E

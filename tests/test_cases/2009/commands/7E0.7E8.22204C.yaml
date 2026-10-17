@@ -7,8 +7,8 @@ test_cases:
     IBIZA_FUEL_RATE_VAR_2: 7.65
   response: 7E80562204C02FD
 - expected_values:
-    IBIZA_FUEL_RATE_VAR_2: 38.48
-  response: 7E80562204C0F08
+    IBIZA_FUEL_RATE_VAR_2: 46.08
+  response: 7E80562204C1200
 - expected_values:
-    IBIZA_FUEL_RATE_VAR_2: 57.73
-  response: 7E80562204C168D
+    IBIZA_FUEL_RATE_VAR_2: 75.18
+  response: 7E80562204C1D5E

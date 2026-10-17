@@ -4,6 +4,9 @@ test_cases:
     IBIZA_INT_MANIFOLD_P_RAW: 4.375
   response: 7E8046211DC38
 - expected_values:
+    IBIZA_INT_MANIFOLD_P_RAW: 4.45312
+  response: 7E8046211DC39
+- expected_values:
     IBIZA_INT_MANIFOLD_P_RAW: 4.60938
   response: 7E8046211DC3B
 - expected_values:

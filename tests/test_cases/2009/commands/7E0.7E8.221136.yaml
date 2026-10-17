@@ -7,5 +7,5 @@ test_cases:
     IBIZA_HEIGHT_CORR: 0.35925
   response: 7E80562113616FE
 - expected_values:
-    IBIZA_HEIGHT_CORR: 0.45355
-  response: 7E8056211361D07
+    IBIZA_HEIGHT_CORR: 0.47174
+  response: 7E8056211361E31

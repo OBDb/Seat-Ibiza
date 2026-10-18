@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     IBIZA_DPF_OFFSET_DIFF_P: 33
   response: '7E8056220850021'
+- expected_values:
+    IBIZA_DPF_OFFSET_DIFF_P: 34
+  response: '7E8056220850022'

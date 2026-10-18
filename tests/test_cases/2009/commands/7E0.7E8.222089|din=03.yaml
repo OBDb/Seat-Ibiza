@@ -7,11 +7,11 @@ test_cases:
     IBIZA_TIME_SINCE_REGEN: 2
   response: 7E80762208900021CFA
 - expected_values:
+    IBIZA_TIME_SINCE_REGEN: 7
+  response: 7E807622089000701F2
+- expected_values:
     IBIZA_TIME_SINCE_REGEN: 47
   response: 7E807622089002FFFDA
-- expected_values:
-    IBIZA_TIME_SINCE_REGEN: 50
-  response: '7E80762208900320492'
 - expected_values:
     IBIZA_TIME_SINCE_REGEN: 50
   response: 7E8076220890032AD02

@@ -2,7 +2,7 @@ command_id: 7E0.7E8.222084
 test_cases:
 - expected_values:
     IBIZA_DPF_DIFF_P: 0
-  response: '7E8056220840020'
+  response: '7E8056220840013'
 - expected_values:
     IBIZA_DPF_DIFF_P: 0
   response: 7E80562208400FE

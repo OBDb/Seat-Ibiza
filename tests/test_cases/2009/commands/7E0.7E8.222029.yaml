@@ -4,11 +4,11 @@ test_cases:
     IBIZA_PQ35_CHARGE_AIR_P_SPECIFIED: 192.96
   response: 7E805622029096C
 - expected_values:
+    IBIZA_PQ35_CHARGE_AIR_P_SPECIFIED: 1105.92
+  response: '7E8056220293600'
+- expected_values:
     IBIZA_PQ35_CHARGE_AIR_P_SPECIFIED: 1290
   response: 7E8056220293EFD
-- expected_values:
-    IBIZA_PQ35_CHARGE_AIR_P_SPECIFIED: 1331.36
-  response: '7E8056220294102'
 - expected_values:
     IBIZA_PQ35_CHARGE_AIR_P_SPECIFIED: 2300.32
   response: '7E8056220297052'

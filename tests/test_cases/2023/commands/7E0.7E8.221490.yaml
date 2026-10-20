@@ -1,11 +1,8 @@
 command_id: 7E0.7E8.221490
 test_cases:
 - expected_values:
-    IBIZA_BRAKE_BOOSTER_ACT: 491.98589
-  response: '7E8056214903133'
-- expected_values:
-    IBIZA_BRAKE_BOOSTER_ACT: 531.98538
-  response: '7E8056214903533'
+    IBIZA_BRAKE_BOOSTER_ACT: 483.97818
+  response: '7E8056214903066'
 - expected_values:
     IBIZA_BRAKE_BOOSTER_ACT: 579.99258
   response: 7E8056214903A00

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     IBIZA_PQ35_FUEL_LEVEL_7E0_2206: 30
   response: 7E8046222061E
+- expected_values:
+    IBIZA_PQ35_FUEL_LEVEL_7E0_2206: 40
+  response: '7E80462220628'

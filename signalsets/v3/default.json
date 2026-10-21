@@ -19,9 +19,9 @@
   "signals": [
     {"id": "IBIZA_BAT_I", "path": "Battery", "fmt": { "len": 32, "max": 1000, "min": -1000, "div": 1000, "sign": true, "unit": "amps" }, "name": "Battery current"}
   ]},
-{ "hdr": "710", "rax": "77A", "dbg": true, "cmd": {"22": "2A0A"}, "freq": 30,
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0A"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "IBIZA_ODO_710", "path": "Trips", "fmt": { "len": 32, "max": 255, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "IBIZA_BAT_SENSOR_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "12V battery temperature"}
   ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0B"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [

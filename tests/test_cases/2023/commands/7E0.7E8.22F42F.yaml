@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F42F
 test_cases:
 - expected_values:
-    IBIZA_FLI_INPUT: 32.94118
-  response: 7E80462F42F54
+    IBIZA_FLI_INPUT: 30.58824
+  response: 7E80462F42F4E
 - expected_values:
     IBIZA_FLI_INPUT: 94.11765
   response: 7E80462F42FF0

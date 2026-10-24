@@ -10,8 +10,8 @@ test_cases:
     IBIZA_RR_VSS_V2: 0
   response: |-
     77D100F621803000002
-    77D2100070101D001DF
-    77D2201D8AAAAAAAAAA
+    77D2100070101BC01CF
+    77D2201C6AAAAAAAAAA
 - expected_values:
     IBIZA_RR_VSS_V2: 0
   response: |-

@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2211BE
 test_cases:
 - expected_values:
-    IBIZA_PQ35_OIL_T_2: -270.1
+    IBIZA_PQ35_OIL_T_2: 30
   response: 7E8056211BE001E
 - expected_values:
-    IBIZA_PQ35_OIL_T_2: -269.9
+    IBIZA_PQ35_OIL_T_2: 32
   response: 7E8056211BE0020

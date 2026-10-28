@@ -4,8 +4,8 @@ test_cases:
     IBIZA_RANGE: 0
   response: '77E056222940000'
 - expected_values:
-    IBIZA_RANGE: 511
-  response: 77E0562229401FF
+    IBIZA_RANGE: 255
+  response: 77E0562229400FF
 - expected_values:
     IBIZA_RANGE: 768
   response: '77E056222940300'

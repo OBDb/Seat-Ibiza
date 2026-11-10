@@ -912,9 +912,9 @@
   "signals": [
     {"id": "IBIZA_MQB_DPF_EXH_VOL", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 1000, "div": 10000, "sign": true, "unit": "scalar" }, "name": "Diesel particulate filter exhaust gas flow volume"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F0"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F0"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "IBIZA_ACT_TURBO_BOOST", "path": "Engine", "fmt": { "len": 16, "max": 2, "unit": "bars" }, "name": "Actual turbo boost"}
+    {"id": "IBIZA_ACT_TURBO_BOOST", "path": "Engine", "fmt": { "len": 16, "max": 511, "div": 128, "unit": "kilopascal" }, "name": "Actual turbo boost", "suggestedMetric": "absoluteBoostPressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F1"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
@@ -2702,17 +2702,18 @@
   "signals": [
     {"id": "IBIZA_ATF_T_DUAL_CLU", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Transmission fluid temperature, dual-clutch"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "210F"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "210F"}, "freq": 0.25,
   "signals": [
-    {"id": "IBIZA_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
-          "1": { "description": "First gear",   "value": "1" },
-          "2": { "description": "Second gear",  "value": "2" },
-          "3": { "description": "Third gear",   "value": "3" },
-          "4": { "description": "Fourth gear",  "value": "4" },
-          "5": { "description": "Fifth gear",   "value": "5" },
-          "6": { "description": "Sixth gear",   "value": "6" },
-          "7": { "description": "Seventh gear", "value": "7" },
-          "8": { "description": "Eighth gear",  "value": "8" }
+    {"id": "IBIZA_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "suggestedMetric": "gear", "fmt": {"len": 8, "map": {
+          "1":  { "description": "Reverse",      "value": "REVERSE" },
+          "3":  { "description": "First gear",   "value": "1" },
+          "4":  { "description": "Second gear",  "value": "2" },
+          "5":  { "description": "Third gear",   "value": "3" },
+          "6":  { "description": "Fourth gear",  "value": "4" },
+          "7":  { "description": "Fifth gear",   "value": "5" },
+          "8":  { "description": "Sixth gear",   "value": "6" },
+          "9":  { "description": "Seventh gear", "value": "7" },
+          "10": { "description": "Eighth gear",  "value": "8" }
         }}
     }
   ]},

@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.2211F0
 test_cases:
 - expected_values:
-    IBIZA_ACT_TURBO_BOOST: 2
+    IBIZA_ACT_TURBO_BOOST: 92.54688
   response: 7E8056211F02E46
 - expected_values:
-    IBIZA_ACT_TURBO_BOOST: 2
+    IBIZA_ACT_TURBO_BOOST: 94.01562
   response: 7E8056211F02F02
 - expected_values:
-    IBIZA_ACT_TURBO_BOOST: 2
+    IBIZA_ACT_TURBO_BOOST: 95.80469
   response: 7E8056211F02FE7
 - expected_values:
-    IBIZA_ACT_TURBO_BOOST: 2
+    IBIZA_ACT_TURBO_BOOST: 178.23438
   response: 7E8056211F0591E

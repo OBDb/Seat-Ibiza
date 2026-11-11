@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.22383B
 test_cases:
 - expected_values:
+    IBIZA_MQB_DQ200_ACTUAL_POS_CLUTCH_2_DUTY_CYCLE_FACTOR_1: 0.06
+  response: 7E90562383B0006
+- expected_values:
     IBIZA_MQB_DQ200_ACTUAL_POS_CLUTCH_2_DUTY_CYCLE_FACTOR_1: 100
   response: 7E90562383B2918
 - expected_values:

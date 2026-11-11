@@ -10,6 +10,9 @@ test_cases:
     IBIZA_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_CMD: 777.3
   response: 7E9056238265D1E
 - expected_values:
+    IBIZA_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_CMD: 779.3
+  response: 7E905623826711E
+- expected_values:
     IBIZA_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_CMD: 631.2
   response: 7E905623826A818
 - expected_values:

@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     IBIZA_CLIMATE_LEG_DEFL_T: 44.622
   response: 7B00462261186
+- expected_values:
+    IBIZA_CLIMATE_LEG_DEFL_T: 46.62
+  response: 7B0046226118C

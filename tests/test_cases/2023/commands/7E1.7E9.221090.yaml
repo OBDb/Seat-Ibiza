@@ -18,3 +18,6 @@ test_cases:
 - expected_values:
     IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G2: 9.39
   response: 7E905621090AB03
+- expected_values:
+    IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G2: 9.43
+  response: 7E905621090AF03

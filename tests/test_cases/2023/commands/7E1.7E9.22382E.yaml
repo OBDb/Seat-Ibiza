@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.22382E
 test_cases:
 - expected_values:
+    IBIZA_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_1: 0
+  response: 7E90562382E03FE
+- expected_values:
     IBIZA_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_1: 0.55
   response: 7E90562382E0B00
 - expected_values:

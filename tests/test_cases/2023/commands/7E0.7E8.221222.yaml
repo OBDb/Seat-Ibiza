@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     IBIZA_TQ_LOSS_ADPT_AC_COMP: -9.1
   response: 7E805621222FFA5
+- expected_values:
+    IBIZA_TQ_LOSS_ADPT_AC_COMP: -5.9
+  response: 7E805621222FFC5

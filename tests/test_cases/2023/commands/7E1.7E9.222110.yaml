@@ -19,6 +19,9 @@ test_cases:
     IBIZA_ENG_SPEC_TQ_DURING: 46160
   response: 7E905622110B450
 - expected_values:
+    IBIZA_ENG_SPEC_TQ_DURING: 49409
+  response: 7E905622110C101
+- expected_values:
     IBIZA_ENG_SPEC_TQ_DURING: 51280
   response: 7E905622110C850
 - expected_values:

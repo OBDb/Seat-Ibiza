@@ -7,6 +7,9 @@ test_cases:
     IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G1: 8.83
   response: '7E9056210827303'
 - expected_values:
+    IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G1: 8.86
+  response: '7E9056210827603'
+- expected_values:
     IBIZA_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G1: 8.87
   response: '7E9056210827703'
 - expected_values:

@@ -13,5 +13,8 @@ test_cases:
     IBIZA_USE_BAT_CHG: 30
   response: 77A04622A0F1E
 - expected_values:
+    IBIZA_USE_BAT_CHG: 34
+  response: 77A04622A0F22
+- expected_values:
     IBIZA_USE_BAT_CHG: 35
   response: 77A04622A0F23

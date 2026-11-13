@@ -22,6 +22,9 @@ test_cases:
     IBIZA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 8.39
   response: 7E90562386A4703
 - expected_values:
+    IBIZA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 8.4
+  response: 7E90562386A4803
+- expected_values:
     IBIZA_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 8.41
   response: 7E90562386A4903
 - expected_values:

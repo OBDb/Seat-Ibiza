@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     IBIZA_AAT_746: 21
   response: 7B0046226098E
+- expected_values:
+    IBIZA_AAT_746: 22
+  response: 7B00462260990

@@ -13,6 +13,9 @@ test_cases:
     IBIZA_BAT_T: 22
   response: 77A04622A0B3E
 - expected_values:
+    IBIZA_BAT_T: 23
+  response: 77A04622A0B3F
+- expected_values:
     IBIZA_BAT_T: 29
   response: 77A04622A0B45
 - expected_values:

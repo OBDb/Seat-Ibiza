@@ -7,6 +7,9 @@ test_cases:
     IBIZA_VPWR: 12.72
   response: 7E80562F44231B0
 - expected_values:
+    IBIZA_VPWR: 13.22
+  response: 7E80562F44233A4
+- expected_values:
     IBIZA_VPWR: 14.34
   response: 7E80562F4423804
 - expected_values:

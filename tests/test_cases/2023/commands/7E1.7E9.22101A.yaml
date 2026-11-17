@@ -1,26 +1,26 @@
 command_id: 7E1.7E9.22101A
 test_cases:
 - expected_values:
-    IBIZA_PQ35_ODO_3: 343552
+    IBIZA_PQ35_ODO_3: 15877
   response: 7E90762101A053E0000
 - expected_values:
-    IBIZA_PQ35_ODO_3: 9125120
+    IBIZA_PQ35_ODO_3: 15755
   response: 7E90762101A8B3D0000
 - expected_values:
-    IBIZA_PQ35_ODO_3: 9190656
+    IBIZA_PQ35_ODO_3: 15756
   response: 7E90762101A8C3D0000
 - expected_values:
-    IBIZA_PQ35_ODO_3: 9256192
+    IBIZA_PQ35_ODO_3: 15757
   response: 7E90762101A8D3D0000
 - expected_values:
-    IBIZA_PQ35_ODO_3: 9321728
+    IBIZA_PQ35_ODO_3: 15758
   response: 7E90762101A8E3D0000
 - expected_values:
-    IBIZA_PQ35_ODO_3: 10632448
+    IBIZA_PQ35_ODO_3: 15778
   response: 7E90762101AA23D0000
 - expected_values:
-    IBIZA_PQ35_ODO_3: 15351040
+    IBIZA_PQ35_ODO_3: 15850
   response: 7E90762101AEA3D0000
 - expected_values:
-    IBIZA_PQ35_ODO_3: 15416576
+    IBIZA_PQ35_ODO_3: 15851
   response: 7E90762101AEB3D0000

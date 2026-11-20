@@ -7,5 +7,5 @@ test_cases:
     IBIZA_TQ_LOSS_ADPT_GEAR: -2.6
   response: 7E805621224FFE6
 - expected_values:
-    IBIZA_TQ_LOSS_ADPT_GEAR: -1.9
-  response: 7E805621224FFED
+    IBIZA_TQ_LOSS_ADPT_GEAR: -1.6
+  response: 7E805621224FFF0

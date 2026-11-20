@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221282
 test_cases:
 - expected_values:
-    IBIZA_EXHAUST_GAS_T_BEFORE_CATALYST: 299.11
-  response: 7E805621282604C
+    IBIZA_EXHAUST_GAS_T_BEFORE_CATALYST: 294.43
+  response: 7E8056212825F62
 - expected_values:
     IBIZA_EXHAUST_GAS_T_BEFORE_CATALYST: 319.85
   response: '7E8056212826459'

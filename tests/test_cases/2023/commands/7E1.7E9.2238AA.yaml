@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     IBIZA_MQB_DQ200_CLUTCH_2_ADAPT_CLUTCH_END_POS_OPEN: 2.12
   response: 7E9056238AAD400
+- expected_values:
+    IBIZA_MQB_DQ200_CLUTCH_2_ADAPT_CLUTCH_END_POS_OPEN: 2.13
+  response: 7E9056238AAD500

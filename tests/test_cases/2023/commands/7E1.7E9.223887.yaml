@@ -1,11 +1,8 @@
 command_id: 7E1.7E9.223887
 test_cases:
 - expected_values:
-    IBIZA_MQB_TCM_ODO_2: 15448.3
-  response: 7E907623887735B0200
-- expected_values:
-    IBIZA_MQB_TCM_ODO_2: 15474.1
-  response: 7E907623887755C0200
+    IBIZA_MQB_TCM_ODO_2: 16285.7
+  response: 7E907623887297C0200
 - expected_values:
     IBIZA_MQB_TCM_ODO_2: 15356.1
   response: 7E907623887D9570200

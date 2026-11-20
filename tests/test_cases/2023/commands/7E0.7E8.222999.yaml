@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     IBIZA_NUM_AUTOMATIC_ENG: 18233
   response: '7E8056229994739'
+- expected_values:
+    IBIZA_NUM_AUTOMATIC_ENG: 18667
+  response: 7E80562299948EB

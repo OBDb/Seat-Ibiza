@@ -4,11 +4,11 @@ test_cases:
     IBIZA_MQB_TCM_TRANSMISSION_PART_2_P_CMD: 13
   response: '7E9056238231405'
 - expected_values:
+    IBIZA_MQB_TCM_TRANSMISSION_PART_2_P_CMD: 41.2
+  response: '7E9056238231810'
+- expected_values:
     IBIZA_MQB_TCM_TRANSMISSION_PART_2_P_CMD: 11.35
   response: 7E9056238236F04
-- expected_values:
-    IBIZA_MQB_TCM_TRANSMISSION_PART_2_P_CMD: 34.5
-  response: 7E9056238237A0D
 - expected_values:
     IBIZA_MQB_TCM_TRANSMISSION_PART_2_P_CMD: 25.47
   response: 7E905623823F309

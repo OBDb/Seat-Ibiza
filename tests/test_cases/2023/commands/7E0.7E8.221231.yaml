@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.221231
 test_cases:
 - expected_values:
+    IBIZA_MIN_OIL_LEVEL: 19.236
+  response: 7E80562123112C9
+- expected_values:
     IBIZA_MIN_OIL_LEVEL: 19.748
   response: '7E8056212311349'

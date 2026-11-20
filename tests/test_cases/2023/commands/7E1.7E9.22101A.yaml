@@ -4,6 +4,9 @@ test_cases:
     IBIZA_PQ35_ODO_3: 15877
   response: 7E90762101A053E0000
 - expected_values:
+    IBIZA_PQ35_ODO_3: 16711
+  response: 7E90762101A47410000
+- expected_values:
     IBIZA_PQ35_ODO_3: 15755
   response: 7E90762101A8B3D0000
 - expected_values:

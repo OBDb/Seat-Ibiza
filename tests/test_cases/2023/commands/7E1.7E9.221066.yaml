@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.221066
 test_cases:
 - expected_values:
+    IBIZA_ANALYSIS_CLU_1_T_1: 1250.72
+  response: 7E90762106648F49701
+- expected_values:
     IBIZA_ANALYSIS_CLU_1_T_1: 565.18
   response: 7E907621066636E8701
 - expected_values:

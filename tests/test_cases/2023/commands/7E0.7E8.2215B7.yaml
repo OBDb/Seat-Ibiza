@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2215B7
 test_cases:
 - expected_values:
-    IBIZA_ENG_OIL_SUMP_T: 128.24
-  response: 7E8056215B70CC4
+    IBIZA_ENG_OIL_SUMP_T: 83.42
+  response: 7E8056215B70BCB
 - expected_values:
     IBIZA_ENG_OIL_SUMP_T: 151.46
   response: 7E8056215B70D45

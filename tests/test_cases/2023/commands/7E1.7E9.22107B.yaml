@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     IBIZA_ANALYSIS_CLU_2_T_1: 131.64
   response: 7E90762107BB6193802
+- expected_values:
+    IBIZA_ANALYSIS_CLU_2_T_1: 603.86
+  response: 7E90762107BF1755102

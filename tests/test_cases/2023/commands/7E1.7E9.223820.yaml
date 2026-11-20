@@ -1,11 +1,8 @@
 command_id: 7E1.7E9.223820
 test_cases:
 - expected_values:
-    IBIZA_MQB_TCM_TRANSMISSION_PART_1_P_CMD: 28.58
-  response: 7E9056238202A0B
-- expected_values:
-    IBIZA_MQB_TCM_TRANSMISSION_PART_1_P_CMD: 31.68
-  response: 7E905623820600C
+    IBIZA_MQB_TCM_TRANSMISSION_PART_1_P_CMD: 38.4
+  response: 7E905623820000F
 - expected_values:
     IBIZA_MQB_TCM_TRANSMISSION_PART_1_P_CMD: 6.5
   response: 7E9056238208A02

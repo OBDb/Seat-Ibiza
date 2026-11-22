@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     IBIZA_VSS: 86
   response: 7E80462F40D56
+- expected_values:
+    IBIZA_VSS: null
+  response: 7E80462F40DFF
